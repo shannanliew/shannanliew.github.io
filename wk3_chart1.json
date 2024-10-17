@@ -1,0 +1,54 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Malayan Tin Production vs British GDP (1870–1913)",
+    "data": {
+      "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/TinMalaya-BritishGDP-1887-1913.csv" 
+    },
+    "width": 600,
+    "height": 400,
+    "layer": [
+      {
+        "mark": "line",
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "temporal",
+            "axis": {"title": "Year"}
+          },
+          "y": {
+            "field": "British GDP",
+            "type": "quantitative",
+            "title": "British GDP (£m)",
+            "axis": {"titleColor": "#1f77b4"},
+            "scale": {"domain": [0, 3000]} 
+          },
+  
+          "color": {
+              "datum": "British GDP",
+              "legend":{
+                "orient": "top-left"}}
+        }
+      },
+      {
+        "mark": "line",
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "temporal"
+          },
+          "y": {
+            "field": "Malayan Tin Production",
+            "type": "quantitative",
+            "title": "Malayan Tin Production (Million Metric Tonnes)",
+            "axis": {"titleColor": "#ff7f0e", "orient": "right"},
+            "scale": {"domain": [0, 60]} 
+          },
+          "color": {
+              "datum": "Malayan Tin Production",
+              "legend":{
+                "orient": "top-left"}}
+        }
+      }
+    ],
+      "resolve": {"scale": {"y": "independent"}}
+  }
