@@ -1,0 +1,110 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Gini Coefficient Comparison: Colonized vs Non-Colonized Countries",
+    "data": {
+      "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/Gini-Coefficient.csv"
+    },
+    "width": 600,
+    "height": 400,
+    "layer": [
+      {
+        "mark": "bar",
+        "encoding": {
+          "x": {
+            "field": "Country",
+            "type": "ordinal",
+            "axis": {"title": "Country"},
+            "sort": "",
+          },
+          "y": {
+            "field": "Gini coefficient (most recent)",
+            "type": "quantitative",
+            "axis": {"title": "Gini Coefficient"},
+            "scale": {"domain": [0, 100]}
+          },
+          "color": {
+            "field": "Colonization Status",
+            "type": "nominal",
+            "scale": {
+              "domain": ["Colonized", "Non-Colonized"],
+              "range": ["#ff7f0e", "#1f77b4"]
+            }
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "rule",
+          "strokeDash": [4, 4],
+          "color": "black",
+          "size": 4
+        },
+        "encoding": {
+          "y": {
+            "field": "Gini coefficient (most recent)",
+            "type": "quantitative",
+            "aggregate": "mean",
+          }
+        },
+        "transform": [
+          {"filter": "datum['Colonization Status'] == 'Colonized'"}
+        ]
+      },
+      {
+        "mark": {
+          "type": "rule",
+          "strokeDash": [4, 4],
+          "color": "#ff7f0e",
+          "size": 2
+        },
+        "encoding": {
+          "y": {
+            "field": "Gini coefficient (most recent)",
+            "type": "quantitative",
+            "aggregate": "mean",
+          },
+          "tooltip": {"value": "Average Gini (Colonized)"}
+        },
+        "transform": [
+          {"filter": "datum['Colonization Status'] == 'Colonized'"}
+        ]
+      },
+      {
+        "mark": {
+          "type": "rule",
+          "strokeDash": [4, 4],
+          "color": "black",
+          "size": 4 
+        },
+        "encoding": {
+          "y": {
+            "field": "Gini coefficient (most recent)",
+            "type": "quantitative",
+            "aggregate": "mean",
+          }
+        },
+        "transform": [
+          {"filter": "datum['Colonization Status'] == 'Non-Colonized'"}
+        ]
+      },
+      {
+        "mark": {
+          "type": "rule",
+          "strokeDash": [4, 4],
+          "color": "#1f77b4",
+          "size": 2 
+        },
+        "encoding": {
+          "y": {
+            "field": "Gini coefficient (most recent)",
+            "type": "quantitative",
+            "aggregate": "mean",
+          },
+          "tooltip": {"value": "Average Gini (Non-Colonized)"}
+        },
+        "transform": [
+          {"filter": "datum['Colonization Status'] == 'Non-Colonized'"}
+        ]
+      }
+    ]
+  }
