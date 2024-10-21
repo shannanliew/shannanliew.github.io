@@ -1,0 +1,44 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Taxpayers Supporting Each Social Security Recipient",
+    "title": {
+      "text": "Taxpayers Supporting Each Social Security Recipient",
+      "anchor": "start",
+      "subtitle": "Source: CDC",
+      "fontSize": 15,
+      "color": "#3c2525"
+    },
+    "data": {
+      "values": [
+        {"year": 1950, "workers": 16.5, "recipient": 1},
+        {"year": 1960, "workers": 8.6, "recipient": 1},
+        {"year": 2000, "workers": 3.4, "recipient": 1},
+        {"year": 2009, "workers": 3.0, "recipient": 1},
+        {"year": 2040, "workers": 2.1, "recipient": 1}
+      ]
+    },
+    "transform": [
+      {"calculate": "'👤'", "as": "symbol"},
+      {
+        "fold": ["workers", "recipient"],
+        "as": ["category", "value"]
+      }
+    ],
+    "mark": {
+      "type": "text",
+      "align": "left",
+      "baseline": "middle",
+      "dx": -10,
+      "dy": 3,
+      "fontSize": 15
+    },
+    "encoding": {
+      "x": {"field": "value", "type": "quantitative", "axis": {"title": "Count"}},
+      "y": {"field": "year", "type": "ordinal", "axis": {"title": "Year"}},
+      "text": {"field": "symbol"},
+      "color": {
+        "condition": {"test": "datum.category == 'workers'", "value": "gray"},
+        "value": "#4682b4"
+      }
+    }
+  }
