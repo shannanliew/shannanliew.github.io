@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shan Nan's Data Science Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <header>
+        <div class="site-title">
+            <h2>Shan Nan's Data Science Portfolio</h2>
+        </div>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">
+                        <span class="hamburger-icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </span>
+                        Menu
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="index.html">Portfolio</a>
+                        <a href="#projects">Project</a>
+                        <a href="https://github.com/shannanliew" target="_blank">My Github</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-tasks-content">
+            <h1>Debating Using Charts</h1>
+            <p>In the third coding challenge I will produce two charts with data to support/refute the points in the talk: "Legacies of empire - What Britain needs to do"
+            </p>
+            <div class="chart-container">
+                <h3>The Economic Contributions of Former Colonies to Britain's Economy</h3>
+                <figure id="debating-charts-chart1"></figure>
+                <p>As Malayan tin production increased, British GDP rose, demonstrating how colonial resources contributed to Britain's industrial and economic growth during this era.</p>
+                <p><i>Sources:</i></p>
+                <p><i>1. Feinstein, C. (1972). National income, output and expenditure of the United Kingdom 1855-1965 . Cambridge University Press.</i></p>
+                <p><i>2. Kees, K. G., & Fink-Jensen, J. (2023). Tin Production. IISH Data Collection. hdl:10622/WOTROV</i></p>
+            </div>
+
+            <div class="chart-container">
+                <h3>Impact of Colonial Policies on Modern Inequality in Former Colonies</h3>
+                <figure id="debating-charts-chart2"></figure>
+                <p>Colonized countries generally show higher Gini coefficients, indicating greater income inequality compared to non-colonized countries, reflecting lasting economic disparities.</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+
+        let figure_1_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/wk3_chart1.json"
+
+        vegaEmbed('#debating-charts-chart1', figure_1_spec)
+
+        let figure_2_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/wk3_chart2.json"
+
+        vegaEmbed('#debating-charts-chart2', figure_2_spec)
+    </script>
+
+</body>
+</html>

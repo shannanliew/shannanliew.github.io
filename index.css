@@ -1,0 +1,180 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00427f;
+    color: white;
+}
+
+.site-title h2 {
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex; /* Flexbox to align text and icon */
+    align-items: center; /* Align the hamburger icon and text vertically */
+}
+
+/* Hamburger icon next to the "Menu" text */
+.hamburger-icon {
+    display: inline-block;
+    margin-right: 10px; /* Add space between icon and text */
+    vertical-align: middle;
+}
+
+.hamburger-icon .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+nav ul li a:hover, .dropdown-content a:hover {
+    background-color: #d01e28;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Card container for main content */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+/* Styling for the clickable cards */
+.card-link {
+    text-decoration: none; /* Remove underline from the link */
+    width: 100%; /* Makes the link cover the entire card area */
+    display: block;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-left: 5px solid #00427f;
+    transition: transform 0.2s ease; /* Add a slight animation for hover */
+}
+
+/* Hover effect for the card */
+.card:hover {
+    transform: translateY(-5px); /* Move the card upwards on hover */
+}
+
+/* Hover effect to underline the chart titles */
+.card h3:hover {
+    text-decoration: underline;
+}
+
+/* Text styling inside the card */
+.card h3 {
+    color: #00427f;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Formatting the pages for all portfolio tasks */
+.portfolio-tasks-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+
+.chart-container {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .site-title h2 {
+        margin-bottom: 10px;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
