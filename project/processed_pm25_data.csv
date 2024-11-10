@@ -1,0 +1,78 @@
+City,Year,PM2.5
+Beijing,2010,null
+Beijing,2011,99.09
+Beijing,2012,90.52
+Beijing,2013,101.56
+Beijing,2014,86.05
+Beijing,2015,80.07
+Beijing,2016,71.96
+Beijing,2017,58.83
+Beijing,2018,50.59
+Beijing,2019,null
+Beijing,2020,null
+Bogota,2010,null
+Bogota,2011,null
+Bogota,2012,null
+Bogota,2013,null
+Bogota,2014,null
+Bogota,2015,null
+Bogota,2016,15.41
+Bogota,2017,15.21
+Bogota,2018,13.61
+Bogota,2019,12.69
+Bogota,2020,null
+Delhi,2010,null
+Delhi,2011,null
+Delhi,2012,null
+Delhi,2013,null
+Delhi,2014,null
+Delhi,2015,null
+Delhi,2016,115.43
+Delhi,2017,101.33
+Delhi,2018,121.0
+Delhi,2019,105.0
+Delhi,2020,null
+London,2010,14.39
+London,2011,null
+London,2012,null
+London,2013,9.0
+London,2014,14.38
+London,2015,8.3
+London,2016,7.0
+London,2017,7.0
+London,2018,7.0
+London,2019,7.0
+London,2020,null
+Los Angeles,2010,null
+Los Angeles,2011,null
+Los Angeles,2012,null
+Los Angeles,2013,24.24
+Los Angeles,2014,27.1
+Los Angeles,2015,30.26
+Los Angeles,2016,32.53
+Los Angeles,2017,null
+Los Angeles,2018,null
+Los Angeles,2019,22.5
+Los Angeles,2020,null
+Sao Paulo,2010,17.33
+Sao Paulo,2011,20.25
+Sao Paulo,2012,17.5
+Sao Paulo,2013,16.0
+Sao Paulo,2014,19.14
+Sao Paulo,2015,18.4
+Sao Paulo,2016,16.6
+Sao Paulo,2017,null
+Sao Paulo,2018,17.26
+Sao Paulo,2019,16.67
+Sao Paulo,2020,null
+Singapore,2010,17.0
+Singapore,2011,17.0
+Singapore,2012,19.0
+Singapore,2013,20.0
+Singapore,2014,18.0
+Singapore,2015,24.0
+Singapore,2016,15.0
+Singapore,2017,14.0
+Singapore,2018,15.0
+Singapore,2019,16.0
+Singapore,2020,11.0
