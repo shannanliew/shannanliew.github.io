@@ -1,0 +1,21 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "CPI Driving Tests, 2015 = 100",
+      "anchor": "start",
+      "subtitle": "Consumer price inflation (MM23) | Source: ONS",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "color": "#000000",
+      "subtitleColor": "#000000"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/wk6_portfolio/l7fu.json",
+      "format": {"type": "json", "property": "months"}
+    },
+    "mark": {"type": "line", "color": "orangered"},
+    "encoding": {
+      "x": {"field": "date", "type": "temporal", "title": null},
+      "y": {"field": "value", "type": "quantitative", "title": "Index"}
+    }
+}
