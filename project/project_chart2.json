@@ -1,0 +1,642 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "description": "PM2.5 levels and yearly changes in major cities",
+    "background": "#1a1a1a",
+    "padding": 5,
+    "width": 330,
+    "title": {
+        "text": "PM2.5 Levels in Major Cities, 2010-2019",
+        "color": "#54bb8e",
+        "fontSize": 14,
+        "subtitlePadding": 5,
+        "fontWeight": 600,
+        "anchor": "start",
+        "subtitle": "Annual concentrations and year-over-year changes",
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 11,
+        "subtitleColor": "#a0a0a0"
+    },
+    "data": [
+        {
+            "name": "selector051_store"
+        },
+        {
+            "name": "source_0",
+            "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/major_city_pm25_timeseries.csv",
+            "format": {
+                "type": "csv",
+                "parse": {
+                    "year": "date:'%Y'"
+                },
+                "delimiter": ","
+            }
+        },
+        {
+            "name": "data_0",
+            "source": "source_0",
+            "transform": [
+                {
+                    "type": "formula",
+                    "expr": "datum['pm25_change'] + ' %'",
+                    "as": "Change"
+                },
+                {
+                    "type": "filter",
+                    "expr": "isValid(datum[\"year\"]) && isFinite(+datum[\"year\"]) && isValid(datum[\"pm25_change\"]) && isFinite(+datum[\"pm25_change\"])"
+                }
+            ]
+        },
+        {
+            "name": "data_1",
+            "source": "source_0",
+            "transform": [
+                {
+                    "type": "filter",
+                    "expr": "!length(data(\"selector051_store\")) || vlSelectionTest(\"selector051_store\", datum)"
+                },
+                {
+                    "type": "formula",
+                    "expr": "datum['pm25'] + ' µg/m³'",
+                    "as": "PM2.5"
+                }
+            ]
+        },
+        {
+            "name": "data_2",
+            "source": "data_1",
+            "transform": [
+                {
+                    "type": "filter",
+                    "expr": "isValid(datum[\"year\"]) && isFinite(+datum[\"year\"]) && isValid(datum[\"pm25\"]) && isFinite(+datum[\"pm25\"])"
+                }
+            ]
+        }
+    ],
+    "signals": [
+        {
+            "name": "concat_0_height",
+            "value": 240
+        },
+        {
+            "name": "concat_1_height",
+            "value": 150
+        },
+        {
+            "name": "unit",
+            "value": {},
+            "on": [
+                {
+                    "events": "mousemove",
+                    "update": "isTuple(group()) ? group() : unit"
+                }
+            ]
+        },
+        {
+            "name": "selector051",
+            "update": "vlSelectionResolve(\"selector051_store\", \"union\", true, true)"
+        }
+    ],
+    "layout": {
+        "padding": 20,
+        "columns": 1,
+        "bounds": "full",
+        "align": "each"
+    },
+    "marks": [
+        {
+            "type": "group",
+            "name": "concat_0_group",
+            "style": "cell",
+            "encode": {
+                "update": {
+                    "width": {
+                        "signal": "width"
+                    },
+                    "height": {
+                        "signal": "concat_0_height"
+                    }
+                }
+            },
+            "signals": [
+                {
+                    "name": "selector051_tuple",
+                    "on": [
+                        {
+                            "events": [
+                                {
+                                    "source": "scope",
+                                    "type": "click"
+                                }
+                            ],
+                            "update": "datum && item().mark.marktype !== 'group' ? {unit: \"concat_0_layer_0\", fields: selector051_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"city\"]]} : null",
+                            "force": true
+                        },
+                        {
+                            "events": [
+                                {
+                                    "source": "view",
+                                    "type": "dblclick"
+                                }
+                            ],
+                            "update": "null"
+                        }
+                    ]
+                },
+                {
+                    "name": "selector051_tuple_fields",
+                    "value": [
+                        {
+                            "type": "E",
+                            "field": "city"
+                        }
+                    ]
+                },
+                {
+                    "name": "selector051_modify",
+                    "on": [
+                        {
+                            "events": {
+                                "signal": "selector051_tuple"
+                            },
+                            "update": "modify(\"selector051_store\", selector051_tuple, true)"
+                        }
+                    ]
+                }
+            ],
+            "marks": [
+                {
+                    "name": "concat_0_layer_0_pathgroup",
+                    "type": "group",
+                    "from": {
+                        "facet": {
+                            "name": "faceted_path_concat_0_layer_0_main",
+                            "data": "data_1",
+                            "groupby": [
+                                "city"
+                            ]
+                        }
+                    },
+                    "encode": {
+                        "update": {
+                            "width": {
+                                "field": {
+                                    "group": "width"
+                                }
+                            },
+                            "height": {
+                                "field": {
+                                    "group": "height"
+                                }
+                            }
+                        }
+                    },
+                    "marks": [
+                        {
+                            "name": "concat_0_layer_0_marks",
+                            "type": "line",
+                            "style": [
+                                "line"
+                            ],
+                            "sort": {
+                                "field": "datum[\"year\"]"
+                            },
+                            "interactive": true,
+                            "from": {
+                                "data": "faceted_path_concat_0_layer_0_main"
+                            },
+                            "encode": {
+                                "update": {
+                                    "stroke": {
+                                        "scale": "color",
+                                        "field": "city"
+                                    },
+                                    "strokeWidth": {
+                                        "value": 2
+                                    },
+                                    "tooltip": {
+                                        "signal": "{\"City\": isValid(datum[\"city\"]) ? datum[\"city\"] : \"\"+datum[\"city\"], \"PM2.5\": isValid(datum[\"PM2.5\"]) ? datum[\"PM2.5\"] : \"\"+datum[\"PM2.5\"]}"
+                                    },
+                                    "description": {
+                                        "signal": "\"City: \" + (isValid(datum[\"city\"]) ? datum[\"city\"] : \"\"+datum[\"city\"]) + \"; Year: \" + (timeFormat(datum[\"year\"], '%Y')) + \"; PM2.5: \" + (format(datum[\"pm25\"], \"\"))"
+                                    },
+                                    "x": {
+                                        "scale": "concat_0_x",
+                                        "field": "year"
+                                    },
+                                    "y": {
+                                        "scale": "concat_0_y",
+                                        "field": "pm25"
+                                    },
+                                    "defined": {
+                                        "signal": "isValid(datum[\"year\"]) && isFinite(+datum[\"year\"]) && isValid(datum[\"pm25\"]) && isFinite(+datum[\"pm25\"])"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "concat_0_layer_1_marks",
+                    "type": "symbol",
+                    "style": [
+                        "point"
+                    ],
+                    "interactive": true,
+                    "from": {
+                        "data": "data_2"
+                    },
+                    "encode": {
+                        "update": {
+                            "opacity": {
+                                "value": 0
+                            },
+                            "fill": {
+                                "scale": "color",
+                                "field": "city"
+                            },
+                            "tooltip": {
+                                "signal": "{\"City\": isValid(datum[\"city\"]) ? datum[\"city\"] : \"\"+datum[\"city\"], \"PM2.5\": isValid(datum[\"PM2.5\"]) ? datum[\"PM2.5\"] : \"\"+datum[\"PM2.5\"]}"
+                            },
+                            "ariaRoleDescription": {
+                                "value": "point"
+                            },
+                            "description": {
+                                "signal": "\"City: \" + (isValid(datum[\"city\"]) ? datum[\"city\"] : \"\"+datum[\"city\"]) + \"; Year: \" + (timeFormat(datum[\"year\"], '%Y')) + \"; PM2.5: \" + (format(datum[\"pm25\"], \"\"))"
+                            },
+                            "x": {
+                                "scale": "concat_0_x",
+                                "field": "year"
+                            },
+                            "y": {
+                                "scale": "concat_0_y",
+                                "field": "pm25"
+                            }
+                        }
+                    }
+                }
+            ],
+            "axes": [
+                {
+                    "scale": "concat_0_x",
+                    "orient": "bottom",
+                    "gridScale": "concat_0_y",
+                    "grid": true,
+                    "tickCount": {
+                        "signal": "ceil(width/40)"
+                    },
+                    "domain": false,
+                    "labels": false,
+                    "aria": false,
+                    "maxExtent": 0,
+                    "minExtent": 0,
+                    "ticks": false,
+                    "zindex": 0,
+                    "gridColor": "#333333"
+                },
+                {
+                    "scale": "concat_0_y",
+                    "orient": "left",
+                    "gridScale": "concat_0_x",
+                    "grid": true,
+                    "tickCount": {
+                        "signal": "ceil(concat_0_height/40)"
+                    },
+                    "domain": false,
+                    "labels": false,
+                    "aria": false,
+                    "maxExtent": 0,
+                    "minExtent": 0,
+                    "ticks": false,
+                    "zindex": 0,
+                    "gridColor": "#333333"
+                },
+                {
+                    "scale": "concat_0_x",
+                    "orient": "bottom",
+                    "grid": false,
+                    "labelFlush": true,
+                    "labelOverlap": true,
+                    "tickCount": {
+                        "signal": "ceil(width/40)"
+                    },
+                    "zindex": 0,
+                    "labelColor": "#cccccc",
+                    "tickColor": "#666666",
+                    "domainColor": "#666666"
+                },
+                {
+                    "scale": "concat_0_y",
+                    "orient": "left",
+                    "grid": false,
+                    "title": "PM2.5 (µg/m³)",
+                    "labelOverlap": true,
+                    "tickCount": {
+                        "signal": "ceil(concat_0_height/40)"
+                    },
+                    "zindex": 0,
+                    "labelColor": "#cccccc",
+                    "titleColor": "#cccccc",
+                    "tickColor": "#666666",
+                    "domainColor": "#666666"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "concat_1_group",
+            "title": {
+                "text": "Year-over-year change in PM2.5 levels",
+                "anchor": "start",
+                "fontSize": 12,
+                "color": "#cccccc"
+            },
+            "style": "cell",
+            "encode": {
+                "update": {
+                    "width": {
+                        "signal": "width"
+                    },
+                    "height": {
+                        "signal": "concat_1_height"
+                    }
+                }
+            },
+            "signals": [
+                {
+                    "name": "selector051_tuple",
+                    "on": [
+                        {
+                            "events": [
+                                {
+                                    "source": "scope",
+                                    "type": "click"
+                                }
+                            ],
+                            "update": "datum && item().mark.marktype !== 'group' ? {unit: \"concat_1\", fields: selector051_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"city\"]]} : null",
+                            "force": true
+                        },
+                        {
+                            "events": [
+                                {
+                                    "source": "view",
+                                    "type": "dblclick"
+                                }
+                            ],
+                            "update": "null"
+                        }
+                    ]
+                },
+                {
+                    "name": "selector051_tuple_fields",
+                    "value": [
+                        {
+                            "type": "E",
+                            "field": "city"
+                        }
+                    ]
+                },
+                {
+                    "name": "selector051_modify",
+                    "on": [
+                        {
+                            "events": {
+                                "signal": "selector051_tuple"
+                            },
+                            "update": "modify(\"selector051_store\", selector051_tuple, true)"
+                        }
+                    ]
+                }
+            ],
+            "marks": [
+                {
+                    "name": "concat_1_marks",
+                    "type": "symbol",
+                    "style": [
+                        "point"
+                    ],
+                    "interactive": true,
+                    "from": {
+                        "data": "data_0"
+                    },
+                    "encode": {
+                        "update": {
+                            "opacity": {
+                                "value": 0.7
+                            },
+                            "size": {
+                                "value": 150
+                            },
+                            "fill": [
+                                {
+                                    "test": "!length(data(\"selector051_store\")) || vlSelectionTest(\"selector051_store\", datum)",
+                                    "scale": "color",
+                                    "field": "city"
+                                },
+                                {
+                                    "value": "#404040"
+                                }
+                            ],
+                            "tooltip": {
+                                "signal": "{\"City\": isValid(datum[\"city\"]) ? datum[\"city\"] : \"\"+datum[\"city\"], \"Change\": isValid(datum[\"Change\"]) ? datum[\"Change\"] : \"\"+datum[\"Change\"]}"
+                            },
+                            "ariaRoleDescription": {
+                                "value": "point"
+                            },
+                            "description": {
+                                "signal": "\"City: \" + (isValid(datum[\"city\"]) ? datum[\"city\"] : \"\"+datum[\"city\"]) + \"; Year: \" + (timeFormat(datum[\"year\"], '%Y')) + \"; Change: \" + (format(datum[\"pm25_change\"], \"\"))"
+                            },
+                            "x": {
+                                "scale": "concat_1_x",
+                                "field": "year"
+                            },
+                            "y": {
+                                "scale": "concat_1_y",
+                                "field": "pm25_change"
+                            }
+                        }
+                    }
+                }
+            ],
+            "axes": [
+                {
+                    "scale": "concat_1_x",
+                    "orient": "bottom",
+                    "gridScale": "concat_1_y",
+                    "grid": true,
+                    "tickCount": {
+                        "signal": "ceil(width/40)"
+                    },
+                    "domain": false,
+                    "labels": false,
+                    "aria": false,
+                    "maxExtent": 0,
+                    "minExtent": 0,
+                    "ticks": false,
+                    "zindex": 0,
+                    "gridColor": "#333333"
+                },
+                {
+                    "scale": "concat_1_y",
+                    "orient": "left",
+                    "gridScale": "concat_1_x",
+                    "grid": true,
+                    "tickCount": {
+                        "signal": "ceil(concat_1_height/40)"
+                    },
+                    "domain": false,
+                    "labels": false,
+                    "aria": false,
+                    "maxExtent": 0,
+                    "minExtent": 0,
+                    "ticks": false,
+                    "zindex": 0,
+                    "gridColor": "#333333"
+                },
+                {
+                    "scale": "concat_1_x",
+                    "orient": "bottom",
+                    "grid": false,
+                    "title": "Year",
+                    "labelFlush": true,
+                    "labelOverlap": true,
+                    "tickCount": {
+                        "signal": "ceil(width/40)"
+                    },
+                    "zindex": 0,
+                    "labelColor": "#cccccc",
+                    "titleColor": "#cccccc",
+                    "tickColor": "#666666",
+                    "domainColor": "#666666"
+                },
+                {
+                    "scale": "concat_1_y",
+                    "orient": "left",
+                    "grid": false,
+                    "title": "Change (%)",
+                    "labelOverlap": true,
+                    "tickCount": {
+                        "signal": "ceil(concat_1_height/40)"
+                    },
+                    "zindex": 0,
+                    "labelColor": "#cccccc",
+                    "titleColor": "#cccccc",
+                    "tickColor": "#666666",
+                    "domainColor": "#666666"
+                }
+            ]
+        }
+    ],
+    "scales": [
+        {
+            "name": "color",
+            "type": "ordinal",
+            "domain": [
+                "Beijing/CHN",
+                "Delhi/IND",
+                "London/GBR",
+                "New York/USA",
+                "Sao Paulo/BRA",
+                "Singapore/SGP"
+            ],
+            "range": [
+                "#FF8F40",
+                "#00CC5E",
+                "#40BFFF",
+                "#8C91B6",
+                "#D4E6A1",
+                "#FFD053"
+            ],
+            "interpolate": "hcl"
+        },
+        {
+            "name": "concat_0_x",
+            "type": "time",
+            "domain": {
+                "fields": [
+                    {
+                        "data": "data_1",
+                        "field": "year"
+                    },
+                    {
+                        "data": "data_2",
+                        "field": "year"
+                    }
+                ]
+            },
+            "range": [
+                0,
+                {
+                    "signal": "width"
+                }
+            ]
+        },
+        {
+            "name": "concat_0_y",
+            "type": "linear",
+            "domain": {
+                "fields": [
+                    {
+                        "data": "data_1",
+                        "field": "pm25"
+                    },
+                    {
+                        "data": "data_2",
+                        "field": "pm25"
+                    }
+                ]
+            },
+            "range": [
+                {
+                    "signal": "concat_0_height"
+                },
+                0
+            ],
+            "nice": true,
+            "zero": true
+        },
+        {
+            "name": "concat_1_x",
+            "type": "time",
+            "domain": {
+                "data": "data_0",
+                "field": "year"
+            },
+            "range": [
+                0,
+                {
+                    "signal": "width"
+                }
+            ]
+        },
+        {
+            "name": "concat_1_y",
+            "type": "linear",
+            "domain": {
+                "data": "data_0",
+                "field": "pm25_change"
+            },
+            "range": [
+                {
+                    "signal": "concat_1_height"
+                },
+                0
+            ],
+            "nice": true,
+            "zero": true
+        }
+    ],
+    "legends": [
+        {
+            "legendX": 250,
+            "legendY": 5,
+            "orient": "none",
+            "symbolSize": 35,
+            "stroke": "color",
+            "title": "City",
+            "titleColor": "#cccccc",
+            "labelColor": "#cccccc",
+            "symbolType": "circle",
+            "fill": "color"
+        }
+    ]
+}
