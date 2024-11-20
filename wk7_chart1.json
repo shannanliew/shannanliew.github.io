@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Map of the States in Indonesia",
-    "width": 300,
+    "width": 400,
     "height": 300,
     "data": {
       "url": "https://raw.githubusercontent.com/eppofahmi/geojson-indonesia/refs/heads/master/provinsi/all_maps_state_indo.geojson",

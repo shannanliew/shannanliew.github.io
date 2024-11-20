@@ -9,7 +9,7 @@
       "subtitleFontSize": 10,
       "anchor": "start"
     },
-    "width": 300,
+    "width": 400,
     "height": 300,
     "data": {
       "url": "https://raw.githubusercontent.com/eppofahmi/geojson-indonesia/refs/heads/master/provinsi/all_maps_state_indo.geojson",
