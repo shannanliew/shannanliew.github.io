@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shan Nan's Data Science Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <header>
+        <div class="site-title">
+            <h2>Shan Nan's Data Science Portfolio</h2>
+        </div>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">
+                        <span class="hamburger-icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </span>
+                        Menu
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="index.html">Portfolio</a>
+                        <a href="project.html">Project</a>
+                        <a href="https://github.com/shannanliew" target="_blank">My Github</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section portfolio-tasks-content">
+            <h1>The Hidden Cost of Poor Air Quality: How Pollution Quietly Undermines Urban Economies and Health</h1>
+            
+            <p>As cities grapple with the growing burden of air pollution, its impact extends far beyond environmental concerns. This project delves into how degraded air quality covertly strains urban economies, from lost productivity to rising healthcare costs. By examining data on pollution levels, economic output, and health outcomes, we reveal the often-overlooked financial and societal costs of air pollution—highlighting the urgent need for informed, data-driven policy interventions.</p>
+            
+            <div class="aims-container">
+                <h2>Project Aims</h2>
+                
+                <div class="aim-section">
+                    <h3>Understanding the Economic Burden of Air Pollution</h3>
+                    <ul>
+                        <li>Examine how pollution in urban areas affects economic productivity, focusing on potential losses in labor output and increased healthcare expenditures.</li>
+                        <li>Quantify the economic impact by analyzing relationships between air quality metrics (e.g., PM2.5 levels) and productivity indicators like absenteeism and reduced work performance.</li>
+                    </ul>
+                </div>
+                
+                <div class="aim-section">
+                    <h3>Analyzing Health Outcomes Associated with Poor Air Quality</h3>
+                    <ul>
+                        <li>Investigate the link between air pollution levels and urban health issues, particularly respiratory and cardiovascular diseases.</li>
+                        <li>Assess how pollution exacerbates healthcare costs by contributing to increased hospitalizations and medication usage.</li>
+                    </ul>
+                </div>
+                
+                <div class="aim-section">
+                    <h3>Identifying Geographic and Socioeconomic Disparities</h3>
+                    <ul>
+                        <li>Highlight disparities in the economic and health impacts of air pollution across different urban regions and socioeconomic groups.</li>
+                        <li>Explore how certain populations might bear a disproportionate burden, bringing a focus to equity in environmental health.</li>
+                    </ul>
+                </div>
+                
+                <div class="aim-section">
+                    <h3>Supporting Policy Recommendations</h3>
+                    <ul>
+                        <li>Use data insights to support potential policy interventions aimed at improving air quality.</li>
+                        <li>Provide visualizations that can inform stakeholders and raise awareness about the hidden economic and health costs associated with poor air quality.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h2>Global PM2.5 Levels</h2>
+                <iframe 
+                    src="project/PM25_Geomap.html" 
+                    title="PM2.5 Global Map" 
+                    width="100%" 
+                    height="600" 
+                    style="border: none;">
+                </iframe>
+
+                <p>The Global PM2.5 Levels Map provides a visual representation of the average fine particulate matter (PM2.5) concentrations across countries in 2020. Using a choropleth design, the map highlights the intensity of air pollution globally, with darker shades indicating higher PM2.5 levels. This visualization enables quick identification of regions facing severe air quality challenges, such as South Asia and parts of the Middle East, while also showcasing areas with cleaner air.</p>
+                <p>To create the global map visualizing PM2.5 levels, I began by scraping PM2.5 data for countries from a <a href="https://en.wikipedia.org/wiki/List_of_countries_by_air_pollution">Wikipedia page</a> containing country-level air pollution statistics. Using Python and the BeautifulSoup library, I processed the raw HTML content to extract relevant data, cleaned the dataset to remove missing values, and standardized the format to include ISO3 codes. Next, I integrated this data with a GeoJSON world map file, ensuring that each country's ISO3 code matched the GeoJSON properties for spatial visualization. The map was then designed and rendered using Kepler.gl, where I applied a color gradient to represent varying PM2.5 levels, from low (blue) to high (red), making the intensity of air pollution visually distinguishable. I added hover tooltips to display specific country names and PM2.5 values for interactivity. Finally, I exported the map as an HTML file and embedded it seamlessly into my project page for easy navigation and exploration.</p>
+                <p><a href="https://colab.research.google.com/drive/1NuhlKux6fpcrVthtDrOVozZ-ei87meci?usp=sharing" target="_blank">Python Notebook 1 (Scraping)</a></p>
+                <p><a href="https://colab.research.google.com/drive/11xJA0ZBfBZXwfueUcJL1s_EEOC-SMzL5?usp=sharing" target="_blank"">Python Notebook 2 (Merging with GeoJson)</a></p>
+            </div>
+            
+            <div class="chart-container">
+                <h2>Tracking PM2.5 Trends and Yearly Changes in Major Cities (2010–2019)</h2>
+                <figure id="project-charts-chart1"></figure>
+
+                <p>To visualize PM2.5 levels across six major cities from 2010 to 2019 and their year-over-year changes, I began by sourcing data from the <a href="https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database" target="_blank">WHO Ambient Air Quality Database</a>, which tracks PM2.5 concentrations in micrograms per cubic meter (µg/m³) for cities worldwide.</p>
+                <p>Using Python, I processed the dataset to focus on the years 2010 to 2019, selecting cities with at least seven years of data to ensure continuity. From this subset, I chose Beijing, Singapore, New York, London, São Paulo, and Delhi for analysis. The data preparation included filtering for the selected cities and years, calculating the year-over-year percentage change in PM2.5 concentrations using Python’s pct_change method grouped by city, and cleaning the dataset by handling missing values and standardizing city names. The cleaned data, which included columns for city names, years, PM2.5 concentrations, and percentage changes, was then exported to a CSV file for visualization.</p>
+                <p>The time-series chart highlights the varying trajectories of air quality across these urban centers, with notable improvements in cities like Beijing, which saw a steady decline in PM2.5 levels over the decade. Conversely, Delhi exhibited significant volatility, with periods of sharp increases and decreases, reflecting ongoing challenges in managing air pollution. The scatter plot of yearly percentage changes reveals the magnitude and frequency of fluctuations, with cities like London demonstrating relatively stable air quality compared to the more dramatic changes seen in Delhi and Beijing.</p>
+                <p><a href="https://colab.research.google.com/drive/1anRvQ5Cn2XR1MqKW1aS8FeFTS0TnytPu?usp=sharing" target="_blank">Python Notebook 3</a></p>
+                <p><a href="https://colab.research.google.com/drive/1iiNQCAnzUCoNZ6owA6241hKQBJUGNMmv?usp=sharing" target="_blank">Python Notebook 4</a></p>
+            </div>   
+    </main>
+ 
+    <script>
+
+        let figure_1_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/project_chart2.json"
+
+        vegaEmbed('#project-charts-chart1', figure_1_spec)
+
+        let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/ukMacro/fiscal_psnb_bn_dark.json"
+
+        vegaEmbed('#hosting-charts-chart2', figure_2_spec)
+    </script>
+
+</body>
+</html>
