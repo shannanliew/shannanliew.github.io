@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Map of the States in Germany",
+    "title": "Map of the States in Indonesia",
     "width": 500,
     "height": 500,
     "data": {
