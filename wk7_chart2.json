@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Human Development Index (2024) - Indonesia",
+      "subtitle": [
+        "Per Region in Indonesia",
+        "Source: Statistics Indonesia (Badan Pusat Statistik - BPS)"
+      ],
+      "subtitleFontSize": 10,
+      "anchor": "start"
+    },
+    "width": 300,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/eppofahmi/geojson-indonesia/refs/heads/master/provinsi/all_maps_state_indo.geojson",
+      "format": {"property": "features"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.name",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/indo_hdi.csv",
+            "format": {"type": "csv"}
+          },
+          "key": "province",
+          "fields": ["value"]
+        }
+      }
+    ],
+    "projection": {"type": "mercator"},
+    "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5},
+    "encoding": {
+      "color": {
+        "field": "value",
+        "type": "quantitative",
+        "scale": {"scheme": "darkgreen", "reverse": true}
+      },
+      "tooltip": [
+        {"field": "properties.name", "type": "nominal", "title": "province"},
+        {"field": "value", "type": "quantitative", "title": "value"}
+      ]
+    },
+    "config": {}
+}
