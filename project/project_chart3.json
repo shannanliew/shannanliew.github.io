@@ -1,0 +1,93 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {
+      "background": "#1a1a1a",
+      "axis": {
+        "domainColor": "#a0a0a0",
+        "gridColor": "#444",
+        "tickColor": "#888",
+        "labelColor": "#ddd",
+        "titleColor": "#ddd"
+      },
+      "legend": {
+        "labelColor": "#ddd",
+        "titleColor": "#ddd"
+      }
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/average_pm25_by_year_region.csv",
+      "format": {"type": "csv", "parse": {"year": "number"}}
+    },
+    "title": {
+      "text": "PM2.5 Concentration by WHO Region",
+      "color": "#54bb8e",
+      "fontSize": 16,
+      "subtitlePadding": 5,
+      "fontWeight": 600,
+      "anchor": "start",
+      "subtitle": "Average PM2.5 Levels (2010-2019)",
+      "subtitleColor": "#a0a0a0"
+    },
+    "width": 400,
+    "height": 250,
+    "params": [
+      {
+        "name": "minYear",
+        "value": 2010,
+        "bind": {
+          "input": "range",
+          "min": 2010,
+          "max": 2018,
+          "step": 1,
+          "name": "Start year:"
+        }
+      },
+      {
+        "name": "maxYear",
+        "value": 2019,
+        "bind": {
+          "input": "range",
+          "min": 2011,
+          "max": 2019,
+          "step": 1,
+          "name": "End year:"
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "datum.year >= minYear && datum.year <= maxYear"
+      }
+    ],
+    "mark": "area",
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "quantitative",
+        "title": "Year",
+        "axis": {
+          "format": "d"
+        }
+      },
+      "y": {
+        "field": "pm25_concentration",
+        "type": "quantitative",
+        "title": "PM2.5 Concentration"
+      },
+      "color": {
+        "field": "who_region",
+        "scale": {"scheme": "dark2"},
+        "legend": {
+          "orient": "top-left",
+          "title": null,
+          "labelColor": "#ddd",
+          "titleColor": "#ddd"
+        }
+      },
+      "tooltip": [
+        {"field": "who_region", "title": "Region"},
+        {"field": "year", "title": "Year", "format": "d"},
+        {"field": "pm25_concentration", "title": "PM2.5 (µg/m³)", "format": ".2f"}
+      ]
+    }
+}
