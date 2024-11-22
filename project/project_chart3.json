@@ -26,7 +26,8 @@
       "fontWeight": 600,
       "anchor": "start",
       "subtitle": "Average PM2.5 Levels (2010-2019)",
-      "subtitleColor": "#a0a0a0"
+      "subtitleColor": "#a0a0a0",
+      "subtitleFontStyle": "italic"
     },
     "width": 400,
     "height": 250,

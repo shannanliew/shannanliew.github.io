@@ -1,0 +1,90 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Regression Chart: Average PM2.5 Levels vs. NCD Mortality Rate (per 100,000 population)",
+    "background": "#1a1a1a",
+    "width": 350,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/merged_pm25_ncdmort.csv",
+      "format": {"type": "csv"}
+    },
+    "config": {
+      "axis": {
+        "domainColor": "#888",
+        "gridColor": "#444",
+        "tickColor": "#888",
+        "labelColor": "#ddd",
+        "titleColor": "#ddd"
+      },
+      "legend": {
+        "labelColor": "#ddd",
+        "titleColor": "#ddd"
+      }
+    },
+    "title": {
+      "text": "Regression: PM2.5 Levels vs. NCD Mortality Rate",
+      "subtitle": "Source: Global Health Observatory (GHO) - WHO, 2010-2019",
+      "subtitleFontStyle": "italic",
+      "color": "#54bb8e",
+      "fontSize": 16,
+      "subtitleFontSize": 12,
+      "anchor": "start",
+      "subtitleColor": "#ddd"
+    },
+    "layer": [
+      {
+        "mark": {
+          "type": "point",
+          "filled": true,
+          "color": "#40a9ff",
+          "opacity": 0.5,
+          "size": 60
+        },
+        "encoding": {
+          "x": {
+            "field": "average_pm25",
+            "type": "quantitative",
+            "title": "Average PM2.5 Levels (µg/m³)",
+            "scale": {"nice": true}
+          },
+          "y": {
+            "field": "ncd_mortality_pr100000",
+            "type": "quantitative",
+            "title": "NCD Mortality Rate (per 100,000 population)",
+            "scale": {"nice": true}
+          },
+          "tooltip": [
+            {"field": "iso3", "title": "Country"},
+            {"field": "year", "type": "temporal", "title": "Year"},
+            {"field": "average_pm25", "type": "quantitative", "title": "Average PM2.5"},
+            {"field": "ncd_mortality_pr100000", "type": "quantitative", "title": "NCD Mortality / 100,000"}
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "line",
+          "color": "#e45756",
+          "size": 2,
+          "opacity": 0.9
+        },
+        "transform": [
+          {
+            "regression": "ncd_mortality_pr100000",
+            "on": "average_pm25",
+            "extent": [5, 155] 
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "average_pm25",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "ncd_mortality_pr100000",
+            "type": "quantitative"
+          }
+        }
+      }
+    ]
+}
