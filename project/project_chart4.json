@@ -72,18 +72,37 @@
           {
             "regression": "ncd_mortality_pr100000",
             "on": "average_pm25",
-            "extent": [5, 155] 
+            "extent": [5, 155]
           }
         ],
         "encoding": {
-          "x": {
-            "field": "average_pm25",
-            "type": "quantitative"
+          "x": {"field": "average_pm25", "type": "quantitative"},
+          "y": {"field": "ncd_mortality_pr100000", "type": "quantitative"}
+        }
+      },
+      {
+        "transform": [
+          {
+            "regression": "ncd_mortality_pr100000",
+            "on": "average_pm25",
+            "params": true
           },
-          "y": {
-            "field": "ncd_mortality_pr100000",
-            "type": "quantitative"
+          {
+            "calculate": "'R² = ' + format(datum.rSquared, '.2f')",
+            "as": "R2"
           }
+        ],
+        "mark": {
+          "type": "text",
+          "color": "#e45756",
+          "fontSize": 15,
+          "x": "width",
+          "dx": -9,
+          "align": "right",
+          "y": 15
+        },
+        "encoding": {
+          "text": {"field": "R2"}
         }
       }
     ]
