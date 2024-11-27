@@ -1,1617 +1,1617 @@
-iso3,country,year,pm25_concentration
-AFG,Afghanistan,2008,13.26
-ALB,Albania,2008,9.91
-DZA,Algeria,2008,6.14
-ASM,American Samoa,2008,0.1
-AND,Andorra,2008,5.7
-AGO,Angola,2008,14.96
-AIA,Anguilla,2008,0.41
-ATG,Antigua and Barbuda,2008,0.52
-ARG,Argentina,2008,7.47
-ARM,Armenia,2008,16.65
-ABW,Aruba,2008,1.21
-AUS,Australia,2008,2.46
-AUT,Austria,2008,12.6
-AZE,Azerbaijan,2008,16.58
-BHS,Bahamas,2008,1.68
-BHR,Bahrain,2008,19.05
-BGD,Bangladesh,2008,47.49
-BRB,Barbados,2008,0.53
-BLR,Belarus,2008,12.32
-BEL,Belgium,2008,13.12
-BLZ,Belize,2008,2.17
-BEN,Benin,2008,11.64
-BMU,Bermuda,2008,1.22
-BTN,Bhutan,2008,20.62
-BOL,Bolivia,2008,8.79
-BIH,Bosnia and Herzegovina,2008,10.31
-BWA,Botswana,2008,15.14
-BRA,Brazil,2008,7.68
-BRN,Brunei Darussalam,2008,7.89
-BGR,Bulgaria,2008,11.66
-BFA,Burkina Faso,2008,4.23
-BDI,Burundi,2008,17.47
-KHM,Cambodia,2008,15.56
-CMR,Cameroon,2008,11.78
-CAN,Canada,2008,6.7
-CPV,Cape Verde,2008,1.29
-CYM,Cayman Islands,2008,1.94
-CAF,Central African Republic,2008,14.13
-TCD,Chad,2008,4.98
-CHL,Chile,2008,13.14
-CHN,China,2008,44.45
-COL,Colombia,2008,6.52
-COM,Comoros,2008,1.56
-COK,Cook Islands,2008,0.2
-CRI,Costa Rica,2008,3.03
-CIV,Cote d'Ivoire,2008,9.29
-HRV,Croatia,2008,10.61
-CUB,Cuba,2008,2.83
-CYP,Cyprus,2008,8.76
-CZE,Czech Republic,2008,15.12
-COD,Dem. Rep. Congo,2008,19.95
-DNK,Denmark,2008,6.82
-DJI,Djibouti,2008,6.92
-DMA,Dominica,2008,0.8
-DOM,Dominican Republic,2008,2.74
-ECU,Ecuador,2008,7.07
-EGY,Egypt,2008,7.91
-SLV,El Salvador,2008,7.61
-GNQ,Equatorial Guinea,2008,12.0
-ERI,Eritrea,2008,6.47
-EST,Estonia,2008,7.04
-ETH,Ethiopia,2008,10.82
-FRO,Faeroe Islands,2008,1.5
-FLK,Falkland Islands,2008,0.29
-FJI,Fiji,2008,0.18
-FIN,Finland,2008,5.84
-FRA,France,2008,11.02
-GUF,French Guiana,2008,0.8
-PYF,French Polynesia,2008,0.15
-GAB,Gabon,2008,16.52
-GMB,Gambia,2008,3.82
-GEO,Georgia,2008,14.24
-DEU,Germany,2008,11.74
-GHA,Ghana,2008,11.94
-GIB,Gibraltar,2008,8.14
-GRC,Greece,2008,10.5
-GRL,Greenland,2008,1.17
-GRD,Grenada,2008,0.58
-GUM,Guam,2008,0.3
-GTM,Guatemala,2008,8.25
-GIN,Guinea,2008,5.92
-GNB,Guinea-Bissau,2008,4.28
-GUY,Guyana,2008,1.31
-HTI,Haiti,2008,3.69
-HND,Honduras,2008,5.79
-HKG,Hong Kong,2008,31.87
-HUN,Hungary,2008,12.82
-ISL,Iceland,2008,1.26
-IND,India,2008,47.23
-IDN,Indonesia,2008,10.3
-IRN,Iran,2008,12.04
-IRQ,Iraq,2008,15.19
-IRL,Ireland,2008,5.23
-IMN,Isle of Man,2008,6.88
-ISR,Israel,2008,8.61
-ITA,Italy,2008,11.95
-JAM,Jamaica,2008,2.09
-JPN,Japan,2008,12.68
-JOR,Jordan,2008,8.1
-KAZ,Kazakhstan,2008,10.07
-KEN,Kenya,2008,8.09
-KIR,Kiribati,2008,0.19
-KWT,Kuwait,2008,21.42
-KGZ,Kyrgyzstan,2008,12.56
-LAO,Laos,2008,23.31
-LVA,Latvia,2008,8.81
-LBN,Lebanon,2008,9.94
-LSO,Lesotho,2008,11.41
-LBR,Liberia,2008,6.87
-LBY,Libya,2008,4.09
-LIE,Liechtenstein,2008,9.76
-LTU,Lithuania,2008,10.71
-LUX,Luxembourg,2008,10.12
-MAC,Macao,2008,37.75
-MKD,Macedonia,2008,10.6
-MDG,Madagascar,2008,2.75
-MWI,Malawi,2008,11.17
-MYS,Malaysia,2008,13.07
-MDV,Maldives,2008,2.2
-MLI,Mali,2008,3.07
-MLT,Malta,2008,4.22
-MHL,Marshall Islands,2008,0.08
-MTQ,Martinique,2008,0.85
-MRT,Mauritania,2008,1.84
-MUS,Mauritius,2008,0.3
-MYT,Mayotte,2008,1.8
-MEX,Mexico,2008,13.18
-FSM,Micronesia,2008,0.1
-MDA,Moldova,2008,10.74
-MCO,Monaco,2008,10.38
-MNG,Mongolia,2008,5.77
-MNE,Montenegro,2008,8.2
-MSR,Montserrat,2008,0.7
-MAR,Morocco,2008,5.48
-MOZ,Mozambique,2008,8.88
-MMR,Myanmar,2008,19.55
-NAM,Namibia,2008,9.29
-NRU,Nauru,2008,0.2
-NPL,Nepal,2008,42.25
-NLD,Netherlands,2008,12.78
-NCL,New Caledonia,2008,0.33
-NZL,New Zealand,2008,1.54
-NIC,Nicaragua,2008,3.07
-NER,Niger,2008,4.19
-NGA,Nigeria,2008,14.67
-NIU,Niue,2008,0.1
-NFK,Norfolk Island,2008,0.3
-PRK,North Korea,2008,22.73
-MNP,Northern Mariana Islands,2008,0.39
-NOR,Norway,2008,4.16
-OMN,Oman,2008,10.67
-PAK,Pakistan,2008,33.59
-PLW,Palau,2008,0.19
-PAN,Panama,2008,1.43
-PNG,Papua New Guinea,2008,0.99
-PRY,Paraguay,2008,7.49
-PER,Peru,2008,13.79
-PHL,Philippines,2008,7.66
-PCN,Pitcairn,2008,0.2
-POL,Poland,2008,16.22
-PRT,Portugal,2008,6.76
-PRI,Puerto Rico,2008,1.35
-QAT,Qatar,2008,22.1
-COG,Republic of Congo,2008,22.7
-REU,Reunion,2008,0.4
-ROU,Romania,2008,12.07
-RUS,Russia,2008,11.92
-RWA,Rwanda,2008,18.97
-SHN,Saint Helena,2008,0.86
-KNA,Saint Kitts and Nevis,2008,0.6
-LCA,Saint Lucia,2008,0.87
-SPM,Saint Pierre and Miquelon,2008,1.67
-VCT,Saint Vincent and the Grenadines,2008,0.61
-WSM,Samoa,2008,0.1
-SMR,San Marino,2008,10.25
-STP,Sao Tome and Principe,2008,8.82
-SAU,Saudi Arabia,2008,12.21
-SEN,Senegal,2008,3.24
-SRB,Serbia,2008,11.59
-SYC,Seychelles,2008,0.46
-SLE,Sierra Leone,2008,6.29
-SGP,Singapore,2008,14.3
-SVK,Slovakia,2008,14.23
-SVN,Slovenia,2008,12.03
-SLB,Solomon Islands,2008,0.21
-SOM,Somalia,2008,3.52
-ZAF,South Africa,2008,17.44
-KOR,South Korea,2008,23.5
-SSD,South Sudan,2008,8.55
-ESP,Spain,2008,7.93
-LKA,Sri Lanka,2008,8.26
-PSE,State of Palestine,2008,9.07
-SDN,Sudan,2008,4.8
-SUR,Suriname,2008,1.02
-SWZ,Swaziland,2008,16.56
-SWE,Sweden,2008,5.4
-CHE,Switzerland,2008,11.96
-SYR,Syria,2008,12.0
-TWN,Taiwan,2008,17.26
-TJK,Tajikistan,2008,29.57
-TZA,Tanzania,2008,8.98
-THA,Thailand,2008,26.72
-AFG,Afghanistan,2009,10.51
-ALB,Albania,2009,9.01
-DZA,Algeria,2009,4.66
-ASM,American Samoa,2009,0.1
-AND,Andorra,2009,5.48
-AGO,Angola,2009,14.98
-AIA,Anguilla,2009,0.48
-ATG,Antigua and Barbuda,2009,0.5
-ARG,Argentina,2009,7.19
-ARM,Armenia,2009,14.01
-ABW,Aruba,2009,1.5
-AUS,Australia,2009,2.92
-AUT,Austria,2009,13.91
-AZE,Azerbaijan,2009,14.25
-BHS,Bahamas,2009,1.38
-BHR,Bahrain,2009,21.45
-BGD,Bangladesh,2009,54.68
-BRB,Barbados,2009,0.53
-BLR,Belarus,2009,14.76
-BEL,Belgium,2009,13.66
-BLZ,Belize,2009,2.55
-BEN,Benin,2009,10.89
-BMU,Bermuda,2009,1.03
-BTN,Bhutan,2009,25.19
-BOL,Bolivia,2009,7.2
-BIH,Bosnia and Herzegovina,2009,11.07
-BWA,Botswana,2009,12.64
-BRA,Brazil,2009,7.51
-BRN,Brunei Darussalam,2009,13.36
-BGR,Bulgaria,2009,9.64
-BFA,Burkina Faso,2009,4.27
-BDI,Burundi,2009,16.0
-KHM,Cambodia,2009,14.74
-CMR,Cameroon,2009,12.55
-CAN,Canada,2009,6.35
-CPV,Cape Verde,2009,1.18
-CYM,Cayman Islands,2009,1.85
-CAF,Central African Republic,2009,15.19
-TCD,Chad,2009,6.03
-CHL,Chile,2009,12.87
-CHN,China,2009,43.99
-COL,Colombia,2009,7.47
-COM,Comoros,2009,1.69
-COK,Cook Islands,2009,0.2
-CRI,Costa Rica,2009,2.82
-CIV,Cote d'Ivoire,2009,9.21
-HRV,Croatia,2009,12.13
-CUB,Cuba,2009,2.91
-CYP,Cyprus,2009,6.21
-CZE,Czech Republic,2009,18.11
-COD,Dem. Rep. Congo,2009,20.04
-DNK,Denmark,2009,8.21
-DJI,Djibouti,2009,6.42
-DMA,Dominica,2009,0.79
-DOM,Dominican Republic,2009,2.79
-ECU,Ecuador,2009,7.7
-EGY,Egypt,2009,7.35
-SLV,El Salvador,2009,7.07
-GNQ,Equatorial Guinea,2009,11.16
-ERI,Eritrea,2009,6.28
-EST,Estonia,2009,8.24
-ETH,Ethiopia,2009,10.44
-FRO,Faeroe Islands,2009,1.32
-FLK,Falkland Islands,2009,0.27
-FJI,Fiji,2009,0.2
-FIN,Finland,2009,7.11
-FRA,France,2009,11.6
-GUF,French Guiana,2009,0.63
-PYF,French Polynesia,2009,0.11
-GAB,Gabon,2009,14.47
-GMB,Gambia,2009,3.59
-GEO,Georgia,2009,11.43
-DEU,Germany,2009,12.42
-GHA,Ghana,2009,12.78
-GIB,Gibraltar,2009,7.67
-GRC,Greece,2009,8.01
-GRL,Greenland,2009,0.77
-GRD,Grenada,2009,0.63
-GUM,Guam,2009,0.35
-GTM,Guatemala,2009,9.43
-GIN,Guinea,2009,5.73
-GNB,Guinea-Bissau,2009,4.0
-GUY,Guyana,2009,1.22
-HTI,Haiti,2009,3.62
-HND,Honduras,2009,5.78
-HKG,Hong Kong,2009,31.03
-HUN,Hungary,2009,16.52
-ISL,Iceland,2009,1.28
-IND,India,2009,45.33
-IDN,Indonesia,2009,11.08
-IRN,Iran,2009,12.03
-IRQ,Iraq,2009,14.99
-IRL,Ireland,2009,4.68
-IMN,Isle of Man,2009,5.79
-ISR,Israel,2009,7.43
-ITA,Italy,2009,12.58
-JAM,Jamaica,2009,2.3
-JPN,Japan,2009,12.43
-JOR,Jordan,2009,7.55
-KAZ,Kazakhstan,2009,9.21
-KEN,Kenya,2009,7.5
-KIR,Kiribati,2009,0.12
-KWT,Kuwait,2009,20.06
-KGZ,Kyrgyzstan,2009,10.05
-LAO,Laos,2009,25.69
-LVA,Latvia,2009,10.68
-LBN,Lebanon,2009,8.22
-LSO,Lesotho,2009,12.74
-LBR,Liberia,2009,6.95
-LBY,Libya,2009,3.67
-LIE,Liechtenstein,2009,9.16
-LTU,Lithuania,2009,12.78
-LUX,Luxembourg,2009,10.16
-MAC,Macao,2009,36.23
-MKD,Macedonia,2009,8.74
-MDG,Madagascar,2009,3.33
-MWI,Malawi,2009,11.27
-MYS,Malaysia,2009,15.73
-MDV,Maldives,2009,2.36
-MLI,Mali,2009,2.85
-MLT,Malta,2009,4.51
-MHL,Marshall Islands,2009,0.08
-MTQ,Martinique,2009,0.9
-MRT,Mauritania,2009,1.47
-MUS,Mauritius,2009,0.36
-MYT,Mayotte,2009,2.12
-MEX,Mexico,2009,13.86
-FSM,Micronesia,2009,0.11
-MDA,Moldova,2009,13.15
-MCO,Monaco,2009,10.58
-MNG,Mongolia,2009,5.23
-MNE,Montenegro,2009,7.6
-MSR,Montserrat,2009,0.6
-MAR,Morocco,2009,4.57
-MOZ,Mozambique,2009,8.07
-MMR,Myanmar,2009,21.66
-NAM,Namibia,2009,9.2
-NRU,Nauru,2009,0.1
-NPL,Nepal,2009,42.95
-NLD,Netherlands,2009,12.65
-NCL,New Caledonia,2009,0.38
-NZL,New Zealand,2009,1.56
-NIC,Nicaragua,2009,3.3
-NER,Niger,2009,3.6
-NGA,Nigeria,2009,13.88
-NIU,Niue,2009,0.1
-NFK,Norfolk Island,2009,0.3
-PRK,North Korea,2009,24.21
-MNP,Northern Mariana Islands,2009,0.39
-NOR,Norway,2009,4.79
-OMN,Oman,2009,9.32
-PAK,Pakistan,2009,28.66
-PLW,Palau,2009,0.28
-PAN,Panama,2009,1.54
-PNG,Papua New Guinea,2009,1.07
-PRY,Paraguay,2009,7.12
-PER,Peru,2009,13.53
-PHL,Philippines,2009,9.03
-PCN,Pitcairn,2009,0.18
-POL,Poland,2009,21.22
-PRT,Portugal,2009,6.72
-PRI,Puerto Rico,2009,1.42
-QAT,Qatar,2009,24.03
-COG,Republic of Congo,2009,23.37
-REU,Reunion,2009,0.4
-ROU,Romania,2009,13.59
-RUS,Russia,2009,13.49
-RWA,Rwanda,2009,17.05
-SHN,Saint Helena,2009,0.75
-KNA,Saint Kitts and Nevis,2009,0.58
-LCA,Saint Lucia,2009,0.9
-SPM,Saint Pierre and Miquelon,2009,1.45
-VCT,Saint Vincent and the Grenadines,2009,0.61
-WSM,Samoa,2009,0.1
-SMR,San Marino,2009,11.6
-STP,Sao Tome and Principe,2009,8.57
-SAU,Saudi Arabia,2009,12.2
-SEN,Senegal,2009,2.81
-SRB,Serbia,2009,12.68
-SYC,Seychelles,2009,0.43
-SLE,Sierra Leone,2009,6.74
-SGP,Singapore,2009,19.62
-SVK,Slovakia,2009,18.44
-SVN,Slovenia,2009,12.81
-SLB,Solomon Islands,2009,0.21
-SOM,Somalia,2009,3.07
-ZAF,South Africa,2009,17.78
-KOR,South Korea,2009,25.64
-SSD,South Sudan,2009,10.26
-ESP,Spain,2009,6.91
-LKA,Sri Lanka,2009,7.45
-PSE,State of Palestine,2009,8.14
-SDN,Sudan,2009,5.78
-SUR,Suriname,2009,0.84
-SWZ,Swaziland,2009,15.79
-SWE,Sweden,2009,6.35
-CHE,Switzerland,2009,12.13
-SYR,Syria,2009,10.75
-TWN,Taiwan,2009,17.68
-TJK,Tajikistan,2009,23.28
-TZA,Tanzania,2009,8.69
-THA,Thailand,2009,25.67
-AFG,Afghanistan,2010,11.93
-ALB,Albania,2010,9.72
-DZA,Algeria,2010,5.44
-ASM,American Samoa,2010,0.1
-AND,Andorra,2010,5.17
-AGO,Angola,2010,15.7
-AIA,Anguilla,2010,0.5
-ATG,Antigua and Barbuda,2010,0.54
-ARG,Argentina,2010,6.82
-ARM,Armenia,2010,18.59
-ABW,Aruba,2010,1.31
-AUS,Australia,2010,2.4
-AUT,Austria,2010,13.7
-AZE,Azerbaijan,2010,16.94
-BHS,Bahamas,2010,1.55
-BHR,Bahrain,2010,17.25
-BGD,Bangladesh,2010,47.67
-BRB,Barbados,2010,0.54
-BLR,Belarus,2010,16.96
-BEL,Belgium,2010,15.48
-BLZ,Belize,2010,2.97
-BEN,Benin,2010,14.34
-BMU,Bermuda,2010,1.13
-BTN,Bhutan,2010,20.59
-BOL,Bolivia,2010,14.47
-BIH,Bosnia and Herzegovina,2010,11.64
-BWA,Botswana,2010,17.73
-BRA,Brazil,2010,8.83
-BRN,Brunei Darussalam,2010,7.97
-BGR,Bulgaria,2010,13.09
-BFA,Burkina Faso,2010,5.08
-BDI,Burundi,2010,15.6
-KHM,Cambodia,2010,15.83
-CMR,Cameroon,2010,15.58
-CAN,Canada,2010,6.58
-CPV,Cape Verde,2010,0.9
-CYM,Cayman Islands,2010,1.89
-CAF,Central African Republic,2010,16.76
-TCD,Chad,2010,5.84
-CHL,Chile,2010,12.32
-CHN,China,2010,44.12
-COL,Colombia,2010,9.71
-COM,Comoros,2010,1.89
-COK,Cook Islands,2010,0.18
-CRI,Costa Rica,2010,1.84
-CIV,Cote d'Ivoire,2010,10.61
-HRV,Croatia,2010,12.43
-CUB,Cuba,2010,2.92
-CYP,Cyprus,2010,7.39
-CZE,Czech Republic,2010,21.51
-COD,Dem. Rep. Congo,2010,20.86
-DNK,Denmark,2010,8.86
-DJI,Djibouti,2010,6.92
-DMA,Dominica,2010,0.9
-DOM,Dominican Republic,2010,3.22
-ECU,Ecuador,2010,10.96
-EGY,Egypt,2010,7.63
-SLV,El Salvador,2010,7.14
-GNQ,Equatorial Guinea,2010,15.65
-ERI,Eritrea,2010,6.84
-EST,Estonia,2010,9.75
-ETH,Ethiopia,2010,11.97
-FRO,Faeroe Islands,2010,1.12
-FLK,Falkland Islands,2010,0.29
-FJI,Fiji,2010,0.17
-FIN,Finland,2010,7.49
-FRA,France,2010,11.63
-GUF,French Guiana,2010,0.57
-PYF,French Polynesia,2010,0.11
-GAB,Gabon,2010,17.57
-GMB,Gambia,2010,3.75
-GEO,Georgia,2010,15.46
-DEU,Germany,2010,15.24
-GHA,Ghana,2010,14.35
-GIB,Gibraltar,2010,8.53
-GRC,Greece,2010,10.68
-GRL,Greenland,2010,0.9
-GRD,Grenada,2010,0.6
-GUM,Guam,2010,0.2
-GTM,Guatemala,2010,8.0
-GIN,Guinea,2010,5.79
-GNB,Guinea-Bissau,2010,4.24
-GUY,Guyana,2010,1.22
-HTI,Haiti,2010,4.07
-HND,Honduras,2010,6.04
-HKG,Hong Kong,2010,26.4
-HUN,Hungary,2010,18.73
-ISL,Iceland,2010,1.24
-IND,India,2010,43.17
-IDN,Indonesia,2010,10.26
-IRN,Iran,2010,12.42
-IRQ,Iraq,2010,14.9
-IRL,Ireland,2010,4.4
-IMN,Isle of Man,2010,6.17
-ISR,Israel,2010,7.42
-ITA,Italy,2010,12.13
-JAM,Jamaica,2010,2.14
-JPN,Japan,2010,10.92
-JOR,Jordan,2010,7.05
-KAZ,Kazakhstan,2010,10.01
-KEN,Kenya,2010,8.5
-KIR,Kiribati,2010,0.16
-KWT,Kuwait,2010,19.82
-KGZ,Kyrgyzstan,2010,12.46
-LAO,Laos,2010,29.48
-LVA,Latvia,2010,12.79
-LBN,Lebanon,2010,8.41
-LSO,Lesotho,2010,14.33
-LBR,Liberia,2010,6.59
-LBY,Libya,2010,4.24
-LIE,Liechtenstein,2010,8.54
-LTU,Lithuania,2010,15.98
-LUX,Luxembourg,2010,12.56
-MAC,Macao,2010,33.34
-MKD,Macedonia,2010,10.64
-MDG,Madagascar,2010,3.39
-MWI,Malawi,2010,11.21
-MYS,Malaysia,2010,12.25
-MDV,Maldives,2010,2.46
-MLI,Mali,2010,3.44
-MLT,Malta,2010,4.73
-MHL,Marshall Islands,2010,0.09
-MTQ,Martinique,2010,0.91
-MRT,Mauritania,2010,1.59
-MUS,Mauritius,2010,0.38
-MYT,Mayotte,2010,2.31
-MEX,Mexico,2010,12.84
-FSM,Micronesia,2010,0.11
-MDA,Moldova,2010,15.99
-MCO,Monaco,2010,11.15
-MNG,Mongolia,2010,5.22
-MNE,Montenegro,2010,8.89
-MSR,Montserrat,2010,0.7
-MAR,Morocco,2010,5.39
-MOZ,Mozambique,2010,8.53
-MMR,Myanmar,2010,20.65
-NAM,Namibia,2010,9.84
-NRU,Nauru,2010,0.2
-NPL,Nepal,2010,40.35
-NLD,Netherlands,2010,15.11
-NCL,New Caledonia,2010,0.34
-NZL,New Zealand,2010,1.59
-NIC,Nicaragua,2010,3.17
-NER,Niger,2010,4.04
-NGA,Nigeria,2010,18.12
-NIU,Niue,2010,0.1
-NFK,Norfolk Island,2010,0.3
-PRK,North Korea,2010,20.36
-MNP,Northern Mariana Islands,2010,0.3
-NOR,Norway,2010,3.9
-OMN,Oman,2010,9.51
-PAK,Pakistan,2010,32.97
-PLW,Palau,2010,0.18
-PAN,Panama,2010,1.38
-PNG,Papua New Guinea,2010,1.08
-PRY,Paraguay,2010,9.72
-PER,Peru,2010,16.37
-PHL,Philippines,2010,8.24
-PCN,Pitcairn,2010,0.1
-POL,Poland,2010,26.28
-PRT,Portugal,2010,6.76
-PRI,Puerto Rico,2010,1.51
-QAT,Qatar,2010,19.83
-COG,Republic of Congo,2010,24.74
-REU,Reunion,2010,0.4
-ROU,Romania,2010,16.39
-RUS,Russia,2010,15.04
-RWA,Rwanda,2010,16.83
-SHN,Saint Helena,2010,0.84
-KNA,Saint Kitts and Nevis,2010,0.62
-LCA,Saint Lucia,2010,0.85
-SPM,Saint Pierre and Miquelon,2010,1.54
-VCT,Saint Vincent and the Grenadines,2010,0.61
-WSM,Samoa,2010,0.1
-SMR,San Marino,2010,11.18
-STP,Sao Tome and Principe,2010,8.35
-SAU,Saudi Arabia,2010,11.17
-SEN,Senegal,2010,2.92
-SRB,Serbia,2010,14.42
-SYC,Seychelles,2010,0.53
-SLE,Sierra Leone,2010,5.82
-SGP,Singapore,2010,12.22
-SVK,Slovakia,2010,20.85
-SVN,Slovenia,2010,12.28
-SLB,Solomon Islands,2010,0.21
-SOM,Somalia,2010,3.52
-ZAF,South Africa,2010,19.0
-KOR,South Korea,2010,21.54
-SSD,South Sudan,2010,10.5
-ESP,Spain,2010,6.87
-LKA,Sri Lanka,2010,6.95
-PSE,State of Palestine,2010,7.86
-SDN,Sudan,2010,5.66
-SUR,Suriname,2010,0.76
-SWZ,Swaziland,2010,17.16
-SWE,Sweden,2010,6.53
-CHE,Switzerland,2010,11.46
-SYR,Syria,2010,10.93
-TWN,Taiwan,2010,16.4
-TJK,Tajikistan,2010,25.01
-TZA,Tanzania,2010,8.8
-THA,Thailand,2010,26.45
-AFG,Afghanistan,2011,11.97
-ALB,Albania,2011,9.99
-DZA,Algeria,2011,5.29
-ASM,American Samoa,2011,0.1
-AND,Andorra,2011,6.08
-AGO,Angola,2011,16.21
-AIA,Anguilla,2011,0.5
-ATG,Antigua and Barbuda,2011,0.5
-ARG,Argentina,2011,7.51
-ARM,Armenia,2011,15.26
-ABW,Aruba,2011,1.36
-AUS,Australia,2011,2.74
-AUT,Austria,2011,13.49
-AZE,Azerbaijan,2011,14.85
-BHS,Bahamas,2011,1.61
-BHR,Bahrain,2011,16.03
-BGD,Bangladesh,2011,47.53
-BRB,Barbados,2011,0.49
-BLR,Belarus,2011,13.72
-BEL,Belgium,2011,13.42
-BLZ,Belize,2011,4.49
-BEN,Benin,2011,12.21
-BMU,Bermuda,2011,1.03
-BTN,Bhutan,2011,18.69
-BOL,Bolivia,2011,9.0
-BIH,Bosnia and Herzegovina,2011,12.37
-BWA,Botswana,2011,14.2
-BRA,Brazil,2011,8.24
-BRN,Brunei Darussalam,2011,7.74
-BGR,Bulgaria,2011,11.23
-BFA,Burkina Faso,2011,5.47
-BDI,Burundi,2011,17.51
-KHM,Cambodia,2011,13.69
-CMR,Cameroon,2011,13.14
-CAN,Canada,2011,6.57
-CPV,Cape Verde,2011,1.29
-CYM,Cayman Islands,2011,1.9
-CAF,Central African Republic,2011,17.11
-TCD,Chad,2011,5.58
-CHL,Chile,2011,13.58
-CHN,China,2011,41.63
-COL,Colombia,2011,6.39
-COM,Comoros,2011,1.96
-COK,Cook Islands,2011,0.1
-CRI,Costa Rica,2011,1.9
-CIV,Cote d'Ivoire,2011,12.63
-HRV,Croatia,2011,12.88
-CUB,Cuba,2011,3.16
-CYP,Cyprus,2011,6.59
-CZE,Czech Republic,2011,17.84
-COD,Dem. Rep. Congo,2011,21.59
-DNK,Denmark,2011,10.09
-DJI,Djibouti,2011,8.34
-DMA,Dominica,2011,0.74
-DOM,Dominican Republic,2011,2.87
-ECU,Ecuador,2011,7.35
-EGY,Egypt,2011,6.21
-SLV,El Salvador,2011,9.74
-GNQ,Equatorial Guinea,2011,15.02
-ERI,Eritrea,2011,6.84
-EST,Estonia,2011,7.53
-ETH,Ethiopia,2011,13.51
-FRO,Faeroe Islands,2011,1.4
-FLK,Falkland Islands,2011,0.31
-FJI,Fiji,2011,0.12
-FIN,Finland,2011,6.82
-FRA,France,2011,11.5
-GUF,French Guiana,2011,0.56
-PYF,French Polynesia,2011,0.11
-GAB,Gabon,2011,16.36
-GMB,Gambia,2011,3.73
-GEO,Georgia,2011,12.17
-DEU,Germany,2011,12.7
-GHA,Ghana,2011,13.81
-GIB,Gibraltar,2011,8.92
-GRC,Greece,2011,8.99
-GRL,Greenland,2011,0.79
-GRD,Grenada,2011,0.55
-GUM,Guam,2011,0.28
-GTM,Guatemala,2011,9.6
-GIN,Guinea,2011,6.89
-GNB,Guinea-Bissau,2011,5.05
-GUY,Guyana,2011,1.15
-HTI,Haiti,2011,3.79
-HND,Honduras,2011,8.83
-HKG,Hong Kong,2011,26.41
-HUN,Hungary,2011,17.93
-ISL,Iceland,2011,1.28
-IND,India,2011,41.63
-IDN,Indonesia,2011,8.41
-IRN,Iran,2011,11.91
-IRQ,Iraq,2011,14.53
-IRL,Ireland,2011,4.79
-IMN,Isle of Man,2011,6.94
-ISR,Israel,2011,6.75
-ITA,Italy,2011,12.88
-JAM,Jamaica,2011,2.14
-JPN,Japan,2011,9.57
-JOR,Jordan,2011,7.01
-KAZ,Kazakhstan,2011,9.5
-KEN,Kenya,2011,9.47
-KIR,Kiribati,2011,0.15
-KWT,Kuwait,2011,20.42
-KGZ,Kyrgyzstan,2011,11.13
-LAO,Laos,2011,22.9
-LVA,Latvia,2011,9.62
-LBN,Lebanon,2011,8.0
-LSO,Lesotho,2011,12.27
-LBR,Liberia,2011,9.66
-LBY,Libya,2011,3.38
-LIE,Liechtenstein,2011,9.25
-LTU,Lithuania,2011,12.07
-LUX,Luxembourg,2011,10.81
-MAC,Macao,2011,31.39
-MKD,Macedonia,2011,10.83
-MDG,Madagascar,2011,3.76
-MWI,Malawi,2011,11.81
-MYS,Malaysia,2011,12.1
-MDV,Maldives,2011,2.4
-MLI,Mali,2011,3.94
-MLT,Malta,2011,4.49
-MHL,Marshall Islands,2011,0.08
-MTQ,Martinique,2011,0.82
-MRT,Mauritania,2011,1.74
-MUS,Mauritius,2011,0.38
-MYT,Mayotte,2011,2.44
-MEX,Mexico,2011,15.25
-FSM,Micronesia,2011,0.05
-MDA,Moldova,2011,15.04
-MCO,Monaco,2011,12.68
-MNG,Mongolia,2011,5.59
-MNE,Montenegro,2011,9.01
-MSR,Montserrat,2011,0.6
-MAR,Morocco,2011,4.7
-MOZ,Mozambique,2011,8.25
-MMR,Myanmar,2011,18.23
-NAM,Namibia,2011,9.6
-NRU,Nauru,2011,0.2
-NPL,Nepal,2011,37.39
-NLD,Netherlands,2011,13.32
-NCL,New Caledonia,2011,0.33
-NZL,New Zealand,2011,1.78
-NIC,Nicaragua,2011,3.8
-NER,Niger,2011,4.76
-NGA,Nigeria,2011,14.53
-NIU,Niue,2011,0.1
-NFK,Norfolk Island,2011,0.4
-PRK,North Korea,2011,18.93
-MNP,Northern Mariana Islands,2011,0.3
-NOR,Norway,2011,4.99
-OMN,Oman,2011,9.59
-PAK,Pakistan,2011,30.34
-PLW,Palau,2011,0.11
-PAN,Panama,2011,1.4
-PNG,Papua New Guinea,2011,1.2
-PRY,Paraguay,2011,7.69
-PER,Peru,2011,15.21
-PHL,Philippines,2011,7.18
-PCN,Pitcairn,2011,0.16
-POL,Poland,2011,21.07
-PRT,Portugal,2011,7.63
-PRI,Puerto Rico,2011,1.45
-QAT,Qatar,2011,18.8
-COG,Republic of Congo,2011,25.09
-REU,Reunion,2011,0.4
-ROU,Romania,2011,15.37
-RUS,Russia,2011,11.57
-RWA,Rwanda,2011,17.86
-SHN,Saint Helena,2011,0.75
-KNA,Saint Kitts and Nevis,2011,0.6
-LCA,Saint Lucia,2011,0.83
-SPM,Saint Pierre and Miquelon,2011,1.55
-VCT,Saint Vincent and the Grenadines,2011,0.59
-WSM,Samoa,2011,0.1
-SMR,San Marino,2011,12.3
-STP,Sao Tome and Principe,2011,9.06
-SAU,Saudi Arabia,2011,11.26
-SEN,Senegal,2011,3.0
-SRB,Serbia,2011,15.04
-SYC,Seychelles,2011,0.69
-SLE,Sierra Leone,2011,7.75
-SGP,Singapore,2011,10.57
-SVK,Slovakia,2011,19.23
-SVN,Slovenia,2011,13.02
-SLB,Solomon Islands,2011,0.14
-SOM,Somalia,2011,3.8
-ZAF,South Africa,2011,17.5
-KOR,South Korea,2011,19.69
-SSD,South Sudan,2011,11.36
-ESP,Spain,2011,8.34
-LKA,Sri Lanka,2011,6.95
-PSE,State of Palestine,2011,7.34
-SDN,Sudan,2011,5.89
-SUR,Suriname,2011,0.85
-SWZ,Swaziland,2011,15.24
-SWE,Sweden,2011,6.75
-CHE,Switzerland,2011,11.3
-SYR,Syria,2011,10.0
-TWN,Taiwan,2011,16.09
-TJK,Tajikistan,2011,28.54
-TZA,Tanzania,2011,9.49
-THA,Thailand,2011,23.17
-AFG,Afghanistan,2012,13.41
-ALB,Albania,2012,10.27
-DZA,Algeria,2012,5.6
-ASM,American Samoa,2012,0.1
-AND,Andorra,2012,6.23
-AGO,Angola,2012,16.27
-AIA,Anguilla,2012,0.48
-ATG,Antigua and Barbuda,2012,0.49
-ARG,Argentina,2012,6.68
-ARM,Armenia,2012,16.81
-ABW,Aruba,2012,1.42
-AUS,Australia,2012,2.97
-AUT,Austria,2012,13.03
-AZE,Azerbaijan,2012,15.74
-BHS,Bahamas,2012,1.7
-BHR,Bahrain,2012,17.94
-BGD,Bangladesh,2012,54.26
-BRB,Barbados,2012,0.52
-BLR,Belarus,2012,14.29
-BEL,Belgium,2012,13.77
-BLZ,Belize,2012,4.04
-BEN,Benin,2012,13.48
-BMU,Bermuda,2012,1.13
-BTN,Bhutan,2012,22.94
-BOL,Bolivia,2012,9.54
-BIH,Bosnia and Herzegovina,2012,11.75
-BWA,Botswana,2012,14.3
-BRA,Brazil,2012,8.54
-BRN,Brunei Darussalam,2012,11.73
-BGR,Bulgaria,2012,11.63
-BFA,Burkina Faso,2012,5.81
-BDI,Burundi,2012,21.4
-KHM,Cambodia,2012,16.99
-CMR,Cameroon,2012,13.63
-CAN,Canada,2012,7.0
-CPV,Cape Verde,2012,1.28
-CYM,Cayman Islands,2012,3.08
-CAF,Central African Republic,2012,15.34
-TCD,Chad,2012,5.32
-CHL,Chile,2012,12.64
-CHN,China,2012,39.22
-COL,Colombia,2012,9.99
-COM,Comoros,2012,2.02
-COK,Cook Islands,2012,0.2
-CRI,Costa Rica,2012,3.61
-CIV,Cote d'Ivoire,2012,11.91
-HRV,Croatia,2012,11.67
-CUB,Cuba,2012,4.55
-CYP,Cyprus,2012,7.91
-CZE,Czech Republic,2012,17.09
-COD,Dem. Rep. Congo,2012,23.52
-DNK,Denmark,2012,7.26
-DJI,Djibouti,2012,7.12
-DMA,Dominica,2012,0.8
-DOM,Dominican Republic,2012,3.26
-ECU,Ecuador,2012,14.79
-EGY,Egypt,2012,6.96
-SLV,El Salvador,2012,9.96
-GNQ,Equatorial Guinea,2012,12.39
-ERI,Eritrea,2012,6.13
-EST,Estonia,2012,7.11
-ETH,Ethiopia,2012,12.31
-FRO,Faeroe Islands,2012,1.15
-FLK,Falkland Islands,2012,0.28
-FJI,Fiji,2012,0.19
-FIN,Finland,2012,5.43
-FRA,France,2012,11.53
-GUF,French Guiana,2012,0.86
-PYF,French Polynesia,2012,0.17
-GAB,Gabon,2012,15.2
-GMB,Gambia,2012,4.09
-GEO,Georgia,2012,12.7
-DEU,Germany,2012,12.35
-GHA,Ghana,2012,13.39
-GIB,Gibraltar,2012,8.06
-GRC,Greece,2012,9.13
-GRL,Greenland,2012,0.99
-GRD,Grenada,2012,0.56
-GUM,Guam,2012,0.33
-GTM,Guatemala,2012,10.57
-GIN,Guinea,2012,7.66
-GNB,Guinea-Bissau,2012,5.36
-GUY,Guyana,2012,1.79
-HTI,Haiti,2012,4.08
-HND,Honduras,2012,8.64
-HKG,Hong Kong,2012,25.55
-HUN,Hungary,2012,15.22
-ISL,Iceland,2012,1.1
-IND,India,2012,40.15
-IDN,Indonesia,2012,12.41
-IRN,Iran,2012,12.19
-IRQ,Iraq,2012,14.18
-IRL,Ireland,2012,4.62
-IMN,Isle of Man,2012,6.78
-ISR,Israel,2012,7.8
-ITA,Italy,2012,12.26
-JAM,Jamaica,2012,3.14
-JPN,Japan,2012,8.93
-JOR,Jordan,2012,7.38
-KAZ,Kazakhstan,2012,10.46
-KEN,Kenya,2012,10.19
-KIR,Kiribati,2012,0.11
-KWT,Kuwait,2012,18.91
-KGZ,Kyrgyzstan,2012,10.59
-LAO,Laos,2012,30.13
-LVA,Latvia,2012,9.81
-LBN,Lebanon,2012,8.9
-LSO,Lesotho,2012,11.4
-LBR,Liberia,2012,10.63
-LBY,Libya,2012,3.45
-LIE,Liechtenstein,2012,10.62
-LTU,Lithuania,2012,12.82
-LUX,Luxembourg,2012,10.77
-MAC,Macao,2012,29.25
-MKD,Macedonia,2012,10.83
-MDG,Madagascar,2012,3.46
-MWI,Malawi,2012,13.42
-MYS,Malaysia,2012,15.34
-MDV,Maldives,2012,2.68
-MLI,Mali,2012,4.23
-MLT,Malta,2012,4.82
-MHL,Marshall Islands,2012,0.08
-MTQ,Martinique,2012,0.91
-MRT,Mauritania,2012,1.76
-MUS,Mauritius,2012,0.39
-MYT,Mayotte,2012,2.57
-MEX,Mexico,2012,15.22
-FSM,Micronesia,2012,0.1
-MDA,Moldova,2012,15.36
-MCO,Monaco,2012,10.28
-MNG,Mongolia,2012,5.03
-MNE,Montenegro,2012,9.43
-MSR,Montserrat,2012,0.6
-MAR,Morocco,2012,4.69
-MOZ,Mozambique,2012,8.54
-MMR,Myanmar,2012,21.81
-NAM,Namibia,2012,8.93
-NRU,Nauru,2012,0.1
-NPL,Nepal,2012,42.05
-NLD,Netherlands,2012,12.87
-NCL,New Caledonia,2012,0.35
-NZL,New Zealand,2012,1.63
-NIC,Nicaragua,2012,5.52
-NER,Niger,2012,4.68
-NGA,Nigeria,2012,16.4
-NIU,Niue,2012,0.12
-NFK,Norfolk Island,2012,0.3
-PRK,North Korea,2012,17.47
-MNP,Northern Mariana Islands,2012,0.39
-NOR,Norway,2012,3.65
-OMN,Oman,2012,9.61
-PAK,Pakistan,2012,29.23
-PLW,Palau,2012,0.24
-PAN,Panama,2012,1.92
-PNG,Papua New Guinea,2012,2.14
-PRY,Paraguay,2012,8.37
-PER,Peru,2012,17.11
-PHL,Philippines,2012,8.5
-PCN,Pitcairn,2012,0.18
-POL,Poland,2012,20.33
-PRT,Portugal,2012,6.04
-PRI,Puerto Rico,2012,1.41
-QAT,Qatar,2012,19.76
-COG,Republic of Congo,2012,24.09
-REU,Reunion,2012,0.44
-ROU,Romania,2012,14.65
-RUS,Russia,2012,12.71
-RWA,Rwanda,2012,23.42
-SHN,Saint Helena,2012,0.87
-KNA,Saint Kitts and Nevis,2012,0.56
-LCA,Saint Lucia,2012,0.89
-SPM,Saint Pierre and Miquelon,2012,1.47
-VCT,Saint Vincent and the Grenadines,2012,0.61
-WSM,Samoa,2012,0.1
-SMR,San Marino,2012,11.14
-STP,Sao Tome and Principe,2012,6.52
-SAU,Saudi Arabia,2012,11.32
-SEN,Senegal,2012,3.2
-SRB,Serbia,2012,13.87
-SYC,Seychelles,2012,0.74
-SLE,Sierra Leone,2012,8.77
-SGP,Singapore,2012,15.9
-SVK,Slovakia,2012,17.03
-SVN,Slovenia,2012,11.41
-SLB,Solomon Islands,2012,0.17
-SOM,Somalia,2012,3.46
-ZAF,South Africa,2012,16.5
-KOR,South Korea,2012,18.85
-SSD,South Sudan,2012,9.56
-ESP,Spain,2012,7.87
-LKA,Sri Lanka,2012,7.39
-PSE,State of Palestine,2012,8.16
-SDN,Sudan,2012,5.05
-SUR,Suriname,2012,1.42
-SWZ,Swaziland,2012,14.31
-SWE,Sweden,2012,4.69
-CHE,Switzerland,2012,13.02
-SYR,Syria,2012,10.59
-TWN,Taiwan,2012,14.58
-TJK,Tajikistan,2012,23.89
-TZA,Tanzania,2012,10.88
-THA,Thailand,2012,29.84
-AFG,Afghanistan,2013,13.02
-ALB,Albania,2013,9.69
-DZA,Algeria,2013,5.4
-ASM,American Samoa,2013,0.1
-AND,Andorra,2013,4.65
-AGO,Angola,2013,18.97
-AIA,Anguilla,2013,0.58
-ATG,Antigua and Barbuda,2013,0.59
-ARG,Argentina,2013,7.8
-ARM,Armenia,2013,16.88
-ABW,Aruba,2013,1.39
-AUS,Australia,2013,2.69
-AUT,Austria,2013,14.08
-AZE,Azerbaijan,2013,16.17
-BHS,Bahamas,2013,1.75
-BHR,Bahrain,2013,17.55
-BGD,Bangladesh,2013,48.24
-BRB,Barbados,2013,0.58
-BLR,Belarus,2013,13.52
-BEL,Belgium,2013,12.52
-BLZ,Belize,2013,5.21
-BEN,Benin,2013,13.28
-BMU,Bermuda,2013,1.04
-BTN,Bhutan,2013,21.83
-BOL,Bolivia,2013,10.52
-BIH,Bosnia and Herzegovina,2013,11.02
-BWA,Botswana,2013,14.64
-BRA,Brazil,2013,8.07
-BRN,Brunei Darussalam,2013,8.06
-BGR,Bulgaria,2013,11.78
-BFA,Burkina Faso,2013,4.68
-BDI,Burundi,2013,20.43
-KHM,Cambodia,2013,19.1
-CMR,Cameroon,2013,12.9
-CAN,Canada,2013,6.45
-CPV,Cape Verde,2013,1.09
-CYM,Cayman Islands,2013,2.66
-CAF,Central African Republic,2013,16.25
-TCD,Chad,2013,5.14
-CHL,Chile,2013,12.84
-CHN,China,2013,45.16
-COL,Colombia,2013,8.23
-COM,Comoros,2013,1.91
-COK,Cook Islands,2013,0.2
-CRI,Costa Rica,2013,3.6
-CIV,Cote d'Ivoire,2013,9.73
-HRV,Croatia,2013,11.92
-CUB,Cuba,2013,4.31
-CYP,Cyprus,2013,8.67
-CZE,Czech Republic,2013,17.15
-COD,Dem. Rep. Congo,2013,24.27
-DNK,Denmark,2013,7.21
-DJI,Djibouti,2013,7.08
-DMA,Dominica,2013,0.77
-DOM,Dominican Republic,2013,2.89
-ECU,Ecuador,2013,9.49
-EGY,Egypt,2013,7.79
-SLV,El Salvador,2013,11.24
-GNQ,Equatorial Guinea,2013,11.53
-ERI,Eritrea,2013,7.26
-EST,Estonia,2013,7.18
-ETH,Ethiopia,2013,12.68
-FRO,Faeroe Islands,2013,1.22
-FLK,Falkland Islands,2013,0.27
-FJI,Fiji,2013,0.19
-FIN,Finland,2013,5.28
-FRA,France,2013,11.27
-GUF,French Guiana,2013,0.89
-PYF,French Polynesia,2013,0.19
-GAB,Gabon,2013,16.89
-GMB,Gambia,2013,3.61
-GEO,Georgia,2013,12.75
-DEU,Germany,2013,12.05
-GHA,Ghana,2013,12.66
-GIB,Gibraltar,2013,9.39
-GRC,Greece,2013,9.79
-GRL,Greenland,2013,0.96
-GRD,Grenada,2013,0.59
-GUM,Guam,2013,0.4
-GTM,Guatemala,2013,12.33
-GIN,Guinea,2013,5.25
-GNB,Guinea-Bissau,2013,4.63
-GUY,Guyana,2013,1.58
-HTI,Haiti,2013,3.75
-HND,Honduras,2013,9.77
-HKG,Hong Kong,2013,26.41
-HUN,Hungary,2013,15.39
-ISL,Iceland,2013,1.2
-IND,India,2013,44.93
-IDN,Indonesia,2013,10.36
-IRN,Iran,2013,12.02
-IRQ,Iraq,2013,12.9
-IRL,Ireland,2013,5.01
-IMN,Isle of Man,2013,7.34
-ISR,Israel,2013,8.65
-ITA,Italy,2013,11.93
-JAM,Jamaica,2013,2.68
-JPN,Japan,2013,11.78
-JOR,Jordan,2013,7.78
-KAZ,Kazakhstan,2013,12.0
-KEN,Kenya,2013,9.92
-KIR,Kiribati,2013,0.16
-KWT,Kuwait,2013,17.86
-KGZ,Kyrgyzstan,2013,13.55
-LAO,Laos,2013,32.7
-LVA,Latvia,2013,9.57
-LBN,Lebanon,2013,9.0
-LSO,Lesotho,2013,13.52
-LBR,Liberia,2013,7.02
-LBY,Libya,2013,4.19
-LIE,Liechtenstein,2013,9.1
-LTU,Lithuania,2013,11.82
-LUX,Luxembourg,2013,11.06
-MAC,Macao,2013,30.2
-MKD,Macedonia,2013,10.08
-MDG,Madagascar,2013,4.36
-MWI,Malawi,2013,11.07
-MYS,Malaysia,2013,13.43
-MDV,Maldives,2013,2.39
-MLI,Mali,2013,3.07
-MLT,Malta,2013,4.78
-MHL,Marshall Islands,2013,0.13
-MTQ,Martinique,2013,0.89
-MRT,Mauritania,2013,1.47
-MUS,Mauritius,2013,0.4
-MYT,Mayotte,2013,2.4
-MEX,Mexico,2013,15.7
-FSM,Micronesia,2013,0.2
-MDA,Moldova,2013,14.5
-MCO,Monaco,2013,10.1
-MNG,Mongolia,2013,5.42
-MNE,Montenegro,2013,8.23
-MSR,Montserrat,2013,0.64
-MAR,Morocco,2013,5.86
-MOZ,Mozambique,2013,8.44
-MMR,Myanmar,2013,25.91
-NAM,Namibia,2013,9.9
-NRU,Nauru,2013,0.2
-NPL,Nepal,2013,41.38
-NLD,Netherlands,2013,10.91
-NCL,New Caledonia,2013,0.43
-NZL,New Zealand,2013,1.65
-NIC,Nicaragua,2013,5.07
-NER,Niger,2013,4.01
-NGA,Nigeria,2013,15.68
-NIU,Niue,2013,0.2
-NFK,Norfolk Island,2013,0.4
-PRK,North Korea,2013,22.89
-MNP,Northern Mariana Islands,2013,0.39
-NOR,Norway,2013,3.45
-OMN,Oman,2013,9.41
-PAK,Pakistan,2013,30.71
-PLW,Palau,2013,0.32
-PAN,Panama,2013,1.59
-PNG,Papua New Guinea,2013,1.73
-PRY,Paraguay,2013,6.76
-PER,Peru,2013,16.71
-PHL,Philippines,2013,8.05
-PCN,Pitcairn,2013,0.2
-POL,Poland,2013,18.85
-PRT,Portugal,2013,6.62
-PRI,Puerto Rico,2013,1.5
-QAT,Qatar,2013,20.58
-COG,Republic of Congo,2013,26.93
-REU,Reunion,2013,0.48
-ROU,Romania,2013,14.36
-RUS,Russia,2013,13.51
-RWA,Rwanda,2013,21.53
-SHN,Saint Helena,2013,1.3
-KNA,Saint Kitts and Nevis,2013,0.61
-LCA,Saint Lucia,2013,0.92
-SPM,Saint Pierre and Miquelon,2013,1.65
-VCT,Saint Vincent and the Grenadines,2013,0.61
-WSM,Samoa,2013,0.19
-SMR,San Marino,2013,10.89
-STP,Sao Tome and Principe,2013,9.41
-SAU,Saudi Arabia,2013,11.67
-SEN,Senegal,2013,2.82
-SRB,Serbia,2013,12.79
-SYC,Seychelles,2013,0.61
-SLE,Sierra Leone,2013,5.69
-SGP,Singapore,2013,14.36
-SVK,Slovakia,2013,17.43
-SVN,Slovenia,2013,12.71
-SLB,Solomon Islands,2013,0.24
-SOM,Somalia,2013,2.97
-ZAF,South Africa,2013,17.66
-KOR,South Korea,2013,26.15
-SSD,South Sudan,2013,10.2
-ESP,Spain,2013,6.89
-LKA,Sri Lanka,2013,8.05
-PSE,State of Palestine,2013,9.04
-SDN,Sudan,2013,5.95
-SUR,Suriname,2013,1.25
-SWZ,Swaziland,2013,16.61
-SWE,Sweden,2013,5.01
-CHE,Switzerland,2013,11.36
-SYR,Syria,2013,11.31
-TWN,Taiwan,2013,16.47
-TJK,Tajikistan,2013,27.33
-TZA,Tanzania,2013,11.11
-THA,Thailand,2013,33.19
-AFG,Afghanistan,2014,12.2
-ALB,Albania,2014,9.35
-DZA,Algeria,2014,6.05
-ASM,American Samoa,2014,0.2
-AND,Andorra,2014,4.82
-AGO,Angola,2014,16.11
-AIA,Anguilla,2014,0.4
-ATG,Antigua and Barbuda,2014,0.42
-ARG,Argentina,2014,7.18
-ARM,Armenia,2014,15.59
-ABW,Aruba,2014,1.29
-AUS,Australia,2014,2.55
-AUT,Austria,2014,15.4
-AZE,Azerbaijan,2014,16.93
-BHS,Bahamas,2014,1.66
-BHR,Bahrain,2014,13.3
-BGD,Bangladesh,2014,58.19
-BRB,Barbados,2014,0.52
-BLR,Belarus,2014,15.02
-BEL,Belgium,2014,13.23
-BLZ,Belize,2014,2.7
-BEN,Benin,2014,9.99
-BMU,Bermuda,2014,1.13
-BTN,Bhutan,2014,24.21
-BOL,Bolivia,2014,10.28
-BIH,Bosnia and Herzegovina,2014,12.1
-BWA,Botswana,2014,13.39
-BRA,Brazil,2014,8.63
-BRN,Brunei Darussalam,2014,7.24
-BGR,Bulgaria,2014,11.88
-BFA,Burkina Faso,2014,5.2
-BDI,Burundi,2014,18.91
-KHM,Cambodia,2014,18.2
-CMR,Cameroon,2014,12.4
-CAN,Canada,2014,6.42
-CPV,Cape Verde,2014,1.09
-CYM,Cayman Islands,2014,2.34
-CAF,Central African Republic,2014,14.71
-TCD,Chad,2014,4.39
-CHL,Chile,2014,12.65
-CHN,China,2014,43.03
-COL,Colombia,2014,7.64
-COM,Comoros,2014,1.96
-COK,Cook Islands,2014,0.2
-CRI,Costa Rica,2014,4.61
-CIV,Cote d'Ivoire,2014,7.76
-HRV,Croatia,2014,13.16
-CUB,Cuba,2014,3.45
-CYP,Cyprus,2014,9.35
-CZE,Czech Republic,2014,18.57
-COD,Dem. Rep. Congo,2014,22.47
-DNK,Denmark,2014,11.59
-DJI,Djibouti,2014,6.3
-DMA,Dominica,2014,0.67
-DOM,Dominican Republic,2014,2.74
-ECU,Ecuador,2014,7.3
-EGY,Egypt,2014,7.64
-SLV,El Salvador,2014,6.98
-GNQ,Equatorial Guinea,2014,13.76
-ERI,Eritrea,2014,5.51
-EST,Estonia,2014,10.77
-ETH,Ethiopia,2014,10.77
-FRO,Faeroe Islands,2014,1.69
-FLK,Falkland Islands,2014,0.27
-FJI,Fiji,2014,0.19
-FIN,Finland,2014,8.76
-FRA,France,2014,11.19
-GUF,French Guiana,2014,0.75
-PYF,French Polynesia,2014,0.2
-GAB,Gabon,2014,18.19
-GMB,Gambia,2014,3.47
-GEO,Georgia,2014,13.47
-DEU,Germany,2014,15.1
-GHA,Ghana,2014,9.99
-GIB,Gibraltar,2014,9.17
-GRC,Greece,2014,10.39
-GRL,Greenland,2014,1.46
-GRD,Grenada,2014,0.54
-GUM,Guam,2014,0.4
-GTM,Guatemala,2014,7.53
-GIN,Guinea,2014,4.56
-GNB,Guinea-Bissau,2014,3.93
-GUY,Guyana,2014,1.21
-HTI,Haiti,2014,3.7
-HND,Honduras,2014,4.89
-HKG,Hong Kong,2014,27.84
-HUN,Hungary,2014,15.54
-ISL,Iceland,2014,1.35
-IND,India,2014,47.34
-IDN,Indonesia,2014,12.73
-IRN,Iran,2014,11.36
-IRQ,Iraq,2014,8.43
-IRL,Ireland,2014,4.61
-IMN,Isle of Man,2014,6.83
-ISR,Israel,2014,8.52
-ITA,Italy,2014,20.24
-JAM,Jamaica,2014,2.42
-JPN,Japan,2014,11.81
-JOR,Jordan,2014,7.7
-KAZ,Kazakhstan,2014,9.52
-KEN,Kenya,2014,9.81
-KIR,Kiribati,2014,0.16
-KWT,Kuwait,2014,11.37
-KGZ,Kyrgyzstan,2014,10.68
-LAO,Laos,2014,33.11
-LVA,Latvia,2014,13.02
-LBN,Lebanon,2014,9.09
-LSO,Lesotho,2014,16.09
-LBR,Liberia,2014,5.52
-LBY,Libya,2014,3.29
-LIE,Liechtenstein,2014,15.83
-LTU,Lithuania,2014,14.92
-LUX,Luxembourg,2014,11.83
-MAC,Macao,2014,33.34
-MKD,Macedonia,2014,11.28
-MDG,Madagascar,2014,3.85
-MWI,Malawi,2014,11.33
-MYS,Malaysia,2014,14.2
-MDV,Maldives,2014,2.02
-MLI,Mali,2014,3.14
-MLT,Malta,2014,4.32
-MHL,Marshall Islands,2014,0.11
-MTQ,Martinique,2014,0.71
-MRT,Mauritania,2014,1.58
-MUS,Mauritius,2014,0.4
-MYT,Mayotte,2014,2.41
-MEX,Mexico,2014,12.5
-FSM,Micronesia,2014,0.18
-MDA,Moldova,2014,14.02
-MCO,Monaco,2014,12.38
-MNG,Mongolia,2014,4.72
-MNE,Montenegro,2014,8.2
-MSR,Montserrat,2014,0.5
-MAR,Morocco,2014,6.13
-MOZ,Mozambique,2014,7.82
-MMR,Myanmar,2014,25.74
-NAM,Namibia,2014,8.53
-NRU,Nauru,2014,0.1
-NPL,Nepal,2014,46.73
-NLD,Netherlands,2014,14.01
-NCL,New Caledonia,2014,0.35
-NZL,New Zealand,2014,1.61
-NIC,Nicaragua,2014,3.04
-NER,Niger,2014,4.04
-NGA,Nigeria,2014,14.45
-NIU,Niue,2014,0.2
-NFK,Norfolk Island,2014,0.3
-PRK,North Korea,2014,22.94
-MNP,Northern Mariana Islands,2014,0.39
-NOR,Norway,2014,5.29
-OMN,Oman,2014,7.73
-PAK,Pakistan,2014,30.74
-PLW,Palau,2014,0.32
-PAN,Panama,2014,1.61
-PNG,Papua New Guinea,2014,1.56
-PRY,Paraguay,2014,7.76
-PER,Peru,2014,15.6
-PHL,Philippines,2014,8.34
-PCN,Pitcairn,2014,0.2
-POL,Poland,2014,19.83
-PRT,Portugal,2014,7.29
-PRI,Puerto Rico,2014,1.23
-QAT,Qatar,2014,14.48
-COG,Republic of Congo,2014,26.94
-REU,Reunion,2014,0.45
-ROU,Romania,2014,14.0
-RUS,Russia,2014,12.39
-RWA,Rwanda,2014,19.52
-SHN,Saint Helena,2014,1.0
-KNA,Saint Kitts and Nevis,2014,0.47
-LCA,Saint Lucia,2014,0.77
-SPM,Saint Pierre and Miquelon,2014,1.62
-VCT,Saint Vincent and the Grenadines,2014,0.6
-WSM,Samoa,2014,0.2
-SMR,San Marino,2014,20.05
-STP,Sao Tome and Principe,2014,10.31
-SAU,Saudi Arabia,2014,9.04
-SEN,Senegal,2014,2.88
-SRB,Serbia,2014,13.69
-SYC,Seychelles,2014,0.57
-SLE,Sierra Leone,2014,4.6
-SGP,Singapore,2014,12.98
-SVK,Slovakia,2014,16.94
-SVN,Slovenia,2014,14.91
-SLB,Solomon Islands,2014,0.27
-SOM,Somalia,2014,2.77
-ZAF,South Africa,2014,17.46
-KOR,South Korea,2014,24.87
-SSD,South Sudan,2014,8.14
-ESP,Spain,2014,7.67
-LKA,Sri Lanka,2014,7.12
-PSE,State of Palestine,2014,8.84
-SDN,Sudan,2014,4.83
-SUR,Suriname,2014,0.82
-SWZ,Swaziland,2014,14.28
-SWE,Sweden,2014,11.06
-CHE,Switzerland,2014,17.88
-SYR,Syria,2014,10.39
-TWN,Taiwan,2014,16.17
-TJK,Tajikistan,2014,25.92
-TZA,Tanzania,2014,10.07
-THA,Thailand,2014,32.51
-AFG,Afghanistan,2015,15.23
-ALB,Albania,2015,11.8
-DZA,Algeria,2015,8.62
-ASM,American Samoa,2015,0.3
-AND,Andorra,2015,5.48
-AGO,Angola,2015,17.97
-AIA,Anguilla,2015,0.44
-ATG,Antigua and Barbuda,2015,0.55
-ARG,Argentina,2015,8.5
-ARM,Armenia,2015,18.15
-ABW,Aruba,2015,1.59
-AUS,Australia,2015,3.03
-AUT,Austria,2015,14.08
-AZE,Azerbaijan,2015,20.12
-BHS,Bahamas,2015,1.38
-BHR,Bahrain,2015,17.5
-BGD,Bangladesh,2015,60.27
-BRB,Barbados,2015,0.69
-BLR,Belarus,2015,15.75
-BEL,Belgium,2015,13.51
-BLZ,Belize,2015,2.19
-BEN,Benin,2015,13.21
-BMU,Bermuda,2015,0.86
-BTN,Bhutan,2015,23.92
-BOL,Bolivia,2015,7.59
-BIH,Bosnia and Herzegovina,2015,13.4
-BWA,Botswana,2015,20.32
-BRA,Brazil,2015,9.6
-BRN,Brunei Darussalam,2015,9.71
-BGR,Bulgaria,2015,12.43
-BFA,Burkina Faso,2015,6.16
-BDI,Burundi,2015,19.86
-KHM,Cambodia,2015,17.49
-CMR,Cameroon,2015,13.66
-CAN,Canada,2015,7.4
-CPV,Cape Verde,2015,1.68
-CYM,Cayman Islands,2015,2.08
-CAF,Central African Republic,2015,15.9
-TCD,Chad,2015,5.98
-CHL,Chile,2015,15.42
-CHN,China,2015,43.75
-COL,Colombia,2015,7.12
-COM,Comoros,2015,2.2
-COK,Cook Islands,2015,0.29
-CRI,Costa Rica,2015,3.28
-CIV,Cote d'Ivoire,2015,12.2
-HRV,Croatia,2015,15.0
-CUB,Cuba,2015,2.91
-CYP,Cyprus,2015,12.42
-CZE,Czech Republic,2015,19.12
-COD,Dem. Rep. Congo,2015,27.65
-DNK,Denmark,2015,8.79
-DJI,Djibouti,2015,8.76
-DMA,Dominica,2015,1.02
-DOM,Dominican Republic,2015,2.85
-ECU,Ecuador,2015,7.4
-EGY,Egypt,2015,10.88
-SLV,El Salvador,2015,7.76
-GNQ,Equatorial Guinea,2015,13.8
-ERI,Eritrea,2015,7.4
-EST,Estonia,2015,6.26
-ETH,Ethiopia,2015,17.26
-FRO,Faeroe Islands,2015,0.97
-FLK,Falkland Islands,2015,0.28
-FJI,Fiji,2015,0.2
-FIN,Finland,2015,5.33
-FRA,France,2015,10.7
-GUF,French Guiana,2015,0.9
-PYF,French Polynesia,2015,0.37
-GAB,Gabon,2015,18.0
-GMB,Gambia,2015,4.93
-GEO,Georgia,2015,14.78
-DEU,Germany,2015,13.12
-GHA,Ghana,2015,13.67
-GIB,Gibraltar,2015,11.02
-GRC,Greece,2015,11.48
-GRL,Greenland,2015,0.64
-GRD,Grenada,2015,0.8
-GUM,Guam,2015,0.59
-GTM,Guatemala,2015,7.94
-GIN,Guinea,2015,7.06
-GNB,Guinea-Bissau,2015,6.17
-GUY,Guyana,2015,1.48
-HTI,Haiti,2015,3.79
-HND,Honduras,2015,4.9
-HKG,Hong Kong,2015,23.68
-HUN,Hungary,2015,20.29
-ISL,Iceland,2015,1.01
-IND,India,2015,49.18
-IDN,Indonesia,2015,16.35
-IRN,Iran,2015,12.31
-IRQ,Iraq,2015,12.69
-IRL,Ireland,2015,3.9
-IMN,Isle of Man,2015,5.82
-ISR,Israel,2015,9.81
-ITA,Italy,2015,15.72
-JAM,Jamaica,2015,2.14
-JPN,Japan,2015,12.93
-JOR,Jordan,2015,8.9
-KAZ,Kazakhstan,2015,11.0
-KEN,Kenya,2015,9.53
-KIR,Kiribati,2015,0.27
-KWT,Kuwait,2015,18.92
-KGZ,Kyrgyzstan,2015,12.87
-LAO,Laos,2015,26.87
-LVA,Latvia,2015,9.14
-LBN,Lebanon,2015,11.38
-LSO,Lesotho,2015,17.95
-LBR,Liberia,2015,9.3
-LBY,Libya,2015,6.51
-LIE,Liechtenstein,2015,8.21
-LTU,Lithuania,2015,12.56
-LUX,Luxembourg,2015,10.91
-MAC,Macao,2015,27.93
-MKD,Macedonia,2015,11.48
-MDG,Madagascar,2015,4.74
-MWI,Malawi,2015,12.42
-MYS,Malaysia,2015,17.85
-MDV,Maldives,2015,1.73
-MLI,Mali,2015,4.38
-MLT,Malta,2015,7.13
-MHL,Marshall Islands,2015,0.18
-MTQ,Martinique,2015,1.02
-MRT,Mauritania,2015,2.13
-MUS,Mauritius,2015,0.37
-MYT,Mayotte,2015,2.64
-MEX,Mexico,2015,12.02
-FSM,Micronesia,2015,0.33
-MDA,Moldova,2015,15.98
-MCO,Monaco,2015,10.75
-MNG,Mongolia,2015,6.46
-MNE,Montenegro,2015,10.09
-MSR,Montserrat,2015,0.7
-MAR,Morocco,2015,9.14
-MOZ,Mozambique,2015,9.04
-MMR,Myanmar,2015,22.91
-NAM,Namibia,2015,11.39
-NRU,Nauru,2015,0.5
-NPL,Nepal,2015,47.74
-NLD,Netherlands,2015,13.36
-NCL,New Caledonia,2015,0.38
-NZL,New Zealand,2015,1.55
-NIC,Nicaragua,2015,2.49
-NER,Niger,2015,5.69
-NGA,Nigeria,2015,16.13
-NIU,Niue,2015,0.3
-NFK,Norfolk Island,2015,0.3
-PRK,North Korea,2015,29.07
-MNP,Northern Mariana Islands,2015,0.67
-NOR,Norway,2015,3.22
-OMN,Oman,2015,10.2
-PAK,Pakistan,2015,33.98
-PLW,Palau,2015,0.97
-PAN,Panama,2015,1.8
-PNG,Papua New Guinea,2015,1.72
-PRY,Paraguay,2015,11.67
-PER,Peru,2015,14.55
-PHL,Philippines,2015,8.14
-PCN,Pitcairn,2015,0.3
-POL,Poland,2015,22.19
-PRT,Portugal,2015,6.55
-PRI,Puerto Rico,2015,1.32
-QAT,Qatar,2015,19.43
-COG,Republic of Congo,2015,28.24
-REU,Reunion,2015,0.41
-ROU,Romania,2015,16.07
-RUS,Russia,2015,13.2
-RWA,Rwanda,2015,21.44
-SHN,Saint Helena,2015,0.65
-KNA,Saint Kitts and Nevis,2015,0.6
-LCA,Saint Lucia,2015,1.03
-SPM,Saint Pierre and Miquelon,2015,1.65
-VCT,Saint Vincent and the Grenadines,2015,0.79
-WSM,Samoa,2015,0.31
-SMR,San Marino,2015,14.4
-STP,Sao Tome and Principe,2015,9.55
-SAU,Saudi Arabia,2015,13.85
-SEN,Senegal,2015,4.11
-SRB,Serbia,2015,15.27
-SYC,Seychelles,2015,0.48
-SLE,Sierra Leone,2015,7.73
-SGP,Singapore,2015,27.51
-SVK,Slovakia,2015,20.84
-SVN,Slovenia,2015,14.83
-SLB,Solomon Islands,2015,0.77
-SOM,Somalia,2015,3.86
-ZAF,South Africa,2015,23.21
-KOR,South Korea,2015,28.32
-SSD,South Sudan,2015,12.04
-ESP,Spain,2015,8.0
-LKA,Sri Lanka,2015,6.28
-PSE,State of Palestine,2015,10.18
-SDN,Sudan,2015,5.82
-SUR,Suriname,2015,1.02
-SWZ,Swaziland,2015,19.61
-SWE,Sweden,2015,5.89
-CHE,Switzerland,2015,10.96
-SYR,Syria,2015,13.35
-TWN,Taiwan,2015,16.28
-TJK,Tajikistan,2015,29.77
-TZA,Tanzania,2015,9.64
-THA,Thailand,2015,27.51
+iso3,country,region,year,pm25_concentration
+AFG,Afghanistan,Asia,2008,13.26
+ALB,Albania,Europe,2008,9.91
+DZA,Algeria,Africa,2008,6.14
+ASM,American Samoa,Oceania,2008,0.1
+AND,Andorra,Europe,2008,5.7
+AGO,Angola,Africa,2008,14.96
+AIA,Anguilla,North America,2008,0.41
+ATG,Antigua and Barbuda,North America,2008,0.52
+ARG,Argentina,South America,2008,7.47
+ARM,Armenia,Asia,2008,16.65
+ABW,Aruba,North America,2008,1.21
+AUS,Australia,Oceania,2008,2.46
+AUT,Austria,Europe,2008,12.6
+AZE,Azerbaijan,Asia,2008,16.58
+BHS,Bahamas,North America,2008,1.68
+BHR,Bahrain,Asia,2008,19.05
+BGD,Bangladesh,Asia,2008,47.49
+BRB,Barbados,North America,2008,0.53
+BLR,Belarus,Europe,2008,12.32
+BEL,Belgium,Europe,2008,13.12
+BLZ,Belize,North America,2008,2.17
+BEN,Benin,Africa,2008,11.64
+BMU,Bermuda,North America,2008,1.22
+BTN,Bhutan,Asia,2008,20.62
+BOL,Bolivia,South America,2008,8.79
+BIH,Bosnia and Herzegovina,Europe,2008,10.31
+BWA,Botswana,Africa,2008,15.14
+BRA,Brazil,South America,2008,7.68
+BRN,Brunei Darussalam,Asia,2008,7.89
+BGR,Bulgaria,Europe,2008,11.66
+BFA,Burkina Faso,Africa,2008,4.23
+BDI,Burundi,Africa,2008,17.47
+KHM,Cambodia,Asia,2008,15.56
+CMR,Cameroon,Africa,2008,11.78
+CAN,Canada,North America,2008,6.7
+CPV,Cape Verde,Africa,2008,1.29
+CYM,Cayman Islands,North America,2008,1.94
+CAF,Central African Republic,Africa,2008,14.13
+TCD,Chad,Africa,2008,4.98
+CHL,Chile,South America,2008,13.14
+CHN,China,Asia,2008,44.45
+COL,Colombia,South America,2008,6.52
+COM,Comoros,Africa,2008,1.56
+COK,Cook Islands,Oceania,2008,0.2
+CRI,Costa Rica,North America,2008,3.03
+CIV,Cote d'Ivoire,Africa,2008,9.29
+HRV,Croatia,Europe,2008,10.61
+CUB,Cuba,North America,2008,2.83
+CYP,Cyprus,Asia,2008,8.76
+CZE,Czech Republic,Europe,2008,15.12
+COD,Dem. Rep. Congo,Africa,2008,19.95
+DNK,Denmark,Europe,2008,6.82
+DJI,Djibouti,Africa,2008,6.92
+DMA,Dominica,North America,2008,0.8
+DOM,Dominican Republic,North America,2008,2.74
+ECU,Ecuador,South America,2008,7.07
+EGY,Egypt,Africa,2008,7.91
+SLV,El Salvador,North America,2008,7.61
+GNQ,Equatorial Guinea,Africa,2008,12.0
+ERI,Eritrea,Africa,2008,6.47
+EST,Estonia,Europe,2008,7.04
+ETH,Ethiopia,Africa,2008,10.82
+FRO,Faeroe Islands,Europe,2008,1.5
+FLK,Falkland Islands,South America,2008,0.29
+FJI,Fiji,Oceania,2008,0.18
+FIN,Finland,Europe,2008,5.84
+FRA,France,Europe,2008,11.02
+GUF,French Guiana,South America,2008,0.8
+PYF,French Polynesia,Oceania,2008,0.15
+GAB,Gabon,Africa,2008,16.52
+GMB,Gambia,Africa,2008,3.82
+GEO,Georgia,Asia,2008,14.24
+DEU,Germany,Europe,2008,11.74
+GHA,Ghana,Africa,2008,11.94
+GIB,Gibraltar,Europe,2008,8.14
+GRC,Greece,Europe,2008,10.5
+GRL,Greenland,North America,2008,1.17
+GRD,Grenada,North America,2008,0.58
+GUM,Guam,Oceania,2008,0.3
+GTM,Guatemala,North America,2008,8.25
+GIN,Guinea,Africa,2008,5.92
+GNB,Guinea-Bissau,Africa,2008,4.28
+GUY,Guyana,South America,2008,1.31
+HTI,Haiti,North America,2008,3.69
+HND,Honduras,North America,2008,5.79
+HKG,Hong Kong,Asia,2008,31.87
+HUN,Hungary,Europe,2008,12.82
+ISL,Iceland,Europe,2008,1.26
+IND,India,Asia,2008,47.23
+IDN,Indonesia,Asia,2008,10.3
+IRN,Iran,Asia,2008,12.04
+IRQ,Iraq,Asia,2008,15.19
+IRL,Ireland,Europe,2008,5.23
+IMN,Isle of Man,Europe,2008,6.88
+ISR,Israel,Asia,2008,8.61
+ITA,Italy,Europe,2008,11.95
+JAM,Jamaica,North America,2008,2.09
+JPN,Japan,Asia,2008,12.68
+JOR,Jordan,Asia,2008,8.1
+KAZ,Kazakhstan,Asia,2008,10.07
+KEN,Kenya,Africa,2008,8.09
+KIR,Kiribati,Oceania,2008,0.19
+KWT,Kuwait,Asia,2008,21.42
+KGZ,Kyrgyzstan,Asia,2008,12.56
+LAO,Laos,Asia,2008,23.31
+LVA,Latvia,Europe,2008,8.81
+LBN,Lebanon,Asia,2008,9.94
+LSO,Lesotho,Africa,2008,11.41
+LBR,Liberia,Africa,2008,6.87
+LBY,Libya,Africa,2008,4.09
+LIE,Liechtenstein,Europe,2008,9.76
+LTU,Lithuania,Europe,2008,10.71
+LUX,Luxembourg,Europe,2008,10.12
+MAC,Macao,Asia,2008,37.75
+MKD,Macedonia,Europe,2008,10.6
+MDG,Madagascar,Africa,2008,2.75
+MWI,Malawi,Africa,2008,11.17
+MYS,Malaysia,Asia,2008,13.07
+MDV,Maldives,Asia,2008,2.2
+MLI,Mali,Africa,2008,3.07
+MLT,Malta,Europe,2008,4.22
+MHL,Marshall Islands,Oceania,2008,0.08
+MTQ,Martinique,North America,2008,0.85
+MRT,Mauritania,Africa,2008,1.84
+MUS,Mauritius,Africa,2008,0.3
+MYT,Mayotte,Africa,2008,1.8
+MEX,Mexico,North America,2008,13.18
+FSM,Micronesia,Oceania,2008,0.1
+MDA,Moldova,Europe,2008,10.74
+MCO,Monaco,Europe,2008,10.38
+MNG,Mongolia,Asia,2008,5.77
+MNE,Montenegro,Europe,2008,8.2
+MSR,Montserrat,North America,2008,0.7
+MAR,Morocco,Africa,2008,5.48
+MOZ,Mozambique,Africa,2008,8.88
+MMR,Myanmar,Asia,2008,19.55
+NAM,Namibia,Africa,2008,9.29
+NRU,Nauru,Oceania,2008,0.2
+NPL,Nepal,Asia,2008,42.25
+NLD,Netherlands,Europe,2008,12.78
+NCL,New Caledonia,Oceania,2008,0.33
+NZL,New Zealand,Oceania,2008,1.54
+NIC,Nicaragua,North America,2008,3.07
+NER,Niger,Africa,2008,4.19
+NGA,Nigeria,Africa,2008,14.67
+NIU,Niue,Oceania,2008,0.1
+NFK,Norfolk Island,Oceania,2008,0.3
+PRK,North Korea,Asia,2008,22.73
+MNP,Northern Mariana Islands,Oceania,2008,0.39
+NOR,Norway,Europe,2008,4.16
+OMN,Oman,Asia,2008,10.67
+PAK,Pakistan,Asia,2008,33.59
+PLW,Palau,Oceania,2008,0.19
+PAN,Panama,North America,2008,1.43
+PNG,Papua New Guinea,Oceania,2008,0.99
+PRY,Paraguay,South America,2008,7.49
+PER,Peru,South America,2008,13.79
+PHL,Philippines,Asia,2008,7.66
+PCN,Pitcairn,Unknown,2008,0.2
+POL,Poland,Europe,2008,16.22
+PRT,Portugal,Europe,2008,6.76
+PRI,Puerto Rico,North America,2008,1.35
+QAT,Qatar,Asia,2008,22.1
+COG,Republic of Congo,Africa,2008,22.7
+REU,Reunion,Africa,2008,0.4
+ROU,Romania,Europe,2008,12.07
+RUS,Russia,Europe,2008,11.92
+RWA,Rwanda,Africa,2008,18.97
+SHN,Saint Helena,Africa,2008,0.86
+KNA,Saint Kitts and Nevis,North America,2008,0.6
+LCA,Saint Lucia,North America,2008,0.87
+SPM,Saint Pierre and Miquelon,North America,2008,1.67
+VCT,Saint Vincent and the Grenadines,North America,2008,0.61
+WSM,Samoa,Oceania,2008,0.1
+SMR,San Marino,Europe,2008,10.25
+STP,Sao Tome and Principe,Africa,2008,8.82
+SAU,Saudi Arabia,Asia,2008,12.21
+SEN,Senegal,Africa,2008,3.24
+SRB,Serbia,Europe,2008,11.59
+SYC,Seychelles,Africa,2008,0.46
+SLE,Sierra Leone,Africa,2008,6.29
+SGP,Singapore,Asia,2008,14.3
+SVK,Slovakia,Europe,2008,14.23
+SVN,Slovenia,Europe,2008,12.03
+SLB,Solomon Islands,Oceania,2008,0.21
+SOM,Somalia,Africa,2008,3.52
+ZAF,South Africa,Africa,2008,17.44
+KOR,South Korea,Asia,2008,23.5
+SSD,South Sudan,Africa,2008,8.55
+ESP,Spain,Europe,2008,7.93
+LKA,Sri Lanka,Asia,2008,8.26
+PSE,State of Palestine,Asia,2008,9.07
+SDN,Sudan,Africa,2008,4.8
+SUR,Suriname,South America,2008,1.02
+SWZ,Swaziland,Africa,2008,16.56
+SWE,Sweden,Europe,2008,5.4
+CHE,Switzerland,Europe,2008,11.96
+SYR,Syria,Asia,2008,12.0
+TWN,Taiwan,Asia,2008,17.26
+TJK,Tajikistan,Asia,2008,29.57
+TZA,Tanzania,Africa,2008,8.98
+THA,Thailand,Asia,2008,26.72
+AFG,Afghanistan,Asia,2009,10.51
+ALB,Albania,Europe,2009,9.01
+DZA,Algeria,Africa,2009,4.66
+ASM,American Samoa,Oceania,2009,0.1
+AND,Andorra,Europe,2009,5.48
+AGO,Angola,Africa,2009,14.98
+AIA,Anguilla,North America,2009,0.48
+ATG,Antigua and Barbuda,North America,2009,0.5
+ARG,Argentina,South America,2009,7.19
+ARM,Armenia,Asia,2009,14.01
+ABW,Aruba,North America,2009,1.5
+AUS,Australia,Oceania,2009,2.92
+AUT,Austria,Europe,2009,13.91
+AZE,Azerbaijan,Asia,2009,14.25
+BHS,Bahamas,North America,2009,1.38
+BHR,Bahrain,Asia,2009,21.45
+BGD,Bangladesh,Asia,2009,54.68
+BRB,Barbados,North America,2009,0.53
+BLR,Belarus,Europe,2009,14.76
+BEL,Belgium,Europe,2009,13.66
+BLZ,Belize,North America,2009,2.55
+BEN,Benin,Africa,2009,10.89
+BMU,Bermuda,North America,2009,1.03
+BTN,Bhutan,Asia,2009,25.19
+BOL,Bolivia,South America,2009,7.2
+BIH,Bosnia and Herzegovina,Europe,2009,11.07
+BWA,Botswana,Africa,2009,12.64
+BRA,Brazil,South America,2009,7.51
+BRN,Brunei Darussalam,Asia,2009,13.36
+BGR,Bulgaria,Europe,2009,9.64
+BFA,Burkina Faso,Africa,2009,4.27
+BDI,Burundi,Africa,2009,16.0
+KHM,Cambodia,Asia,2009,14.74
+CMR,Cameroon,Africa,2009,12.55
+CAN,Canada,North America,2009,6.35
+CPV,Cape Verde,Africa,2009,1.18
+CYM,Cayman Islands,North America,2009,1.85
+CAF,Central African Republic,Africa,2009,15.19
+TCD,Chad,Africa,2009,6.03
+CHL,Chile,South America,2009,12.87
+CHN,China,Asia,2009,43.99
+COL,Colombia,South America,2009,7.47
+COM,Comoros,Africa,2009,1.69
+COK,Cook Islands,Oceania,2009,0.2
+CRI,Costa Rica,North America,2009,2.82
+CIV,Cote d'Ivoire,Africa,2009,9.21
+HRV,Croatia,Europe,2009,12.13
+CUB,Cuba,North America,2009,2.91
+CYP,Cyprus,Asia,2009,6.21
+CZE,Czech Republic,Europe,2009,18.11
+COD,Dem. Rep. Congo,Africa,2009,20.04
+DNK,Denmark,Europe,2009,8.21
+DJI,Djibouti,Africa,2009,6.42
+DMA,Dominica,North America,2009,0.79
+DOM,Dominican Republic,North America,2009,2.79
+ECU,Ecuador,South America,2009,7.7
+EGY,Egypt,Africa,2009,7.35
+SLV,El Salvador,North America,2009,7.07
+GNQ,Equatorial Guinea,Africa,2009,11.16
+ERI,Eritrea,Africa,2009,6.28
+EST,Estonia,Europe,2009,8.24
+ETH,Ethiopia,Africa,2009,10.44
+FRO,Faeroe Islands,Europe,2009,1.32
+FLK,Falkland Islands,South America,2009,0.27
+FJI,Fiji,Oceania,2009,0.2
+FIN,Finland,Europe,2009,7.11
+FRA,France,Europe,2009,11.6
+GUF,French Guiana,South America,2009,0.63
+PYF,French Polynesia,Oceania,2009,0.11
+GAB,Gabon,Africa,2009,14.47
+GMB,Gambia,Africa,2009,3.59
+GEO,Georgia,Asia,2009,11.43
+DEU,Germany,Europe,2009,12.42
+GHA,Ghana,Africa,2009,12.78
+GIB,Gibraltar,Europe,2009,7.67
+GRC,Greece,Europe,2009,8.01
+GRL,Greenland,North America,2009,0.77
+GRD,Grenada,North America,2009,0.63
+GUM,Guam,Oceania,2009,0.35
+GTM,Guatemala,North America,2009,9.43
+GIN,Guinea,Africa,2009,5.73
+GNB,Guinea-Bissau,Africa,2009,4.0
+GUY,Guyana,South America,2009,1.22
+HTI,Haiti,North America,2009,3.62
+HND,Honduras,North America,2009,5.78
+HKG,Hong Kong,Asia,2009,31.03
+HUN,Hungary,Europe,2009,16.52
+ISL,Iceland,Europe,2009,1.28
+IND,India,Asia,2009,45.33
+IDN,Indonesia,Asia,2009,11.08
+IRN,Iran,Asia,2009,12.03
+IRQ,Iraq,Asia,2009,14.99
+IRL,Ireland,Europe,2009,4.68
+IMN,Isle of Man,Europe,2009,5.79
+ISR,Israel,Asia,2009,7.43
+ITA,Italy,Europe,2009,12.58
+JAM,Jamaica,North America,2009,2.3
+JPN,Japan,Asia,2009,12.43
+JOR,Jordan,Asia,2009,7.55
+KAZ,Kazakhstan,Asia,2009,9.21
+KEN,Kenya,Africa,2009,7.5
+KIR,Kiribati,Oceania,2009,0.12
+KWT,Kuwait,Asia,2009,20.06
+KGZ,Kyrgyzstan,Asia,2009,10.05
+LAO,Laos,Asia,2009,25.69
+LVA,Latvia,Europe,2009,10.68
+LBN,Lebanon,Asia,2009,8.22
+LSO,Lesotho,Africa,2009,12.74
+LBR,Liberia,Africa,2009,6.95
+LBY,Libya,Africa,2009,3.67
+LIE,Liechtenstein,Europe,2009,9.16
+LTU,Lithuania,Europe,2009,12.78
+LUX,Luxembourg,Europe,2009,10.16
+MAC,Macao,Asia,2009,36.23
+MKD,Macedonia,Europe,2009,8.74
+MDG,Madagascar,Africa,2009,3.33
+MWI,Malawi,Africa,2009,11.27
+MYS,Malaysia,Asia,2009,15.73
+MDV,Maldives,Asia,2009,2.36
+MLI,Mali,Africa,2009,2.85
+MLT,Malta,Europe,2009,4.51
+MHL,Marshall Islands,Oceania,2009,0.08
+MTQ,Martinique,North America,2009,0.9
+MRT,Mauritania,Africa,2009,1.47
+MUS,Mauritius,Africa,2009,0.36
+MYT,Mayotte,Africa,2009,2.12
+MEX,Mexico,North America,2009,13.86
+FSM,Micronesia,Oceania,2009,0.11
+MDA,Moldova,Europe,2009,13.15
+MCO,Monaco,Europe,2009,10.58
+MNG,Mongolia,Asia,2009,5.23
+MNE,Montenegro,Europe,2009,7.6
+MSR,Montserrat,North America,2009,0.6
+MAR,Morocco,Africa,2009,4.57
+MOZ,Mozambique,Africa,2009,8.07
+MMR,Myanmar,Asia,2009,21.66
+NAM,Namibia,Africa,2009,9.2
+NRU,Nauru,Oceania,2009,0.1
+NPL,Nepal,Asia,2009,42.95
+NLD,Netherlands,Europe,2009,12.65
+NCL,New Caledonia,Oceania,2009,0.38
+NZL,New Zealand,Oceania,2009,1.56
+NIC,Nicaragua,North America,2009,3.3
+NER,Niger,Africa,2009,3.6
+NGA,Nigeria,Africa,2009,13.88
+NIU,Niue,Oceania,2009,0.1
+NFK,Norfolk Island,Oceania,2009,0.3
+PRK,North Korea,Asia,2009,24.21
+MNP,Northern Mariana Islands,Oceania,2009,0.39
+NOR,Norway,Europe,2009,4.79
+OMN,Oman,Asia,2009,9.32
+PAK,Pakistan,Asia,2009,28.66
+PLW,Palau,Oceania,2009,0.28
+PAN,Panama,North America,2009,1.54
+PNG,Papua New Guinea,Oceania,2009,1.07
+PRY,Paraguay,South America,2009,7.12
+PER,Peru,South America,2009,13.53
+PHL,Philippines,Asia,2009,9.03
+PCN,Pitcairn,Unknown,2009,0.18
+POL,Poland,Europe,2009,21.22
+PRT,Portugal,Europe,2009,6.72
+PRI,Puerto Rico,North America,2009,1.42
+QAT,Qatar,Asia,2009,24.03
+COG,Republic of Congo,Africa,2009,23.37
+REU,Reunion,Africa,2009,0.4
+ROU,Romania,Europe,2009,13.59
+RUS,Russia,Europe,2009,13.49
+RWA,Rwanda,Africa,2009,17.05
+SHN,Saint Helena,Africa,2009,0.75
+KNA,Saint Kitts and Nevis,North America,2009,0.58
+LCA,Saint Lucia,North America,2009,0.9
+SPM,Saint Pierre and Miquelon,North America,2009,1.45
+VCT,Saint Vincent and the Grenadines,North America,2009,0.61
+WSM,Samoa,Oceania,2009,0.1
+SMR,San Marino,Europe,2009,11.6
+STP,Sao Tome and Principe,Africa,2009,8.57
+SAU,Saudi Arabia,Asia,2009,12.2
+SEN,Senegal,Africa,2009,2.81
+SRB,Serbia,Europe,2009,12.68
+SYC,Seychelles,Africa,2009,0.43
+SLE,Sierra Leone,Africa,2009,6.74
+SGP,Singapore,Asia,2009,19.62
+SVK,Slovakia,Europe,2009,18.44
+SVN,Slovenia,Europe,2009,12.81
+SLB,Solomon Islands,Oceania,2009,0.21
+SOM,Somalia,Africa,2009,3.07
+ZAF,South Africa,Africa,2009,17.78
+KOR,South Korea,Asia,2009,25.64
+SSD,South Sudan,Africa,2009,10.26
+ESP,Spain,Europe,2009,6.91
+LKA,Sri Lanka,Asia,2009,7.45
+PSE,State of Palestine,Asia,2009,8.14
+SDN,Sudan,Africa,2009,5.78
+SUR,Suriname,South America,2009,0.84
+SWZ,Swaziland,Africa,2009,15.79
+SWE,Sweden,Europe,2009,6.35
+CHE,Switzerland,Europe,2009,12.13
+SYR,Syria,Asia,2009,10.75
+TWN,Taiwan,Asia,2009,17.68
+TJK,Tajikistan,Asia,2009,23.28
+TZA,Tanzania,Africa,2009,8.69
+THA,Thailand,Asia,2009,25.67
+AFG,Afghanistan,Asia,2010,11.93
+ALB,Albania,Europe,2010,9.72
+DZA,Algeria,Africa,2010,5.44
+ASM,American Samoa,Oceania,2010,0.1
+AND,Andorra,Europe,2010,5.17
+AGO,Angola,Africa,2010,15.7
+AIA,Anguilla,North America,2010,0.5
+ATG,Antigua and Barbuda,North America,2010,0.54
+ARG,Argentina,South America,2010,6.82
+ARM,Armenia,Asia,2010,18.59
+ABW,Aruba,North America,2010,1.31
+AUS,Australia,Oceania,2010,2.4
+AUT,Austria,Europe,2010,13.7
+AZE,Azerbaijan,Asia,2010,16.94
+BHS,Bahamas,North America,2010,1.55
+BHR,Bahrain,Asia,2010,17.25
+BGD,Bangladesh,Asia,2010,47.67
+BRB,Barbados,North America,2010,0.54
+BLR,Belarus,Europe,2010,16.96
+BEL,Belgium,Europe,2010,15.48
+BLZ,Belize,North America,2010,2.97
+BEN,Benin,Africa,2010,14.34
+BMU,Bermuda,North America,2010,1.13
+BTN,Bhutan,Asia,2010,20.59
+BOL,Bolivia,South America,2010,14.47
+BIH,Bosnia and Herzegovina,Europe,2010,11.64
+BWA,Botswana,Africa,2010,17.73
+BRA,Brazil,South America,2010,8.83
+BRN,Brunei Darussalam,Asia,2010,7.97
+BGR,Bulgaria,Europe,2010,13.09
+BFA,Burkina Faso,Africa,2010,5.08
+BDI,Burundi,Africa,2010,15.6
+KHM,Cambodia,Asia,2010,15.83
+CMR,Cameroon,Africa,2010,15.58
+CAN,Canada,North America,2010,6.58
+CPV,Cape Verde,Africa,2010,0.9
+CYM,Cayman Islands,North America,2010,1.89
+CAF,Central African Republic,Africa,2010,16.76
+TCD,Chad,Africa,2010,5.84
+CHL,Chile,South America,2010,12.32
+CHN,China,Asia,2010,44.12
+COL,Colombia,South America,2010,9.71
+COM,Comoros,Africa,2010,1.89
+COK,Cook Islands,Oceania,2010,0.18
+CRI,Costa Rica,North America,2010,1.84
+CIV,Cote d'Ivoire,Africa,2010,10.61
+HRV,Croatia,Europe,2010,12.43
+CUB,Cuba,North America,2010,2.92
+CYP,Cyprus,Asia,2010,7.39
+CZE,Czech Republic,Europe,2010,21.51
+COD,Dem. Rep. Congo,Africa,2010,20.86
+DNK,Denmark,Europe,2010,8.86
+DJI,Djibouti,Africa,2010,6.92
+DMA,Dominica,North America,2010,0.9
+DOM,Dominican Republic,North America,2010,3.22
+ECU,Ecuador,South America,2010,10.96
+EGY,Egypt,Africa,2010,7.63
+SLV,El Salvador,North America,2010,7.14
+GNQ,Equatorial Guinea,Africa,2010,15.65
+ERI,Eritrea,Africa,2010,6.84
+EST,Estonia,Europe,2010,9.75
+ETH,Ethiopia,Africa,2010,11.97
+FRO,Faeroe Islands,Europe,2010,1.12
+FLK,Falkland Islands,South America,2010,0.29
+FJI,Fiji,Oceania,2010,0.17
+FIN,Finland,Europe,2010,7.49
+FRA,France,Europe,2010,11.63
+GUF,French Guiana,South America,2010,0.57
+PYF,French Polynesia,Oceania,2010,0.11
+GAB,Gabon,Africa,2010,17.57
+GMB,Gambia,Africa,2010,3.75
+GEO,Georgia,Asia,2010,15.46
+DEU,Germany,Europe,2010,15.24
+GHA,Ghana,Africa,2010,14.35
+GIB,Gibraltar,Europe,2010,8.53
+GRC,Greece,Europe,2010,10.68
+GRL,Greenland,North America,2010,0.9
+GRD,Grenada,North America,2010,0.6
+GUM,Guam,Oceania,2010,0.2
+GTM,Guatemala,North America,2010,8.0
+GIN,Guinea,Africa,2010,5.79
+GNB,Guinea-Bissau,Africa,2010,4.24
+GUY,Guyana,South America,2010,1.22
+HTI,Haiti,North America,2010,4.07
+HND,Honduras,North America,2010,6.04
+HKG,Hong Kong,Asia,2010,26.4
+HUN,Hungary,Europe,2010,18.73
+ISL,Iceland,Europe,2010,1.24
+IND,India,Asia,2010,43.17
+IDN,Indonesia,Asia,2010,10.26
+IRN,Iran,Asia,2010,12.42
+IRQ,Iraq,Asia,2010,14.9
+IRL,Ireland,Europe,2010,4.4
+IMN,Isle of Man,Europe,2010,6.17
+ISR,Israel,Asia,2010,7.42
+ITA,Italy,Europe,2010,12.13
+JAM,Jamaica,North America,2010,2.14
+JPN,Japan,Asia,2010,10.92
+JOR,Jordan,Asia,2010,7.05
+KAZ,Kazakhstan,Asia,2010,10.01
+KEN,Kenya,Africa,2010,8.5
+KIR,Kiribati,Oceania,2010,0.16
+KWT,Kuwait,Asia,2010,19.82
+KGZ,Kyrgyzstan,Asia,2010,12.46
+LAO,Laos,Asia,2010,29.48
+LVA,Latvia,Europe,2010,12.79
+LBN,Lebanon,Asia,2010,8.41
+LSO,Lesotho,Africa,2010,14.33
+LBR,Liberia,Africa,2010,6.59
+LBY,Libya,Africa,2010,4.24
+LIE,Liechtenstein,Europe,2010,8.54
+LTU,Lithuania,Europe,2010,15.98
+LUX,Luxembourg,Europe,2010,12.56
+MAC,Macao,Asia,2010,33.34
+MKD,Macedonia,Europe,2010,10.64
+MDG,Madagascar,Africa,2010,3.39
+MWI,Malawi,Africa,2010,11.21
+MYS,Malaysia,Asia,2010,12.25
+MDV,Maldives,Asia,2010,2.46
+MLI,Mali,Africa,2010,3.44
+MLT,Malta,Europe,2010,4.73
+MHL,Marshall Islands,Oceania,2010,0.09
+MTQ,Martinique,North America,2010,0.91
+MRT,Mauritania,Africa,2010,1.59
+MUS,Mauritius,Africa,2010,0.38
+MYT,Mayotte,Africa,2010,2.31
+MEX,Mexico,North America,2010,12.84
+FSM,Micronesia,Oceania,2010,0.11
+MDA,Moldova,Europe,2010,15.99
+MCO,Monaco,Europe,2010,11.15
+MNG,Mongolia,Asia,2010,5.22
+MNE,Montenegro,Europe,2010,8.89
+MSR,Montserrat,North America,2010,0.7
+MAR,Morocco,Africa,2010,5.39
+MOZ,Mozambique,Africa,2010,8.53
+MMR,Myanmar,Asia,2010,20.65
+NAM,Namibia,Africa,2010,9.84
+NRU,Nauru,Oceania,2010,0.2
+NPL,Nepal,Asia,2010,40.35
+NLD,Netherlands,Europe,2010,15.11
+NCL,New Caledonia,Oceania,2010,0.34
+NZL,New Zealand,Oceania,2010,1.59
+NIC,Nicaragua,North America,2010,3.17
+NER,Niger,Africa,2010,4.04
+NGA,Nigeria,Africa,2010,18.12
+NIU,Niue,Oceania,2010,0.1
+NFK,Norfolk Island,Oceania,2010,0.3
+PRK,North Korea,Asia,2010,20.36
+MNP,Northern Mariana Islands,Oceania,2010,0.3
+NOR,Norway,Europe,2010,3.9
+OMN,Oman,Asia,2010,9.51
+PAK,Pakistan,Asia,2010,32.97
+PLW,Palau,Oceania,2010,0.18
+PAN,Panama,North America,2010,1.38
+PNG,Papua New Guinea,Oceania,2010,1.08
+PRY,Paraguay,South America,2010,9.72
+PER,Peru,South America,2010,16.37
+PHL,Philippines,Asia,2010,8.24
+PCN,Pitcairn,Unknown,2010,0.1
+POL,Poland,Europe,2010,26.28
+PRT,Portugal,Europe,2010,6.76
+PRI,Puerto Rico,North America,2010,1.51
+QAT,Qatar,Asia,2010,19.83
+COG,Republic of Congo,Africa,2010,24.74
+REU,Reunion,Africa,2010,0.4
+ROU,Romania,Europe,2010,16.39
+RUS,Russia,Europe,2010,15.04
+RWA,Rwanda,Africa,2010,16.83
+SHN,Saint Helena,Africa,2010,0.84
+KNA,Saint Kitts and Nevis,North America,2010,0.62
+LCA,Saint Lucia,North America,2010,0.85
+SPM,Saint Pierre and Miquelon,North America,2010,1.54
+VCT,Saint Vincent and the Grenadines,North America,2010,0.61
+WSM,Samoa,Oceania,2010,0.1
+SMR,San Marino,Europe,2010,11.18
+STP,Sao Tome and Principe,Africa,2010,8.35
+SAU,Saudi Arabia,Asia,2010,11.17
+SEN,Senegal,Africa,2010,2.92
+SRB,Serbia,Europe,2010,14.42
+SYC,Seychelles,Africa,2010,0.53
+SLE,Sierra Leone,Africa,2010,5.82
+SGP,Singapore,Asia,2010,12.22
+SVK,Slovakia,Europe,2010,20.85
+SVN,Slovenia,Europe,2010,12.28
+SLB,Solomon Islands,Oceania,2010,0.21
+SOM,Somalia,Africa,2010,3.52
+ZAF,South Africa,Africa,2010,19.0
+KOR,South Korea,Asia,2010,21.54
+SSD,South Sudan,Africa,2010,10.5
+ESP,Spain,Europe,2010,6.87
+LKA,Sri Lanka,Asia,2010,6.95
+PSE,State of Palestine,Asia,2010,7.86
+SDN,Sudan,Africa,2010,5.66
+SUR,Suriname,South America,2010,0.76
+SWZ,Swaziland,Africa,2010,17.16
+SWE,Sweden,Europe,2010,6.53
+CHE,Switzerland,Europe,2010,11.46
+SYR,Syria,Asia,2010,10.93
+TWN,Taiwan,Asia,2010,16.4
+TJK,Tajikistan,Asia,2010,25.01
+TZA,Tanzania,Africa,2010,8.8
+THA,Thailand,Asia,2010,26.45
+AFG,Afghanistan,Asia,2011,11.97
+ALB,Albania,Europe,2011,9.99
+DZA,Algeria,Africa,2011,5.29
+ASM,American Samoa,Oceania,2011,0.1
+AND,Andorra,Europe,2011,6.08
+AGO,Angola,Africa,2011,16.21
+AIA,Anguilla,North America,2011,0.5
+ATG,Antigua and Barbuda,North America,2011,0.5
+ARG,Argentina,South America,2011,7.51
+ARM,Armenia,Asia,2011,15.26
+ABW,Aruba,North America,2011,1.36
+AUS,Australia,Oceania,2011,2.74
+AUT,Austria,Europe,2011,13.49
+AZE,Azerbaijan,Asia,2011,14.85
+BHS,Bahamas,North America,2011,1.61
+BHR,Bahrain,Asia,2011,16.03
+BGD,Bangladesh,Asia,2011,47.53
+BRB,Barbados,North America,2011,0.49
+BLR,Belarus,Europe,2011,13.72
+BEL,Belgium,Europe,2011,13.42
+BLZ,Belize,North America,2011,4.49
+BEN,Benin,Africa,2011,12.21
+BMU,Bermuda,North America,2011,1.03
+BTN,Bhutan,Asia,2011,18.69
+BOL,Bolivia,South America,2011,9.0
+BIH,Bosnia and Herzegovina,Europe,2011,12.37
+BWA,Botswana,Africa,2011,14.2
+BRA,Brazil,South America,2011,8.24
+BRN,Brunei Darussalam,Asia,2011,7.74
+BGR,Bulgaria,Europe,2011,11.23
+BFA,Burkina Faso,Africa,2011,5.47
+BDI,Burundi,Africa,2011,17.51
+KHM,Cambodia,Asia,2011,13.69
+CMR,Cameroon,Africa,2011,13.14
+CAN,Canada,North America,2011,6.57
+CPV,Cape Verde,Africa,2011,1.29
+CYM,Cayman Islands,North America,2011,1.9
+CAF,Central African Republic,Africa,2011,17.11
+TCD,Chad,Africa,2011,5.58
+CHL,Chile,South America,2011,13.58
+CHN,China,Asia,2011,41.63
+COL,Colombia,South America,2011,6.39
+COM,Comoros,Africa,2011,1.96
+COK,Cook Islands,Oceania,2011,0.1
+CRI,Costa Rica,North America,2011,1.9
+CIV,Cote d'Ivoire,Africa,2011,12.63
+HRV,Croatia,Europe,2011,12.88
+CUB,Cuba,North America,2011,3.16
+CYP,Cyprus,Asia,2011,6.59
+CZE,Czech Republic,Europe,2011,17.84
+COD,Dem. Rep. Congo,Africa,2011,21.59
+DNK,Denmark,Europe,2011,10.09
+DJI,Djibouti,Africa,2011,8.34
+DMA,Dominica,North America,2011,0.74
+DOM,Dominican Republic,North America,2011,2.87
+ECU,Ecuador,South America,2011,7.35
+EGY,Egypt,Africa,2011,6.21
+SLV,El Salvador,North America,2011,9.74
+GNQ,Equatorial Guinea,Africa,2011,15.02
+ERI,Eritrea,Africa,2011,6.84
+EST,Estonia,Europe,2011,7.53
+ETH,Ethiopia,Africa,2011,13.51
+FRO,Faeroe Islands,Europe,2011,1.4
+FLK,Falkland Islands,South America,2011,0.31
+FJI,Fiji,Oceania,2011,0.12
+FIN,Finland,Europe,2011,6.82
+FRA,France,Europe,2011,11.5
+GUF,French Guiana,South America,2011,0.56
+PYF,French Polynesia,Oceania,2011,0.11
+GAB,Gabon,Africa,2011,16.36
+GMB,Gambia,Africa,2011,3.73
+GEO,Georgia,Asia,2011,12.17
+DEU,Germany,Europe,2011,12.7
+GHA,Ghana,Africa,2011,13.81
+GIB,Gibraltar,Europe,2011,8.92
+GRC,Greece,Europe,2011,8.99
+GRL,Greenland,North America,2011,0.79
+GRD,Grenada,North America,2011,0.55
+GUM,Guam,Oceania,2011,0.28
+GTM,Guatemala,North America,2011,9.6
+GIN,Guinea,Africa,2011,6.89
+GNB,Guinea-Bissau,Africa,2011,5.05
+GUY,Guyana,South America,2011,1.15
+HTI,Haiti,North America,2011,3.79
+HND,Honduras,North America,2011,8.83
+HKG,Hong Kong,Asia,2011,26.41
+HUN,Hungary,Europe,2011,17.93
+ISL,Iceland,Europe,2011,1.28
+IND,India,Asia,2011,41.63
+IDN,Indonesia,Asia,2011,8.41
+IRN,Iran,Asia,2011,11.91
+IRQ,Iraq,Asia,2011,14.53
+IRL,Ireland,Europe,2011,4.79
+IMN,Isle of Man,Europe,2011,6.94
+ISR,Israel,Asia,2011,6.75
+ITA,Italy,Europe,2011,12.88
+JAM,Jamaica,North America,2011,2.14
+JPN,Japan,Asia,2011,9.57
+JOR,Jordan,Asia,2011,7.01
+KAZ,Kazakhstan,Asia,2011,9.5
+KEN,Kenya,Africa,2011,9.47
+KIR,Kiribati,Oceania,2011,0.15
+KWT,Kuwait,Asia,2011,20.42
+KGZ,Kyrgyzstan,Asia,2011,11.13
+LAO,Laos,Asia,2011,22.9
+LVA,Latvia,Europe,2011,9.62
+LBN,Lebanon,Asia,2011,8.0
+LSO,Lesotho,Africa,2011,12.27
+LBR,Liberia,Africa,2011,9.66
+LBY,Libya,Africa,2011,3.38
+LIE,Liechtenstein,Europe,2011,9.25
+LTU,Lithuania,Europe,2011,12.07
+LUX,Luxembourg,Europe,2011,10.81
+MAC,Macao,Asia,2011,31.39
+MKD,Macedonia,Europe,2011,10.83
+MDG,Madagascar,Africa,2011,3.76
+MWI,Malawi,Africa,2011,11.81
+MYS,Malaysia,Asia,2011,12.1
+MDV,Maldives,Asia,2011,2.4
+MLI,Mali,Africa,2011,3.94
+MLT,Malta,Europe,2011,4.49
+MHL,Marshall Islands,Oceania,2011,0.08
+MTQ,Martinique,North America,2011,0.82
+MRT,Mauritania,Africa,2011,1.74
+MUS,Mauritius,Africa,2011,0.38
+MYT,Mayotte,Africa,2011,2.44
+MEX,Mexico,North America,2011,15.25
+FSM,Micronesia,Oceania,2011,0.05
+MDA,Moldova,Europe,2011,15.04
+MCO,Monaco,Europe,2011,12.68
+MNG,Mongolia,Asia,2011,5.59
+MNE,Montenegro,Europe,2011,9.01
+MSR,Montserrat,North America,2011,0.6
+MAR,Morocco,Africa,2011,4.7
+MOZ,Mozambique,Africa,2011,8.25
+MMR,Myanmar,Asia,2011,18.23
+NAM,Namibia,Africa,2011,9.6
+NRU,Nauru,Oceania,2011,0.2
+NPL,Nepal,Asia,2011,37.39
+NLD,Netherlands,Europe,2011,13.32
+NCL,New Caledonia,Oceania,2011,0.33
+NZL,New Zealand,Oceania,2011,1.78
+NIC,Nicaragua,North America,2011,3.8
+NER,Niger,Africa,2011,4.76
+NGA,Nigeria,Africa,2011,14.53
+NIU,Niue,Oceania,2011,0.1
+NFK,Norfolk Island,Oceania,2011,0.4
+PRK,North Korea,Asia,2011,18.93
+MNP,Northern Mariana Islands,Oceania,2011,0.3
+NOR,Norway,Europe,2011,4.99
+OMN,Oman,Asia,2011,9.59
+PAK,Pakistan,Asia,2011,30.34
+PLW,Palau,Oceania,2011,0.11
+PAN,Panama,North America,2011,1.4
+PNG,Papua New Guinea,Oceania,2011,1.2
+PRY,Paraguay,South America,2011,7.69
+PER,Peru,South America,2011,15.21
+PHL,Philippines,Asia,2011,7.18
+PCN,Pitcairn,Unknown,2011,0.16
+POL,Poland,Europe,2011,21.07
+PRT,Portugal,Europe,2011,7.63
+PRI,Puerto Rico,North America,2011,1.45
+QAT,Qatar,Asia,2011,18.8
+COG,Republic of Congo,Africa,2011,25.09
+REU,Reunion,Africa,2011,0.4
+ROU,Romania,Europe,2011,15.37
+RUS,Russia,Europe,2011,11.57
+RWA,Rwanda,Africa,2011,17.86
+SHN,Saint Helena,Africa,2011,0.75
+KNA,Saint Kitts and Nevis,North America,2011,0.6
+LCA,Saint Lucia,North America,2011,0.83
+SPM,Saint Pierre and Miquelon,North America,2011,1.55
+VCT,Saint Vincent and the Grenadines,North America,2011,0.59
+WSM,Samoa,Oceania,2011,0.1
+SMR,San Marino,Europe,2011,12.3
+STP,Sao Tome and Principe,Africa,2011,9.06
+SAU,Saudi Arabia,Asia,2011,11.26
+SEN,Senegal,Africa,2011,3.0
+SRB,Serbia,Europe,2011,15.04
+SYC,Seychelles,Africa,2011,0.69
+SLE,Sierra Leone,Africa,2011,7.75
+SGP,Singapore,Asia,2011,10.57
+SVK,Slovakia,Europe,2011,19.23
+SVN,Slovenia,Europe,2011,13.02
+SLB,Solomon Islands,Oceania,2011,0.14
+SOM,Somalia,Africa,2011,3.8
+ZAF,South Africa,Africa,2011,17.5
+KOR,South Korea,Asia,2011,19.69
+SSD,South Sudan,Africa,2011,11.36
+ESP,Spain,Europe,2011,8.34
+LKA,Sri Lanka,Asia,2011,6.95
+PSE,State of Palestine,Asia,2011,7.34
+SDN,Sudan,Africa,2011,5.89
+SUR,Suriname,South America,2011,0.85
+SWZ,Swaziland,Africa,2011,15.24
+SWE,Sweden,Europe,2011,6.75
+CHE,Switzerland,Europe,2011,11.3
+SYR,Syria,Asia,2011,10.0
+TWN,Taiwan,Asia,2011,16.09
+TJK,Tajikistan,Asia,2011,28.54
+TZA,Tanzania,Africa,2011,9.49
+THA,Thailand,Asia,2011,23.17
+AFG,Afghanistan,Asia,2012,13.41
+ALB,Albania,Europe,2012,10.27
+DZA,Algeria,Africa,2012,5.6
+ASM,American Samoa,Oceania,2012,0.1
+AND,Andorra,Europe,2012,6.23
+AGO,Angola,Africa,2012,16.27
+AIA,Anguilla,North America,2012,0.48
+ATG,Antigua and Barbuda,North America,2012,0.49
+ARG,Argentina,South America,2012,6.68
+ARM,Armenia,Asia,2012,16.81
+ABW,Aruba,North America,2012,1.42
+AUS,Australia,Oceania,2012,2.97
+AUT,Austria,Europe,2012,13.03
+AZE,Azerbaijan,Asia,2012,15.74
+BHS,Bahamas,North America,2012,1.7
+BHR,Bahrain,Asia,2012,17.94
+BGD,Bangladesh,Asia,2012,54.26
+BRB,Barbados,North America,2012,0.52
+BLR,Belarus,Europe,2012,14.29
+BEL,Belgium,Europe,2012,13.77
+BLZ,Belize,North America,2012,4.04
+BEN,Benin,Africa,2012,13.48
+BMU,Bermuda,North America,2012,1.13
+BTN,Bhutan,Asia,2012,22.94
+BOL,Bolivia,South America,2012,9.54
+BIH,Bosnia and Herzegovina,Europe,2012,11.75
+BWA,Botswana,Africa,2012,14.3
+BRA,Brazil,South America,2012,8.54
+BRN,Brunei Darussalam,Asia,2012,11.73
+BGR,Bulgaria,Europe,2012,11.63
+BFA,Burkina Faso,Africa,2012,5.81
+BDI,Burundi,Africa,2012,21.4
+KHM,Cambodia,Asia,2012,16.99
+CMR,Cameroon,Africa,2012,13.63
+CAN,Canada,North America,2012,7.0
+CPV,Cape Verde,Africa,2012,1.28
+CYM,Cayman Islands,North America,2012,3.08
+CAF,Central African Republic,Africa,2012,15.34
+TCD,Chad,Africa,2012,5.32
+CHL,Chile,South America,2012,12.64
+CHN,China,Asia,2012,39.22
+COL,Colombia,South America,2012,9.99
+COM,Comoros,Africa,2012,2.02
+COK,Cook Islands,Oceania,2012,0.2
+CRI,Costa Rica,North America,2012,3.61
+CIV,Cote d'Ivoire,Africa,2012,11.91
+HRV,Croatia,Europe,2012,11.67
+CUB,Cuba,North America,2012,4.55
+CYP,Cyprus,Asia,2012,7.91
+CZE,Czech Republic,Europe,2012,17.09
+COD,Dem. Rep. Congo,Africa,2012,23.52
+DNK,Denmark,Europe,2012,7.26
+DJI,Djibouti,Africa,2012,7.12
+DMA,Dominica,North America,2012,0.8
+DOM,Dominican Republic,North America,2012,3.26
+ECU,Ecuador,South America,2012,14.79
+EGY,Egypt,Africa,2012,6.96
+SLV,El Salvador,North America,2012,9.96
+GNQ,Equatorial Guinea,Africa,2012,12.39
+ERI,Eritrea,Africa,2012,6.13
+EST,Estonia,Europe,2012,7.11
+ETH,Ethiopia,Africa,2012,12.31
+FRO,Faeroe Islands,Europe,2012,1.15
+FLK,Falkland Islands,South America,2012,0.28
+FJI,Fiji,Oceania,2012,0.19
+FIN,Finland,Europe,2012,5.43
+FRA,France,Europe,2012,11.53
+GUF,French Guiana,South America,2012,0.86
+PYF,French Polynesia,Oceania,2012,0.17
+GAB,Gabon,Africa,2012,15.2
+GMB,Gambia,Africa,2012,4.09
+GEO,Georgia,Asia,2012,12.7
+DEU,Germany,Europe,2012,12.35
+GHA,Ghana,Africa,2012,13.39
+GIB,Gibraltar,Europe,2012,8.06
+GRC,Greece,Europe,2012,9.13
+GRL,Greenland,North America,2012,0.99
+GRD,Grenada,North America,2012,0.56
+GUM,Guam,Oceania,2012,0.33
+GTM,Guatemala,North America,2012,10.57
+GIN,Guinea,Africa,2012,7.66
+GNB,Guinea-Bissau,Africa,2012,5.36
+GUY,Guyana,South America,2012,1.79
+HTI,Haiti,North America,2012,4.08
+HND,Honduras,North America,2012,8.64
+HKG,Hong Kong,Asia,2012,25.55
+HUN,Hungary,Europe,2012,15.22
+ISL,Iceland,Europe,2012,1.1
+IND,India,Asia,2012,40.15
+IDN,Indonesia,Asia,2012,12.41
+IRN,Iran,Asia,2012,12.19
+IRQ,Iraq,Asia,2012,14.18
+IRL,Ireland,Europe,2012,4.62
+IMN,Isle of Man,Europe,2012,6.78
+ISR,Israel,Asia,2012,7.8
+ITA,Italy,Europe,2012,12.26
+JAM,Jamaica,North America,2012,3.14
+JPN,Japan,Asia,2012,8.93
+JOR,Jordan,Asia,2012,7.38
+KAZ,Kazakhstan,Asia,2012,10.46
+KEN,Kenya,Africa,2012,10.19
+KIR,Kiribati,Oceania,2012,0.11
+KWT,Kuwait,Asia,2012,18.91
+KGZ,Kyrgyzstan,Asia,2012,10.59
+LAO,Laos,Asia,2012,30.13
+LVA,Latvia,Europe,2012,9.81
+LBN,Lebanon,Asia,2012,8.9
+LSO,Lesotho,Africa,2012,11.4
+LBR,Liberia,Africa,2012,10.63
+LBY,Libya,Africa,2012,3.45
+LIE,Liechtenstein,Europe,2012,10.62
+LTU,Lithuania,Europe,2012,12.82
+LUX,Luxembourg,Europe,2012,10.77
+MAC,Macao,Asia,2012,29.25
+MKD,Macedonia,Europe,2012,10.83
+MDG,Madagascar,Africa,2012,3.46
+MWI,Malawi,Africa,2012,13.42
+MYS,Malaysia,Asia,2012,15.34
+MDV,Maldives,Asia,2012,2.68
+MLI,Mali,Africa,2012,4.23
+MLT,Malta,Europe,2012,4.82
+MHL,Marshall Islands,Oceania,2012,0.08
+MTQ,Martinique,North America,2012,0.91
+MRT,Mauritania,Africa,2012,1.76
+MUS,Mauritius,Africa,2012,0.39
+MYT,Mayotte,Africa,2012,2.57
+MEX,Mexico,North America,2012,15.22
+FSM,Micronesia,Oceania,2012,0.1
+MDA,Moldova,Europe,2012,15.36
+MCO,Monaco,Europe,2012,10.28
+MNG,Mongolia,Asia,2012,5.03
+MNE,Montenegro,Europe,2012,9.43
+MSR,Montserrat,North America,2012,0.6
+MAR,Morocco,Africa,2012,4.69
+MOZ,Mozambique,Africa,2012,8.54
+MMR,Myanmar,Asia,2012,21.81
+NAM,Namibia,Africa,2012,8.93
+NRU,Nauru,Oceania,2012,0.1
+NPL,Nepal,Asia,2012,42.05
+NLD,Netherlands,Europe,2012,12.87
+NCL,New Caledonia,Oceania,2012,0.35
+NZL,New Zealand,Oceania,2012,1.63
+NIC,Nicaragua,North America,2012,5.52
+NER,Niger,Africa,2012,4.68
+NGA,Nigeria,Africa,2012,16.4
+NIU,Niue,Oceania,2012,0.12
+NFK,Norfolk Island,Oceania,2012,0.3
+PRK,North Korea,Asia,2012,17.47
+MNP,Northern Mariana Islands,Oceania,2012,0.39
+NOR,Norway,Europe,2012,3.65
+OMN,Oman,Asia,2012,9.61
+PAK,Pakistan,Asia,2012,29.23
+PLW,Palau,Oceania,2012,0.24
+PAN,Panama,North America,2012,1.92
+PNG,Papua New Guinea,Oceania,2012,2.14
+PRY,Paraguay,South America,2012,8.37
+PER,Peru,South America,2012,17.11
+PHL,Philippines,Asia,2012,8.5
+PCN,Pitcairn,Unknown,2012,0.18
+POL,Poland,Europe,2012,20.33
+PRT,Portugal,Europe,2012,6.04
+PRI,Puerto Rico,North America,2012,1.41
+QAT,Qatar,Asia,2012,19.76
+COG,Republic of Congo,Africa,2012,24.09
+REU,Reunion,Africa,2012,0.44
+ROU,Romania,Europe,2012,14.65
+RUS,Russia,Europe,2012,12.71
+RWA,Rwanda,Africa,2012,23.42
+SHN,Saint Helena,Africa,2012,0.87
+KNA,Saint Kitts and Nevis,North America,2012,0.56
+LCA,Saint Lucia,North America,2012,0.89
+SPM,Saint Pierre and Miquelon,North America,2012,1.47
+VCT,Saint Vincent and the Grenadines,North America,2012,0.61
+WSM,Samoa,Oceania,2012,0.1
+SMR,San Marino,Europe,2012,11.14
+STP,Sao Tome and Principe,Africa,2012,6.52
+SAU,Saudi Arabia,Asia,2012,11.32
+SEN,Senegal,Africa,2012,3.2
+SRB,Serbia,Europe,2012,13.87
+SYC,Seychelles,Africa,2012,0.74
+SLE,Sierra Leone,Africa,2012,8.77
+SGP,Singapore,Asia,2012,15.9
+SVK,Slovakia,Europe,2012,17.03
+SVN,Slovenia,Europe,2012,11.41
+SLB,Solomon Islands,Oceania,2012,0.17
+SOM,Somalia,Africa,2012,3.46
+ZAF,South Africa,Africa,2012,16.5
+KOR,South Korea,Asia,2012,18.85
+SSD,South Sudan,Africa,2012,9.56
+ESP,Spain,Europe,2012,7.87
+LKA,Sri Lanka,Asia,2012,7.39
+PSE,State of Palestine,Asia,2012,8.16
+SDN,Sudan,Africa,2012,5.05
+SUR,Suriname,South America,2012,1.42
+SWZ,Swaziland,Africa,2012,14.31
+SWE,Sweden,Europe,2012,4.69
+CHE,Switzerland,Europe,2012,13.02
+SYR,Syria,Asia,2012,10.59
+TWN,Taiwan,Asia,2012,14.58
+TJK,Tajikistan,Asia,2012,23.89
+TZA,Tanzania,Africa,2012,10.88
+THA,Thailand,Asia,2012,29.84
+AFG,Afghanistan,Asia,2013,13.02
+ALB,Albania,Europe,2013,9.69
+DZA,Algeria,Africa,2013,5.4
+ASM,American Samoa,Oceania,2013,0.1
+AND,Andorra,Europe,2013,4.65
+AGO,Angola,Africa,2013,18.97
+AIA,Anguilla,North America,2013,0.58
+ATG,Antigua and Barbuda,North America,2013,0.59
+ARG,Argentina,South America,2013,7.8
+ARM,Armenia,Asia,2013,16.88
+ABW,Aruba,North America,2013,1.39
+AUS,Australia,Oceania,2013,2.69
+AUT,Austria,Europe,2013,14.08
+AZE,Azerbaijan,Asia,2013,16.17
+BHS,Bahamas,North America,2013,1.75
+BHR,Bahrain,Asia,2013,17.55
+BGD,Bangladesh,Asia,2013,48.24
+BRB,Barbados,North America,2013,0.58
+BLR,Belarus,Europe,2013,13.52
+BEL,Belgium,Europe,2013,12.52
+BLZ,Belize,North America,2013,5.21
+BEN,Benin,Africa,2013,13.28
+BMU,Bermuda,North America,2013,1.04
+BTN,Bhutan,Asia,2013,21.83
+BOL,Bolivia,South America,2013,10.52
+BIH,Bosnia and Herzegovina,Europe,2013,11.02
+BWA,Botswana,Africa,2013,14.64
+BRA,Brazil,South America,2013,8.07
+BRN,Brunei Darussalam,Asia,2013,8.06
+BGR,Bulgaria,Europe,2013,11.78
+BFA,Burkina Faso,Africa,2013,4.68
+BDI,Burundi,Africa,2013,20.43
+KHM,Cambodia,Asia,2013,19.1
+CMR,Cameroon,Africa,2013,12.9
+CAN,Canada,North America,2013,6.45
+CPV,Cape Verde,Africa,2013,1.09
+CYM,Cayman Islands,North America,2013,2.66
+CAF,Central African Republic,Africa,2013,16.25
+TCD,Chad,Africa,2013,5.14
+CHL,Chile,South America,2013,12.84
+CHN,China,Asia,2013,45.16
+COL,Colombia,South America,2013,8.23
+COM,Comoros,Africa,2013,1.91
+COK,Cook Islands,Oceania,2013,0.2
+CRI,Costa Rica,North America,2013,3.6
+CIV,Cote d'Ivoire,Africa,2013,9.73
+HRV,Croatia,Europe,2013,11.92
+CUB,Cuba,North America,2013,4.31
+CYP,Cyprus,Asia,2013,8.67
+CZE,Czech Republic,Europe,2013,17.15
+COD,Dem. Rep. Congo,Africa,2013,24.27
+DNK,Denmark,Europe,2013,7.21
+DJI,Djibouti,Africa,2013,7.08
+DMA,Dominica,North America,2013,0.77
+DOM,Dominican Republic,North America,2013,2.89
+ECU,Ecuador,South America,2013,9.49
+EGY,Egypt,Africa,2013,7.79
+SLV,El Salvador,North America,2013,11.24
+GNQ,Equatorial Guinea,Africa,2013,11.53
+ERI,Eritrea,Africa,2013,7.26
+EST,Estonia,Europe,2013,7.18
+ETH,Ethiopia,Africa,2013,12.68
+FRO,Faeroe Islands,Europe,2013,1.22
+FLK,Falkland Islands,South America,2013,0.27
+FJI,Fiji,Oceania,2013,0.19
+FIN,Finland,Europe,2013,5.28
+FRA,France,Europe,2013,11.27
+GUF,French Guiana,South America,2013,0.89
+PYF,French Polynesia,Oceania,2013,0.19
+GAB,Gabon,Africa,2013,16.89
+GMB,Gambia,Africa,2013,3.61
+GEO,Georgia,Asia,2013,12.75
+DEU,Germany,Europe,2013,12.05
+GHA,Ghana,Africa,2013,12.66
+GIB,Gibraltar,Europe,2013,9.39
+GRC,Greece,Europe,2013,9.79
+GRL,Greenland,North America,2013,0.96
+GRD,Grenada,North America,2013,0.59
+GUM,Guam,Oceania,2013,0.4
+GTM,Guatemala,North America,2013,12.33
+GIN,Guinea,Africa,2013,5.25
+GNB,Guinea-Bissau,Africa,2013,4.63
+GUY,Guyana,South America,2013,1.58
+HTI,Haiti,North America,2013,3.75
+HND,Honduras,North America,2013,9.77
+HKG,Hong Kong,Asia,2013,26.41
+HUN,Hungary,Europe,2013,15.39
+ISL,Iceland,Europe,2013,1.2
+IND,India,Asia,2013,44.93
+IDN,Indonesia,Asia,2013,10.36
+IRN,Iran,Asia,2013,12.02
+IRQ,Iraq,Asia,2013,12.9
+IRL,Ireland,Europe,2013,5.01
+IMN,Isle of Man,Europe,2013,7.34
+ISR,Israel,Asia,2013,8.65
+ITA,Italy,Europe,2013,11.93
+JAM,Jamaica,North America,2013,2.68
+JPN,Japan,Asia,2013,11.78
+JOR,Jordan,Asia,2013,7.78
+KAZ,Kazakhstan,Asia,2013,12.0
+KEN,Kenya,Africa,2013,9.92
+KIR,Kiribati,Oceania,2013,0.16
+KWT,Kuwait,Asia,2013,17.86
+KGZ,Kyrgyzstan,Asia,2013,13.55
+LAO,Laos,Asia,2013,32.7
+LVA,Latvia,Europe,2013,9.57
+LBN,Lebanon,Asia,2013,9.0
+LSO,Lesotho,Africa,2013,13.52
+LBR,Liberia,Africa,2013,7.02
+LBY,Libya,Africa,2013,4.19
+LIE,Liechtenstein,Europe,2013,9.1
+LTU,Lithuania,Europe,2013,11.82
+LUX,Luxembourg,Europe,2013,11.06
+MAC,Macao,Asia,2013,30.2
+MKD,Macedonia,Europe,2013,10.08
+MDG,Madagascar,Africa,2013,4.36
+MWI,Malawi,Africa,2013,11.07
+MYS,Malaysia,Asia,2013,13.43
+MDV,Maldives,Asia,2013,2.39
+MLI,Mali,Africa,2013,3.07
+MLT,Malta,Europe,2013,4.78
+MHL,Marshall Islands,Oceania,2013,0.13
+MTQ,Martinique,North America,2013,0.89
+MRT,Mauritania,Africa,2013,1.47
+MUS,Mauritius,Africa,2013,0.4
+MYT,Mayotte,Africa,2013,2.4
+MEX,Mexico,North America,2013,15.7
+FSM,Micronesia,Oceania,2013,0.2
+MDA,Moldova,Europe,2013,14.5
+MCO,Monaco,Europe,2013,10.1
+MNG,Mongolia,Asia,2013,5.42
+MNE,Montenegro,Europe,2013,8.23
+MSR,Montserrat,North America,2013,0.64
+MAR,Morocco,Africa,2013,5.86
+MOZ,Mozambique,Africa,2013,8.44
+MMR,Myanmar,Asia,2013,25.91
+NAM,Namibia,Africa,2013,9.9
+NRU,Nauru,Oceania,2013,0.2
+NPL,Nepal,Asia,2013,41.38
+NLD,Netherlands,Europe,2013,10.91
+NCL,New Caledonia,Oceania,2013,0.43
+NZL,New Zealand,Oceania,2013,1.65
+NIC,Nicaragua,North America,2013,5.07
+NER,Niger,Africa,2013,4.01
+NGA,Nigeria,Africa,2013,15.68
+NIU,Niue,Oceania,2013,0.2
+NFK,Norfolk Island,Oceania,2013,0.4
+PRK,North Korea,Asia,2013,22.89
+MNP,Northern Mariana Islands,Oceania,2013,0.39
+NOR,Norway,Europe,2013,3.45
+OMN,Oman,Asia,2013,9.41
+PAK,Pakistan,Asia,2013,30.71
+PLW,Palau,Oceania,2013,0.32
+PAN,Panama,North America,2013,1.59
+PNG,Papua New Guinea,Oceania,2013,1.73
+PRY,Paraguay,South America,2013,6.76
+PER,Peru,South America,2013,16.71
+PHL,Philippines,Asia,2013,8.05
+PCN,Pitcairn,Unknown,2013,0.2
+POL,Poland,Europe,2013,18.85
+PRT,Portugal,Europe,2013,6.62
+PRI,Puerto Rico,North America,2013,1.5
+QAT,Qatar,Asia,2013,20.58
+COG,Republic of Congo,Africa,2013,26.93
+REU,Reunion,Africa,2013,0.48
+ROU,Romania,Europe,2013,14.36
+RUS,Russia,Europe,2013,13.51
+RWA,Rwanda,Africa,2013,21.53
+SHN,Saint Helena,Africa,2013,1.3
+KNA,Saint Kitts and Nevis,North America,2013,0.61
+LCA,Saint Lucia,North America,2013,0.92
+SPM,Saint Pierre and Miquelon,North America,2013,1.65
+VCT,Saint Vincent and the Grenadines,North America,2013,0.61
+WSM,Samoa,Oceania,2013,0.19
+SMR,San Marino,Europe,2013,10.89
+STP,Sao Tome and Principe,Africa,2013,9.41
+SAU,Saudi Arabia,Asia,2013,11.67
+SEN,Senegal,Africa,2013,2.82
+SRB,Serbia,Europe,2013,12.79
+SYC,Seychelles,Africa,2013,0.61
+SLE,Sierra Leone,Africa,2013,5.69
+SGP,Singapore,Asia,2013,14.36
+SVK,Slovakia,Europe,2013,17.43
+SVN,Slovenia,Europe,2013,12.71
+SLB,Solomon Islands,Oceania,2013,0.24
+SOM,Somalia,Africa,2013,2.97
+ZAF,South Africa,Africa,2013,17.66
+KOR,South Korea,Asia,2013,26.15
+SSD,South Sudan,Africa,2013,10.2
+ESP,Spain,Europe,2013,6.89
+LKA,Sri Lanka,Asia,2013,8.05
+PSE,State of Palestine,Asia,2013,9.04
+SDN,Sudan,Africa,2013,5.95
+SUR,Suriname,South America,2013,1.25
+SWZ,Swaziland,Africa,2013,16.61
+SWE,Sweden,Europe,2013,5.01
+CHE,Switzerland,Europe,2013,11.36
+SYR,Syria,Asia,2013,11.31
+TWN,Taiwan,Asia,2013,16.47
+TJK,Tajikistan,Asia,2013,27.33
+TZA,Tanzania,Africa,2013,11.11
+THA,Thailand,Asia,2013,33.19
+AFG,Afghanistan,Asia,2014,12.2
+ALB,Albania,Europe,2014,9.35
+DZA,Algeria,Africa,2014,6.05
+ASM,American Samoa,Oceania,2014,0.2
+AND,Andorra,Europe,2014,4.82
+AGO,Angola,Africa,2014,16.11
+AIA,Anguilla,North America,2014,0.4
+ATG,Antigua and Barbuda,North America,2014,0.42
+ARG,Argentina,South America,2014,7.18
+ARM,Armenia,Asia,2014,15.59
+ABW,Aruba,North America,2014,1.29
+AUS,Australia,Oceania,2014,2.55
+AUT,Austria,Europe,2014,15.4
+AZE,Azerbaijan,Asia,2014,16.93
+BHS,Bahamas,North America,2014,1.66
+BHR,Bahrain,Asia,2014,13.3
+BGD,Bangladesh,Asia,2014,58.19
+BRB,Barbados,North America,2014,0.52
+BLR,Belarus,Europe,2014,15.02
+BEL,Belgium,Europe,2014,13.23
+BLZ,Belize,North America,2014,2.7
+BEN,Benin,Africa,2014,9.99
+BMU,Bermuda,North America,2014,1.13
+BTN,Bhutan,Asia,2014,24.21
+BOL,Bolivia,South America,2014,10.28
+BIH,Bosnia and Herzegovina,Europe,2014,12.1
+BWA,Botswana,Africa,2014,13.39
+BRA,Brazil,South America,2014,8.63
+BRN,Brunei Darussalam,Asia,2014,7.24
+BGR,Bulgaria,Europe,2014,11.88
+BFA,Burkina Faso,Africa,2014,5.2
+BDI,Burundi,Africa,2014,18.91
+KHM,Cambodia,Asia,2014,18.2
+CMR,Cameroon,Africa,2014,12.4
+CAN,Canada,North America,2014,6.42
+CPV,Cape Verde,Africa,2014,1.09
+CYM,Cayman Islands,North America,2014,2.34
+CAF,Central African Republic,Africa,2014,14.71
+TCD,Chad,Africa,2014,4.39
+CHL,Chile,South America,2014,12.65
+CHN,China,Asia,2014,43.03
+COL,Colombia,South America,2014,7.64
+COM,Comoros,Africa,2014,1.96
+COK,Cook Islands,Oceania,2014,0.2
+CRI,Costa Rica,North America,2014,4.61
+CIV,Cote d'Ivoire,Africa,2014,7.76
+HRV,Croatia,Europe,2014,13.16
+CUB,Cuba,North America,2014,3.45
+CYP,Cyprus,Asia,2014,9.35
+CZE,Czech Republic,Europe,2014,18.57
+COD,Dem. Rep. Congo,Africa,2014,22.47
+DNK,Denmark,Europe,2014,11.59
+DJI,Djibouti,Africa,2014,6.3
+DMA,Dominica,North America,2014,0.67
+DOM,Dominican Republic,North America,2014,2.74
+ECU,Ecuador,South America,2014,7.3
+EGY,Egypt,Africa,2014,7.64
+SLV,El Salvador,North America,2014,6.98
+GNQ,Equatorial Guinea,Africa,2014,13.76
+ERI,Eritrea,Africa,2014,5.51
+EST,Estonia,Europe,2014,10.77
+ETH,Ethiopia,Africa,2014,10.77
+FRO,Faeroe Islands,Europe,2014,1.69
+FLK,Falkland Islands,South America,2014,0.27
+FJI,Fiji,Oceania,2014,0.19
+FIN,Finland,Europe,2014,8.76
+FRA,France,Europe,2014,11.19
+GUF,French Guiana,South America,2014,0.75
+PYF,French Polynesia,Oceania,2014,0.2
+GAB,Gabon,Africa,2014,18.19
+GMB,Gambia,Africa,2014,3.47
+GEO,Georgia,Asia,2014,13.47
+DEU,Germany,Europe,2014,15.1
+GHA,Ghana,Africa,2014,9.99
+GIB,Gibraltar,Europe,2014,9.17
+GRC,Greece,Europe,2014,10.39
+GRL,Greenland,North America,2014,1.46
+GRD,Grenada,North America,2014,0.54
+GUM,Guam,Oceania,2014,0.4
+GTM,Guatemala,North America,2014,7.53
+GIN,Guinea,Africa,2014,4.56
+GNB,Guinea-Bissau,Africa,2014,3.93
+GUY,Guyana,South America,2014,1.21
+HTI,Haiti,North America,2014,3.7
+HND,Honduras,North America,2014,4.89
+HKG,Hong Kong,Asia,2014,27.84
+HUN,Hungary,Europe,2014,15.54
+ISL,Iceland,Europe,2014,1.35
+IND,India,Asia,2014,47.34
+IDN,Indonesia,Asia,2014,12.73
+IRN,Iran,Asia,2014,11.36
+IRQ,Iraq,Asia,2014,8.43
+IRL,Ireland,Europe,2014,4.61
+IMN,Isle of Man,Europe,2014,6.83
+ISR,Israel,Asia,2014,8.52
+ITA,Italy,Europe,2014,20.24
+JAM,Jamaica,North America,2014,2.42
+JPN,Japan,Asia,2014,11.81
+JOR,Jordan,Asia,2014,7.7
+KAZ,Kazakhstan,Asia,2014,9.52
+KEN,Kenya,Africa,2014,9.81
+KIR,Kiribati,Oceania,2014,0.16
+KWT,Kuwait,Asia,2014,11.37
+KGZ,Kyrgyzstan,Asia,2014,10.68
+LAO,Laos,Asia,2014,33.11
+LVA,Latvia,Europe,2014,13.02
+LBN,Lebanon,Asia,2014,9.09
+LSO,Lesotho,Africa,2014,16.09
+LBR,Liberia,Africa,2014,5.52
+LBY,Libya,Africa,2014,3.29
+LIE,Liechtenstein,Europe,2014,15.83
+LTU,Lithuania,Europe,2014,14.92
+LUX,Luxembourg,Europe,2014,11.83
+MAC,Macao,Asia,2014,33.34
+MKD,Macedonia,Europe,2014,11.28
+MDG,Madagascar,Africa,2014,3.85
+MWI,Malawi,Africa,2014,11.33
+MYS,Malaysia,Asia,2014,14.2
+MDV,Maldives,Asia,2014,2.02
+MLI,Mali,Africa,2014,3.14
+MLT,Malta,Europe,2014,4.32
+MHL,Marshall Islands,Oceania,2014,0.11
+MTQ,Martinique,North America,2014,0.71
+MRT,Mauritania,Africa,2014,1.58
+MUS,Mauritius,Africa,2014,0.4
+MYT,Mayotte,Africa,2014,2.41
+MEX,Mexico,North America,2014,12.5
+FSM,Micronesia,Oceania,2014,0.18
+MDA,Moldova,Europe,2014,14.02
+MCO,Monaco,Europe,2014,12.38
+MNG,Mongolia,Asia,2014,4.72
+MNE,Montenegro,Europe,2014,8.2
+MSR,Montserrat,North America,2014,0.5
+MAR,Morocco,Africa,2014,6.13
+MOZ,Mozambique,Africa,2014,7.82
+MMR,Myanmar,Asia,2014,25.74
+NAM,Namibia,Africa,2014,8.53
+NRU,Nauru,Oceania,2014,0.1
+NPL,Nepal,Asia,2014,46.73
+NLD,Netherlands,Europe,2014,14.01
+NCL,New Caledonia,Oceania,2014,0.35
+NZL,New Zealand,Oceania,2014,1.61
+NIC,Nicaragua,North America,2014,3.04
+NER,Niger,Africa,2014,4.04
+NGA,Nigeria,Africa,2014,14.45
+NIU,Niue,Oceania,2014,0.2
+NFK,Norfolk Island,Oceania,2014,0.3
+PRK,North Korea,Asia,2014,22.94
+MNP,Northern Mariana Islands,Oceania,2014,0.39
+NOR,Norway,Europe,2014,5.29
+OMN,Oman,Asia,2014,7.73
+PAK,Pakistan,Asia,2014,30.74
+PLW,Palau,Oceania,2014,0.32
+PAN,Panama,North America,2014,1.61
+PNG,Papua New Guinea,Oceania,2014,1.56
+PRY,Paraguay,South America,2014,7.76
+PER,Peru,South America,2014,15.6
+PHL,Philippines,Asia,2014,8.34
+PCN,Pitcairn,Unknown,2014,0.2
+POL,Poland,Europe,2014,19.83
+PRT,Portugal,Europe,2014,7.29
+PRI,Puerto Rico,North America,2014,1.23
+QAT,Qatar,Asia,2014,14.48
+COG,Republic of Congo,Africa,2014,26.94
+REU,Reunion,Africa,2014,0.45
+ROU,Romania,Europe,2014,14.0
+RUS,Russia,Europe,2014,12.39
+RWA,Rwanda,Africa,2014,19.52
+SHN,Saint Helena,Africa,2014,1.0
+KNA,Saint Kitts and Nevis,North America,2014,0.47
+LCA,Saint Lucia,North America,2014,0.77
+SPM,Saint Pierre and Miquelon,North America,2014,1.62
+VCT,Saint Vincent and the Grenadines,North America,2014,0.6
+WSM,Samoa,Oceania,2014,0.2
+SMR,San Marino,Europe,2014,20.05
+STP,Sao Tome and Principe,Africa,2014,10.31
+SAU,Saudi Arabia,Asia,2014,9.04
+SEN,Senegal,Africa,2014,2.88
+SRB,Serbia,Europe,2014,13.69
+SYC,Seychelles,Africa,2014,0.57
+SLE,Sierra Leone,Africa,2014,4.6
+SGP,Singapore,Asia,2014,12.98
+SVK,Slovakia,Europe,2014,16.94
+SVN,Slovenia,Europe,2014,14.91
+SLB,Solomon Islands,Oceania,2014,0.27
+SOM,Somalia,Africa,2014,2.77
+ZAF,South Africa,Africa,2014,17.46
+KOR,South Korea,Asia,2014,24.87
+SSD,South Sudan,Africa,2014,8.14
+ESP,Spain,Europe,2014,7.67
+LKA,Sri Lanka,Asia,2014,7.12
+PSE,State of Palestine,Asia,2014,8.84
+SDN,Sudan,Africa,2014,4.83
+SUR,Suriname,South America,2014,0.82
+SWZ,Swaziland,Africa,2014,14.28
+SWE,Sweden,Europe,2014,11.06
+CHE,Switzerland,Europe,2014,17.88
+SYR,Syria,Asia,2014,10.39
+TWN,Taiwan,Asia,2014,16.17
+TJK,Tajikistan,Asia,2014,25.92
+TZA,Tanzania,Africa,2014,10.07
+THA,Thailand,Asia,2014,32.51
+AFG,Afghanistan,Asia,2015,15.23
+ALB,Albania,Europe,2015,11.8
+DZA,Algeria,Africa,2015,8.62
+ASM,American Samoa,Oceania,2015,0.3
+AND,Andorra,Europe,2015,5.48
+AGO,Angola,Africa,2015,17.97
+AIA,Anguilla,North America,2015,0.44
+ATG,Antigua and Barbuda,North America,2015,0.55
+ARG,Argentina,South America,2015,8.5
+ARM,Armenia,Asia,2015,18.15
+ABW,Aruba,North America,2015,1.59
+AUS,Australia,Oceania,2015,3.03
+AUT,Austria,Europe,2015,14.08
+AZE,Azerbaijan,Asia,2015,20.12
+BHS,Bahamas,North America,2015,1.38
+BHR,Bahrain,Asia,2015,17.5
+BGD,Bangladesh,Asia,2015,60.27
+BRB,Barbados,North America,2015,0.69
+BLR,Belarus,Europe,2015,15.75
+BEL,Belgium,Europe,2015,13.51
+BLZ,Belize,North America,2015,2.19
+BEN,Benin,Africa,2015,13.21
+BMU,Bermuda,North America,2015,0.86
+BTN,Bhutan,Asia,2015,23.92
+BOL,Bolivia,South America,2015,7.59
+BIH,Bosnia and Herzegovina,Europe,2015,13.4
+BWA,Botswana,Africa,2015,20.32
+BRA,Brazil,South America,2015,9.6
+BRN,Brunei Darussalam,Asia,2015,9.71
+BGR,Bulgaria,Europe,2015,12.43
+BFA,Burkina Faso,Africa,2015,6.16
+BDI,Burundi,Africa,2015,19.86
+KHM,Cambodia,Asia,2015,17.49
+CMR,Cameroon,Africa,2015,13.66
+CAN,Canada,North America,2015,7.4
+CPV,Cape Verde,Africa,2015,1.68
+CYM,Cayman Islands,North America,2015,2.08
+CAF,Central African Republic,Africa,2015,15.9
+TCD,Chad,Africa,2015,5.98
+CHL,Chile,South America,2015,15.42
+CHN,China,Asia,2015,43.75
+COL,Colombia,South America,2015,7.12
+COM,Comoros,Africa,2015,2.2
+COK,Cook Islands,Oceania,2015,0.29
+CRI,Costa Rica,North America,2015,3.28
+CIV,Cote d'Ivoire,Africa,2015,12.2
+HRV,Croatia,Europe,2015,15.0
+CUB,Cuba,North America,2015,2.91
+CYP,Cyprus,Asia,2015,12.42
+CZE,Czech Republic,Europe,2015,19.12
+COD,Dem. Rep. Congo,Africa,2015,27.65
+DNK,Denmark,Europe,2015,8.79
+DJI,Djibouti,Africa,2015,8.76
+DMA,Dominica,North America,2015,1.02
+DOM,Dominican Republic,North America,2015,2.85
+ECU,Ecuador,South America,2015,7.4
+EGY,Egypt,Africa,2015,10.88
+SLV,El Salvador,North America,2015,7.76
+GNQ,Equatorial Guinea,Africa,2015,13.8
+ERI,Eritrea,Africa,2015,7.4
+EST,Estonia,Europe,2015,6.26
+ETH,Ethiopia,Africa,2015,17.26
+FRO,Faeroe Islands,Europe,2015,0.97
+FLK,Falkland Islands,South America,2015,0.28
+FJI,Fiji,Oceania,2015,0.2
+FIN,Finland,Europe,2015,5.33
+FRA,France,Europe,2015,10.7
+GUF,French Guiana,South America,2015,0.9
+PYF,French Polynesia,Oceania,2015,0.37
+GAB,Gabon,Africa,2015,18.0
+GMB,Gambia,Africa,2015,4.93
+GEO,Georgia,Asia,2015,14.78
+DEU,Germany,Europe,2015,13.12
+GHA,Ghana,Africa,2015,13.67
+GIB,Gibraltar,Europe,2015,11.02
+GRC,Greece,Europe,2015,11.48
+GRL,Greenland,North America,2015,0.64
+GRD,Grenada,North America,2015,0.8
+GUM,Guam,Oceania,2015,0.59
+GTM,Guatemala,North America,2015,7.94
+GIN,Guinea,Africa,2015,7.06
+GNB,Guinea-Bissau,Africa,2015,6.17
+GUY,Guyana,South America,2015,1.48
+HTI,Haiti,North America,2015,3.79
+HND,Honduras,North America,2015,4.9
+HKG,Hong Kong,Asia,2015,23.68
+HUN,Hungary,Europe,2015,20.29
+ISL,Iceland,Europe,2015,1.01
+IND,India,Asia,2015,49.18
+IDN,Indonesia,Asia,2015,16.35
+IRN,Iran,Asia,2015,12.31
+IRQ,Iraq,Asia,2015,12.69
+IRL,Ireland,Europe,2015,3.9
+IMN,Isle of Man,Europe,2015,5.82
+ISR,Israel,Asia,2015,9.81
+ITA,Italy,Europe,2015,15.72
+JAM,Jamaica,North America,2015,2.14
+JPN,Japan,Asia,2015,12.93
+JOR,Jordan,Asia,2015,8.9
+KAZ,Kazakhstan,Asia,2015,11.0
+KEN,Kenya,Africa,2015,9.53
+KIR,Kiribati,Oceania,2015,0.27
+KWT,Kuwait,Asia,2015,18.92
+KGZ,Kyrgyzstan,Asia,2015,12.87
+LAO,Laos,Asia,2015,26.87
+LVA,Latvia,Europe,2015,9.14
+LBN,Lebanon,Asia,2015,11.38
+LSO,Lesotho,Africa,2015,17.95
+LBR,Liberia,Africa,2015,9.3
+LBY,Libya,Africa,2015,6.51
+LIE,Liechtenstein,Europe,2015,8.21
+LTU,Lithuania,Europe,2015,12.56
+LUX,Luxembourg,Europe,2015,10.91
+MAC,Macao,Asia,2015,27.93
+MKD,Macedonia,Europe,2015,11.48
+MDG,Madagascar,Africa,2015,4.74
+MWI,Malawi,Africa,2015,12.42
+MYS,Malaysia,Asia,2015,17.85
+MDV,Maldives,Asia,2015,1.73
+MLI,Mali,Africa,2015,4.38
+MLT,Malta,Europe,2015,7.13
+MHL,Marshall Islands,Oceania,2015,0.18
+MTQ,Martinique,North America,2015,1.02
+MRT,Mauritania,Africa,2015,2.13
+MUS,Mauritius,Africa,2015,0.37
+MYT,Mayotte,Africa,2015,2.64
+MEX,Mexico,North America,2015,12.02
+FSM,Micronesia,Oceania,2015,0.33
+MDA,Moldova,Europe,2015,15.98
+MCO,Monaco,Europe,2015,10.75
+MNG,Mongolia,Asia,2015,6.46
+MNE,Montenegro,Europe,2015,10.09
+MSR,Montserrat,North America,2015,0.7
+MAR,Morocco,Africa,2015,9.14
+MOZ,Mozambique,Africa,2015,9.04
+MMR,Myanmar,Asia,2015,22.91
+NAM,Namibia,Africa,2015,11.39
+NRU,Nauru,Oceania,2015,0.5
+NPL,Nepal,Asia,2015,47.74
+NLD,Netherlands,Europe,2015,13.36
+NCL,New Caledonia,Oceania,2015,0.38
+NZL,New Zealand,Oceania,2015,1.55
+NIC,Nicaragua,North America,2015,2.49
+NER,Niger,Africa,2015,5.69
+NGA,Nigeria,Africa,2015,16.13
+NIU,Niue,Oceania,2015,0.3
+NFK,Norfolk Island,Oceania,2015,0.3
+PRK,North Korea,Asia,2015,29.07
+MNP,Northern Mariana Islands,Oceania,2015,0.67
+NOR,Norway,Europe,2015,3.22
+OMN,Oman,Asia,2015,10.2
+PAK,Pakistan,Asia,2015,33.98
+PLW,Palau,Oceania,2015,0.97
+PAN,Panama,North America,2015,1.8
+PNG,Papua New Guinea,Oceania,2015,1.72
+PRY,Paraguay,South America,2015,11.67
+PER,Peru,South America,2015,14.55
+PHL,Philippines,Asia,2015,8.14
+PCN,Pitcairn,Unknown,2015,0.3
+POL,Poland,Europe,2015,22.19
+PRT,Portugal,Europe,2015,6.55
+PRI,Puerto Rico,North America,2015,1.32
+QAT,Qatar,Asia,2015,19.43
+COG,Republic of Congo,Africa,2015,28.24
+REU,Reunion,Africa,2015,0.41
+ROU,Romania,Europe,2015,16.07
+RUS,Russia,Europe,2015,13.2
+RWA,Rwanda,Africa,2015,21.44
+SHN,Saint Helena,Africa,2015,0.65
+KNA,Saint Kitts and Nevis,North America,2015,0.6
+LCA,Saint Lucia,North America,2015,1.03
+SPM,Saint Pierre and Miquelon,North America,2015,1.65
+VCT,Saint Vincent and the Grenadines,North America,2015,0.79
+WSM,Samoa,Oceania,2015,0.31
+SMR,San Marino,Europe,2015,14.4
+STP,Sao Tome and Principe,Africa,2015,9.55
+SAU,Saudi Arabia,Asia,2015,13.85
+SEN,Senegal,Africa,2015,4.11
+SRB,Serbia,Europe,2015,15.27
+SYC,Seychelles,Africa,2015,0.48
+SLE,Sierra Leone,Africa,2015,7.73
+SGP,Singapore,Asia,2015,27.51
+SVK,Slovakia,Europe,2015,20.84
+SVN,Slovenia,Europe,2015,14.83
+SLB,Solomon Islands,Oceania,2015,0.77
+SOM,Somalia,Africa,2015,3.86
+ZAF,South Africa,Africa,2015,23.21
+KOR,South Korea,Asia,2015,28.32
+SSD,South Sudan,Africa,2015,12.04
+ESP,Spain,Europe,2015,8.0
+LKA,Sri Lanka,Asia,2015,6.28
+PSE,State of Palestine,Asia,2015,10.18
+SDN,Sudan,Africa,2015,5.82
+SUR,Suriname,South America,2015,1.02
+SWZ,Swaziland,Africa,2015,19.61
+SWE,Sweden,Europe,2015,5.89
+CHE,Switzerland,Europe,2015,10.96
+SYR,Syria,Asia,2015,13.35
+TWN,Taiwan,Asia,2015,16.28
+TJK,Tajikistan,Asia,2015,29.77
+TZA,Tanzania,Africa,2015,9.64
+THA,Thailand,Asia,2015,27.51
