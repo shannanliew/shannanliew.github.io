@@ -1,0 +1,100 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A dark-mode scatterplot comparing GDP per capita to PM2.5 concentrations with both axes in log scale.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/main/project/gdppc_pm25_population.csv"
+    },
+    "view": {"stroke": "transparent"},
+    "title": {
+      "text": "GDP per Capita and PM2.5 Concentrations",
+      "anchor": "start",
+      "fontSize": 16,
+      "subtitle": "Source: NASA Socioeconomic Data and Applications Center (SEDAC), World Bank, OurWorldinData ",
+      "subtitleFontSize": 12,
+      "subtitleFontStyle": "italic",
+      "color": "#90EE90",
+      "subtitleColor": "#cccccc"
+    },
+    "width": 450,
+    "height": 300,
+    "background": "#1a1a1a",
+    "params": [
+      {
+        "name": "yearSelector",
+        "value": 2008,
+        "bind": {
+          "input": "range",
+          "min": 2008,
+          "max": 2015,
+          "step": 1,
+          "name": "Select year:"
+        }
+      },
+      {
+        "name": "regionSelector",
+        "select": {"type": "point", "fields": ["region"]},
+        "bind": "legend"
+      }
+    ],
+    "layer": [
+      {
+        "mark": {"type": "circle", "opacity": 0.8},
+        "encoding": {
+          "x": {
+            "field": "gdppc",
+            "type": "quantitative",
+            "scale": {"type": "log", "domain": [100, 300000]},
+            "axis": {
+              "title": "GDP per Capita (log scale)",
+              "titleColor": "#cccccc",
+              "labelColor": "#cccccc",
+              "grid": false,
+              "format": "$,"
+            }
+          },
+          "y": {
+            "field": "pm25_concentration",
+            "type": "quantitative",
+            "scale": {"type": "log", "domain": [0.01, 100]},
+            "axis": {
+              "title": "PM2.5 Concentration (log scale)",
+              "titleColor": "#cccccc",
+              "labelColor": "#cccccc",
+              "grid": false
+            }
+          },
+          "color": {
+            "field": "region",
+            "type": "nominal",
+            "legend": {
+              "title": null,
+              "labelColor": "#FFFFFF",
+              "symbolSize": 100,
+              "direction": "horizontal",
+              "orient": "top",
+              "offset": 10
+            }
+          },
+          "size": {
+            "field": "population",
+            "type": "quantitative",
+            "legend": null,
+            "scale": {"type": "linear", "range": [10, 1500]}
+          },
+          "opacity": {
+            "condition": {"param": "regionSelector", "value": 1},
+            "value": 0.1
+          },
+          "tooltip": [
+            {"field": "year", "title": "Year"},
+            {"field": "country", "title": "Country"},
+            {"field": "gdppc", "title": "GDP Per Capita", "format": "$,d"},
+            {"field": "pm25_concentration", "title": "PM2.5 Concentration", "format": ".2f"},
+            {"field": "population", "title": "Population", "format": ","}
+          ]
+        }
+      }
+    ],
+    "transform": [{"filter": "datum.year == yearSelector"}]
+}
+  
