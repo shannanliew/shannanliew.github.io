@@ -4,11 +4,7 @@
     "height": 300,
     "background": "#1a1a1a",
     "config": {
-      "style": {
-        "cell": {
-          "stroke": "#333333"
-        }
-      },
+      "style": {"cell": {"stroke": "#333333"}},
       "axis": {
         "labelColor": "#cccccc",
         "titleColor": "#cccccc",
@@ -16,82 +12,67 @@
         "domainColor": "#333333",
         "tickColor": "#333333"
       },
-      "legend": {
-        "labelColor": "#cccccc",
-        "titleColor": "#cccccc"
-      },
-      "title": {
-        "color": "#90EE90",
-        "subtitleColor": "#cccccc"
-      },
-      "view": {
-        "stroke": "transparent"
-      }
+      "legend": {"labelColor": "#cccccc", "titleColor": "#cccccc"},
+      "title": {"color": "#90EE90", "subtitleColor": "#cccccc"},
+      "view": {"stroke": "transparent"}
     },
     "data": {
       "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/merged_life_expectancy_pm25.csv"
     },
-    "params": [{
-      "name": "select",
-      "select": {
-        "type": "point",
-        "fields": ["Entity"],
-        "toggle": true,
-        "clear": "dblclick"
+    "params": [
+      {
+        "name": "select",
+        "select": {
+          "type": "point",
+          "fields": ["Entity"],
+          "toggle": true,
+          "clear": "dblclick"
+        }
       }
-    }],
-    "transform": [{
-      "filter": {
-        "param": "select",
-        "empty": true
-      }
-    }],
+    ],
     "layer": [
       {
-        "mark": {
-          "type": "point",
-          "filled": true,
-          "opacity": 0.8,
-          "size": 100
-        },
+        "mark": {"type": "point", "filled": true, "size": 100},
         "encoding": {
           "x": {
             "field": "average_pm25",
             "type": "quantitative",
             "title": "Average PM2.5 Levels (μg/m³)",
-            "axis": {
-              "grid": true,
-              "gridWidth": 0.5,
-              "tickCount": 10
-            },
+            "axis": {"grid": true, "gridWidth": 0.5, "tickCount": 10},
             "scale": {"domain": [0, 160]}
           },
           "y": {
             "field": "life_expectancy_0__sex_all__age_0",
             "type": "quantitative",
             "title": "Life Expectancy (Years)",
-            "axis": {
-              "grid": true,
-              "gridWidth": 0.5,
-              "tickCount": 10
-            },
+            "axis": {"grid": true, "gridWidth": 0.5, "tickCount": 10},
             "scale": {"domain": [0, 90]}
           },
           "color": {
             "field": "Entity",
             "type": "nominal",
             "scale": {"scheme": "tableau20"},
-            "legend": {
-              "title": "Country",
-              "orient": "right",
-              "offset": 10
-            }
+            "legend": {"title": "Country", "orient": "right", "offset": 10}
+          },
+          "opacity": {
+            "condition": {"param": "select", "empty": true, "value": 0.8},
+            "value": 0
           },
           "tooltip": [
             {"field": "Entity", "type": "nominal", "title": "Country"},
             {"field": "Year", "type": "ordinal"},
-            {"field": "life_expectancy_0__sex_all__age_0", "type": "quantitative", "title": "Life Expectancy", "format": ".1f"},
-            {"field": "average_pm25", "type": "quantitative", "title": "PM2.5", "format": ".1f"}
+            {
+              "field": "life_expectancy_0__sex_all__age_0",
+              "type": "quantitative",
+              "title": "Life Expectancy",
+              "format": ".1f"
+            },
+            {
+              "field": "average_pm25",
+              "type": "quantitative",
+              "title": "PM2.5",
+              "format": ".1f"
+            }
           ]
         }
       }
