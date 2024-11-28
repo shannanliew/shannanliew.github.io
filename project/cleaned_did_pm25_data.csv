@@ -1,17 +1,17 @@
 city,year,pm25_concentration,treated,post_policy
-Beijing/CHN,2011,99.093,1,0
-Beijing/CHN,2012,90.517,1,0
-Beijing/CHN,2013,93.353,1,1
-Beijing/CHN,2014,85.665,1,1
-Beijing/CHN,2015,80.11,1,1
-Beijing/CHN,2016,72.035,1,1
-Beijing/CHN,2017,58.829,1,1
-Beijing/CHN,2018,50.282,1,1
-Shanghai/CHN,2011,54.41,0,0
-Shanghai/CHN,2012,17.788,0,0
-Shanghai/CHN,2013,60.425,0,1
-Shanghai/CHN,2014,51.528,0,1
-Shanghai/CHN,2015,53.606,0,1
-Shanghai/CHN,2016,45.546,0,1
-Shanghai/CHN,2017,39.784,0,1
-Shanghai/CHN,2018,37.656,0,1
+Beijing (Treatment Group),2011,99.093,1,0
+Beijing (Treatment Group),2012,90.517,1,0
+Beijing (Treatment Group),2013,93.353,1,1
+Beijing (Treatment Group),2014,85.665,1,1
+Beijing (Treatment Group),2015,80.11,1,1
+Beijing (Treatment Group),2016,72.035,1,1
+Beijing (Treatment Group),2017,58.829,1,1
+Beijing (Treatment Group),2018,50.282,1,1
+Shanghai (Control Group),2011,54.41,0,0
+Shanghai (Control Group),2012,17.788,0,0
+Shanghai (Control Group),2013,60.425,0,1
+Shanghai (Control Group),2014,51.528,0,1
+Shanghai (Control Group),2015,53.606,0,1
+Shanghai (Control Group),2016,45.546,0,1
+Shanghai (Control Group),2017,39.784,0,1
+Shanghai (Control Group),2018,37.656,0,1
