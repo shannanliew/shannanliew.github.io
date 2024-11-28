@@ -1,0 +1,134 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/cleaned_did_pm25_data.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "year": "number",
+          "pm25_concentration": "number"
+        }
+      }
+    },
+    "background": "#1a1a1a",
+    "title": {
+      "text": "Differences-in-Differences: Policy Impact on PM2.5 Levels",
+      "subtitle": "Effect of Policy Change on PM2.5 Levels (2011–2018)",
+      "anchor": "start",
+      "color": "#54bb8e",
+      "fontSize": 16,
+      "fontWeight": 600,
+      "subtitleFontSize": 12,
+      "subtitleFontStyle": "italic",
+      "subtitleColor": "#ddd"
+    },
+    "width": 400,
+    "height": 250,
+    "config": {
+      "axis": {
+        "domainColor": "#888",
+        "gridColor": "#444",
+        "tickColor": "#888",
+        "labelColor": "#ddd",
+        "titleColor": "#ddd",
+        "titleFontSize": 14,
+        "labelFontSize": 12
+      },
+      "legend": {
+        "labelColor": "#ddd",
+        "titleColor": "#ddd",
+        "titleFontSize": 14,
+        "labelFontSize": 12
+      }
+    },
+    "layer": [
+      {
+        "mark": {
+          "type": "line",
+          "strokeWidth": 2,
+          "opacity": 0.9
+        },
+        "encoding": {
+          "x": {
+            "field": "year",
+            "type": "ordinal",
+            "axis": {
+              "title": null,
+              "labelAngle": 0
+            }
+          },
+          "y": {
+            "field": "pm25_concentration",
+            "type": "quantitative",
+            "axis": {
+              "title": "PM2.5 Concentration"
+            }
+          },
+          "color": {
+            "field": "city",
+            "type": "nominal",
+            "scale": {
+              "domain": ["Beijing (Treatment Group)", "Shanghai (Control Group)"],
+              "range": ["#c93b36", "#306ec9"]
+            },
+            "legend": {
+              "title": "City",
+              "orient": "top",
+              "direction": "horizontal"
+            }
+          },
+          "tooltip": [
+            {"field": "city", "type": "nominal", "title": "City"},
+            {"field": "year", "type": "ordinal", "title": "Year"},
+            {
+              "field": "pm25_concentration",
+              "type": "quantitative",
+              "title": "PM2.5 Concentration"
+            }
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "rule",
+          "color": "#888",
+          "strokeDash": [6, 4],
+          "strokeWidth": 2
+        },
+        "encoding": {
+          "x": {
+            "datum": 2013,
+            "type": "ordinal"
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "dx": -10,
+          "dy": -5,
+          "color": "#ddd"
+        },
+        "encoding": {
+          "x": {
+            "datum": 2013,
+            "type": "ordinal"
+          },
+          "y": {
+            "aggregate": "max",
+            "field": "pm25_concentration"
+          },
+          "text": {
+            "value": "Policy Change"
+          }
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "datum.year >= 2011 && datum.year <= 2018"
+      }
+    ]
+}
+  
