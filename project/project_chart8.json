@@ -1,0 +1,104 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#1a1a1a",
+    "width": 300,
+    "height": 300,
+    "config": {
+        "axis": {
+            "domainColor": "#888",
+            "gridColor": "#444",
+            "tickColor": "#888",
+            "labelColor": "#ddd",
+            "titleColor": "#ddd"
+        },
+        "legend": {
+            "labelColor": "#ddd",
+            "titleColor": "#ddd"
+        }
+    },
+    "title": {
+        "text": "Sensitivity Analysis: Impact of PM2.5 Reduction on Life Expectancy",
+        "subtitle": "Using Random Forest Regressor to Predict Life Expectancy Outcomes",
+        "subtitleFontStyle": "italic",
+        "color": "#54bb8e",
+        "fontSize": 16,
+        "subtitleFontSize": 12,
+        "anchor": "start",
+        "subtitleColor": "#ddd"
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/sensitivity_results.json",
+        "format": {
+            "type": "json"
+        }
+    },
+    "transform": [
+        {
+            "calculate": "toNumber(datum['PM2.5 Reduction (%)'])",
+            "as": "PM2.5 Reduction (%)"
+        }
+    ],
+    "mark": {
+        "type": "line",
+        "point": {
+            "filled": true,
+            "size": 100
+        },
+        "tooltip": true
+    },
+    "encoding": {
+        "x": {
+            "field": "PM2.5 Reduction (%)",
+            "type": "quantitative",
+            "title": "PM2.5 Reduction (%)",
+            "axis": {
+                "labelColor": "#ddd",
+                "titleColor": "#ddd"
+            }
+        },
+        "y": {
+            "field": "predicted_life_expectancy",
+            "type": "quantitative",
+            "title": "Predicted Life Expectancy (Years)",
+            "scale": {
+                "domain": [
+                    60,
+                    80
+                ]
+            },
+            "axis": {
+                "labelColor": "#ddd",
+                "titleColor": "#ddd"
+            }
+        },
+        "color": {
+            "field": "region",
+            "type": "nominal",
+            "title": "Region",
+            "scale": {
+                "scheme": "category10"
+            },
+            "legend": {
+                "labelColor": "#ddd",
+                "titleColor": "#ddd"
+            }
+        },
+        "tooltip": [
+            {
+                "field": "region",
+                "type": "nominal",
+                "title": "Region"
+            },
+            {
+                "field": "PM2.5 Reduction (%)",
+                "type": "quantitative",
+                "title": "PM2.5 Reduction (%)"
+            },
+            {
+                "field": "predicted_life_expectancy",
+                "type": "quantitative",
+                "title": "Life Expectancy (Years)"
+            }
+        ]
+    }
+}
