@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
+
 <body>
     <header>
         <div class="site-title">
@@ -38,83 +40,439 @@
     <main>
         <div class="section portfolio-tasks-content">
             <h1>The Hidden Cost of Poor Air Quality: How Pollution Quietly Undermines Urban Economies and Health</h1>
-            
-            <p>As cities grapple with the growing burden of air pollution, its impact extends far beyond environmental concerns. This project delves into how degraded air quality covertly strains urban economies, from lost productivity to rising healthcare costs. By examining data on pollution levels, economic output, and health outcomes, we reveal the often-overlooked financial and societal costs of air pollution—highlighting the urgent need for informed, data-driven policy interventions.</p>
-            
+
+            <p>As cities grapple with the growing burden of air pollution, its impact extends far beyond environmental
+                concerns. This project delves into how degraded air quality covertly strains urban economies, from lost
+                productivity to rising healthcare costs. By examining data on pollution levels, economic output, and
+                health outcomes, we reveal the often-overlooked financial and societal costs of air
+                pollution—highlighting the urgent need for informed, data-driven policy interventions.</p>
+
             <div class="aims-container">
                 <h2>Project Aims</h2>
-                
+
                 <div class="aim-section">
-                    <h3>Understanding the Economic Burden of Air Pollution</h3>
+                    <h3>Investigating the Relationship Between Air Pollution and Life Expectancy
+                    </h3>
                     <ul>
-                        <li>Examine how pollution in urban areas affects economic productivity, focusing on potential losses in labor output and increased healthcare expenditures.</li>
-                        <li>Quantify the economic impact by analyzing relationships between air quality metrics (e.g., PM2.5 levels) and productivity indicators like absenteeism and reduced work performance.</li>
+                        <li>Leverage machine learning to assess how varying PM2.5 concentrations affect life expectancy
+                            across different regions.
+                        </li>
+                        <li>Identify factors that mediate the impact of air quality on public health, such as healthcare
+                            expenditure, urbanization rates, and economic development.
+                        </li>
                     </ul>
                 </div>
-                
+
                 <div class="aim-section">
-                    <h3>Analyzing Health Outcomes Associated with Poor Air Quality</h3>
+                    <h3>Quantifying Regional Disparities in Pollution's Health Effects
+                    </h3>
                     <ul>
-                        <li>Investigate the link between air pollution levels and urban health issues, particularly respiratory and cardiovascular diseases.</li>
-                        <li>Assess how pollution exacerbates healthcare costs by contributing to increased hospitalizations and medication usage.</li>
+                        <li>Highlight disparities in air quality and its health impacts, focusing on regions with high
+                            pollution levels.
+                        </li>
+                        <li>Analyze socio-economic factors contributing to regional variations in health outcomes linked
+                            to air quality.
+                        </li>
                     </ul>
                 </div>
-                
+
                 <div class="aim-section">
-                    <h3>Identifying Geographic and Socioeconomic Disparities</h3>
+                    <h3>Evaluating Environmental and Economic Trade-Offs
+                    </h3>
                     <ul>
-                        <li>Highlight disparities in the economic and health impacts of air pollution across different urban regions and socioeconomic groups.</li>
-                        <li>Explore how certain populations might bear a disproportionate burden, bringing a focus to equity in environmental health.</li>
+                        <li>Examine whether economic growth leads to cleaner air or exacerbates pollution by analyzing
+                            relationships between GDP per capita and PM2.5 concentrations.
+                        </li>
+                        <li>Understand how policy interventions and regional strategies influence air quality outcomes.
+                        </li>
                     </ul>
                 </div>
-                
+
                 <div class="aim-section">
-                    <h3>Supporting Policy Recommendations</h3>
+                    <h3>Informing Policy Through Data-Driven Insights
+                    </h3>
                     <ul>
-                        <li>Use data insights to support potential policy interventions aimed at improving air quality.</li>
-                        <li>Provide visualizations that can inform stakeholders and raise awareness about the hidden economic and health costs associated with poor air quality.</li>
+                        <li>Use visualizations to communicate the interplay between air pollution, health, and economic
+                            development.
+                        </li>
+                        <li>Support actionable recommendations for mitigating pollution and promoting equitable health
+                            outcomes across regions.
+                        </li>
                     </ul>
                 </div>
             </div>
 
             <div class="chart-container">
                 <h2>Global PM2.5 Levels</h2>
-                <iframe 
-                    src="project/PM25_Geomap.html" 
-                    title="PM2.5 Global Map" 
-                    width="100%" 
-                    height="600" 
+                <iframe src="project/PM25_Geomap.html" title="PM2.5 Global Map" width="100%" height="600"
                     style="border: none;">
                 </iframe>
 
-                <p>The Global PM2.5 Levels Map provides a visual representation of the average fine particulate matter (PM2.5) concentrations across countries in 2020. Using a choropleth design, the map highlights the intensity of air pollution globally, with darker shades indicating higher PM2.5 levels. This visualization enables quick identification of regions facing severe air quality challenges, such as South Asia and parts of the Middle East, while also showcasing areas with cleaner air.</p>
-                <p>To create the global map visualizing PM2.5 levels, I began by scraping PM2.5 data for countries from a <a href="https://en.wikipedia.org/wiki/List_of_countries_by_air_pollution">Wikipedia page</a> containing country-level air pollution statistics. Using Python and the BeautifulSoup library, I processed the raw HTML content to extract relevant data, cleaned the dataset to remove missing values, and standardized the format to include ISO3 codes. Next, I integrated this data with a GeoJSON world map file, ensuring that each country's ISO3 code matched the GeoJSON properties for spatial visualization. The map was then designed and rendered using Kepler.gl, where I applied a color gradient to represent varying PM2.5 levels, from low (blue) to high (red), making the intensity of air pollution visually distinguishable. I added hover tooltips to display specific country names and PM2.5 values for interactivity. Finally, I exported the map as an HTML file and embedded it seamlessly into my project page for easy navigation and exploration.</p>
-                <p><a href="https://colab.research.google.com/drive/1NuhlKux6fpcrVthtDrOVozZ-ei87meci?usp=sharing" target="_blank">Python Notebook 1 (Scraping)</a></p>
-                <p><a href="https://colab.research.google.com/drive/11xJA0ZBfBZXwfueUcJL1s_EEOC-SMzL5?usp=sharing" target="_blank"">Python Notebook 2 (Merging with GeoJson)</a></p>
+                <div class="legend">
+                    <h3>PM2.5 Levels</h3>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #000000;"></div>
+                        <span>Not Available</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #00FFFF;"></div>
+                        <span>0.56 to 4.166</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #00CCCC;"></div>
+                        <span>4.166 to 7.211</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #00999C;"></div>
+                        <span>7.211 to 10.61</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #FFEFD5;"></div>
+                        <span>10.61 to 12.69</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #FFB6C1;"></div>
+                        <span>12.69 to 16.37</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #FF8C00;"></div>
+                        <span>16.37 to 22.97</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #FF0000;"></div>
+                        <span>22.97 to 75.76</span>
+                    </div>
+                </div>
+
+                <p>The Global PM2.5 Levels Map provides a visual representation of the average fine particulate matter
+                    (PM2.5) concentrations across countries in 2020. Using a choropleth design, the map highlights the
+                    intensity of air pollution globally, with darker shades indicating higher PM2.5 levels. This
+                    visualization enables quick identification of regions facing severe air quality challenges, such as
+                    South Asia and parts of the Middle East, while also showcasing areas with cleaner air.</p>
+                <p>To create the global map visualizing PM2.5 levels, I began by scraping PM2.5 data for countries from
+                    a <a href="https://en.wikipedia.org/wiki/List_of_countries_by_air_pollution">Wikipedia page</a>
+                    containing country-level air pollution statistics. Using Python and the BeautifulSoup library, I
+                    processed the raw HTML content to extract relevant data, cleaned the dataset to remove missing
+                    values, and standardized the format to include ISO3 codes. Next, I integrated this data with a
+                    GeoJSON world map file, ensuring that each country's ISO3 code matched the GeoJSON properties for
+                    spatial visualization. The map was then designed and rendered using Kepler.gl, where I applied a
+                    color gradient to represent varying PM2.5 levels, from low (blue) to high (red), making the
+                    intensity of air pollution visually distinguishable. I added hover tooltips to display specific
+                    country names and PM2.5 values for interactivity. Finally, I exported the map as an HTML file and
+                    embedded it seamlessly into my project page for easy navigation and exploration.</p>
+                <p><a href="https://colab.research.google.com/drive/1NuhlKux6fpcrVthtDrOVozZ-ei87meci?usp=sharing"
+                        target="_blank">Python Notebook 1 (Scraping)</a></p>
+                <p><a href="https://colab.research.google.com/drive/11xJA0ZBfBZXwfueUcJL1s_EEOC-SMzL5?usp=sharing"
+                        target="_blank">Python Notebook 2 (Merging with GeoJson)</a></p>
             </div>
             
-            <div class="chart-container">
-                <h2>Tracking PM2.5 Trends and Yearly Changes in Major Cities (2010–2019)</h2>
-                <figure id="project-charts-chart1"></figure>
+            <div class=" chart-container">
+                        <h2>Tracking PM2.5 Trends and Yearly Changes in Major Cities (2010–2019)</h2>
+                        <figure id="project-charts-chart1"></figure>
 
-                <p>To visualize PM2.5 levels across six major cities from 2010 to 2019 and their year-over-year changes, I began by sourcing data from the <a href="https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database" target="_blank">WHO Ambient Air Quality Database</a>, which tracks PM2.5 concentrations in micrograms per cubic meter (µg/m³) for cities worldwide.</p>
-                <p>Using Python, I processed the dataset to focus on the years 2010 to 2019, selecting cities with at least seven years of data to ensure continuity. From this subset, I chose Beijing, Singapore, New York, London, São Paulo, and Delhi for analysis. The data preparation included filtering for the selected cities and years, calculating the year-over-year percentage change in PM2.5 concentrations using Python’s pct_change method grouped by city, and cleaning the dataset by handling missing values and standardizing city names. The cleaned data, which included columns for city names, years, PM2.5 concentrations, and percentage changes, was then exported to a CSV file for visualization.</p>
-                <p>The time-series chart highlights the varying trajectories of air quality across these urban centers, with notable improvements in cities like Beijing, which saw a steady decline in PM2.5 levels over the decade. Conversely, Delhi exhibited significant volatility, with periods of sharp increases and decreases, reflecting ongoing challenges in managing air pollution. The scatter plot of yearly percentage changes reveals the magnitude and frequency of fluctuations, with cities like London demonstrating relatively stable air quality compared to the more dramatic changes seen in Delhi and Beijing.</p>
-                <p><a href="https://colab.research.google.com/drive/1anRvQ5Cn2XR1MqKW1aS8FeFTS0TnytPu?usp=sharing" target="_blank">Python Notebook 3</a></p>
-                <p><a href="https://colab.research.google.com/drive/1iiNQCAnzUCoNZ6owA6241hKQBJUGNMmv?usp=sharing" target="_blank">Python Notebook 4</a></p>
-            </div>   
+                        <p>To visualize PM2.5 levels across six major cities from 2010 to 2019 and their year-over-year
+                            changes, I began by sourcing data from the <a
+                                href="https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database"
+                                target="_blank">WHO Ambient Air Quality Database</a>, which tracks PM2.5 concentrations
+                            in micrograms per cubic meter (µg/m³) for cities worldwide.</p>
+                        <p>Using Python, I processed the dataset to focus on the years 2010 to 2019, selecting cities
+                            with at least seven years of data to ensure continuity. From this subset, I chose Beijing,
+                            Singapore, New York, London, São Paulo, and Delhi for analysis. The reason for choosing
+                            these cities are because they are some of the most significant and influential cities in the
+                            world. The data preparation
+                            included filtering for the selected cities and years, calculating the year-over-year
+                            percentage change in PM2.5 concentrations using Python’s pct_change method grouped by city,
+                            and cleaning the dataset by handling missing values and standardizing city names. The
+                            cleaned data, which included columns for city names, years, PM2.5 concentrations, and
+                            percentage changes, was then exported to a CSV file for visualization.</p>
+                        <p>The time-series chart highlights the varying trajectories of air quality across these urban
+                            centers, with notable improvements in cities like Beijing, which saw a steady decline in
+                            PM2.5 levels over the decade. Conversely, Delhi exhibited significant volatility, with
+                            periods of sharp increases and decreases, reflecting ongoing challenges in managing air
+                            pollution. The scatter plot of yearly percentage changes reveals the magnitude and frequency
+                            of fluctuations, with cities like London demonstrating relatively stable air quality
+                            compared to the more dramatic changes seen in Delhi and Beijing.</p>
+                        <p><a href="https://colab.research.google.com/drive/1anRvQ5Cn2XR1MqKW1aS8FeFTS0TnytPu?usp=sharing"
+                                target="_blank">Python Notebook 3</a></p>
+                        <p><a href="https://colab.research.google.com/drive/1iiNQCAnzUCoNZ6owA6241hKQBJUGNMmv?usp=sharing"
+                                target="_blank">Python Notebook 4</a></p>
+            </div>
+
+            <div class="chart-container">
+                <h2>Regional Trends in Air Pollution (2010–2019)</h2>
+                <figure id="project-charts-chart2"></figure>
+
+                <p>To create this visualization, I extracted data from the WHO Ambient Air Quality database and filtered
+                    it to include only relevant columns: who_region, year, and pm25_concentration. I replaced the WHO
+                    region codes with their full names, such as Africa and Southeast Asia, to make the data more
+                    readable. Next, I calculated the average annual PM2.5 concentration for each region from 2010 to
+                    2019, rounding the values to two decimal places for clarity.</p>
+                <p>Using Vega-Lite, I built an interactive area chart that allows users to filter the data by year with
+                    sliders. The chart includes interactive sliders that allow users to dynamically filter the time
+                    range (start and end years). This functionality ensures that the visualization is flexible and
+                    suitable for exploratory analysis.</p>
+                <p>While PM2.5 levels in most regions exhibited a general downward trend, particularly in Europe and the
+                    Americas, indicating improved air quality over time, Southeast Asia remains an outlier with
+                    consistently high levels, underscoring the need for stricter air pollution control measures in this
+                    region.</p>
+                <p>It is also <b>important to note</b> WHO regions such as <i>Eastern Mediterranean</i> and
+                    <i>Non-member states</i> were not included in this analysis as data was scarce/incomplete, which
+                    could lead to sampling bias.
+                </p>
+                <p><a href="https://colab.research.google.com/drive/1anRvQ5Cn2XR1MqKW1aS8FeFTS0TnytPu?usp=sharing"
+                        target="_blank">Python Notebook 3 (Extended)</a></p>
+            </div>
+
+            <div class="chart-container">
+                <h2>Analyzing the Relationship Between PM2.5 Levels and NCD Mortality Rates</h2>
+                <figure id="project-charts-chart3"></figure>
+
+                <p>To create this regression chart, I first gathered data from two separate sources: average PM2.5
+                    concentrations (2010–2019) from the WHO Ambient Air Quality database and Non-Communicable Disease
+                    (NCD) mortality rates per 100,000 population from the <a
+                        href="https://www.who.int/data/gho/info/gho-odata-api" target="_blank">Global Health Observatory
+                        API</a>. Using Python, I preprocessed the datasets. This involved filtering for countries with
+                    complete yearly data and aggregating PM2.5 levels by year. Similarly, for the NCD data, I extracted
+                    values only for relevant years and ensured consistent spatial dimensions (country codes).</p>
+                <p>Using Vega-Lite, I plotted a regression chart to examine the relationship between average PM2.5
+                    levels and NCD mortality rates. The regression line was calculated using the Vega-Lite regression
+                    transform, and I included an R² annotation to assess the model’s goodness-of-fit.</p>
+                <p>The chart reveals a moderate positive correlation between PM2.5 concentrations and NCD mortality
+                    rates, with an R² value of 0.35. This indicates that 35% of the variability in NCD mortality rates
+                    can be explained by average PM2.5 levels. Countries with higher average PM2.5 levels, such as India
+                    and Bangladesh, tend to show higher NCD mortality rates. Conversely, nations with lower PM2.5
+                    levels, such as the USA and Australia, generally exhibit lower NCD mortality rates. These findings
+                    align with existing research linking air pollution to cardiovascular and respiratory diseases.</p>
+                <p>The analysis has several limitations. It includes only countries with complete data from 2010–2019,
+                    which may bias results toward nations with better reporting infrastructure. The regression
+                    demonstrates correlation but does not establish causation, as other factors like healthcare access
+                    and socioeconomic disparities likely influence NCD mortality rates. The linear model may
+                    oversimplify the potentially non-linear relationship between air pollution and health outcomes.
+                    Finally, the model may suffer from heteroskedasticity, as variability in NCD mortality rates could
+                    differ across levels of PM2.5 concentrations, impacting the reliability of statistical inferences.
+                </p>
+                <p><a href="https://colab.research.google.com/drive/1ubRaD8izRxDzyWW8p0k_FvAD9mdwd4ft?usp=sharing"
+                        target="_blank">Python Notebook 5</a></p>
+                <p><a href="https://colab.research.google.com/drive/1svs2yHyZelc7iupBpLjHVvh1K4-3II0W?usp=sharing"
+                        target="_blank">Python Notebook 6</a></p>
+                <p><a href="https://colab.research.google.com/drive/1bXPAVBut07sre7usqlbwThu2ArLg-uoY?usp=sharing"
+                        target="_blank">Python Notebook 7</a></p>
+            </div>
+
+            <div class="chart-container">
+                <h2>Analyzing the Impact of PM2.5 Levels on Life Expectancy</h2>
+                <figure id="project-charts-chart4"></figure>
+                <iframe src="project/Getting_the_R_Squared_for_the_Effect_of_PM2_5_on_Life_Expectancy_Levels.html"
+                    width="100%" height="500" style="border: none;" allowfullscreen></iframe>
+                <p>I used <a href="https://ourworldindata.org/life-expectancy#article-licence" target="_blank">life
+                        expectancy data from Our World in Data</a> and PM2.5 concentration data to create the chart.
+                    Using pandas, I cleaned and merged both datasets, focusing on records from 2010 to 2019. Columns
+                    were standardized for compatibility, and only rows with complete data were retained. The merged data
+                    was saved as a CSV for visualization.</p>
+                <p>To create the interactive scatter plot, I used Vega-Lite, mapping PM2.5 levels (x-axis) against life
+                    expectancy (y-axis). Each data point represents a country-year pair, color-coded by country.
+                    Tooltips were added for detailed information, and an <i>interactive selection feature</i> allows
+                    users to isolate data points for individual countries.</p>
+                <p>In a <a href="https://colab.research.google.com/drive/1DiUo30N-olVaUYhYEFdgw4OoBJpQ-J6R?usp=sharing"
+                        target="_blank">Python notebook</a>, I used scikit-learn to calculate the R-squared value for
+                    the relationship between PM2.5 levels and life expectancy, yielding a value of 0.4000. This
+                    indicates a moderate negative correlation between the variables.</p>
+                <p>The chart reveals a negative correlation between PM2.5 levels and life expectancy, with countries
+                    like Bangladesh and India showing low life expectancies and high PM2.5 levels. Developed countries
+                    such as Australia and Spain cluster in the upper-left, indicating higher life expectancies and
+                    cleaner air. Outliers, such as Mongolia in 2011, demonstrate significant spikes in PM2.5 while
+                    maintaining relatively stable life expectancy levels. The HTML code for the notebook was extracted
+                    to be embedded our project webpage.</p>
+                <p><b>Limitations:</b> The dataset is restricted to a specific time range (2010-2019) and includes only
+                    countries with complete data, potentially excluding significant regions. The linear regression model
+                    assumes a linear relationship, which may oversimplify the complex factors influencing life
+                    expectancy beyond air pollution. Additionally, the R-squared value of 0.40 indicates that while
+                    there is some correlation, other factors not included in this analysis significantly impact life
+                    expectancy.</p>
+                <p><a href="https://colab.research.google.com/drive/1xpdXW1lEc3eBb7MFIC3cD_SxN80ndyBt?usp=sharing"
+                        target="_blank">Python Notebook 8</a></p>
+                <p><a href="https://colab.research.google.com/drive/1frOPnPA0IHusLI5qm4BAx99LaHq7QC_C?usp=sharing"
+                        target="_blank">Python Notebook 9</a></p>
+            </div>
+
+            <div class=" chart-container">
+                <h2>Does Economic Development Inevitably Lead To a Decrease in Air Pollution?</h2>
+                <figure id="project-charts-chart5"></figure>
+
+                <p>In this research, I explored the relationship between economic development, as measured by GDP per
+                    capita, and air pollution levels, represented by PM2.5 concentrations, to address the question: Does
+                    economic development inevitably lead to a decrease in air pollution? The data for this analysis were
+                    sourced from publicly available repositories. <a
+                        href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD" target="_blank">GDP per capita</a>
+                    and <a href="https://ourworldindata.org/population-growth" target="_blank">population data</a> were
+                    obtained from
+                    the World Bank, while <a
+                        href="https://www.earthdata.nasa.gov/data/catalog/sedac-ciesin-sedac-sdei-apm25-urban-1.00"
+                        target="_blank">PM2.5 concentration levels</a> were derived from NASA's SEDAC. These datasets
+                    were
+                    cleaned, standardized, and merged using Python. Key preprocessing steps included aligning country
+                    codes, ensuring consistent temporal coverage (2008–2015), and assigning regions to each country for
+                    a holistic analysis.</p>
+                <p>To visualize this relationship, this chart employs a
+                    log scale for both GDP per capita and PM2.5 concentrations to manage the wide range of values and
+                    improve interpretability. It features an interactive year slider, allowing temporal analysis of
+                    changes in air pollution levels alongside economic development. Additional functionalities include a
+                    <i>region-based legend toggle, which enables users to isolate specific regions</i> for comparative
+                    analysis. Bubbles representing individual countries vary in size, proportional to their population,
+                    and provide detailed tooltips with GDP per capita, PM2.5 levels, and population data for deeper
+                    insights.
+                </p>
+                <p>Significant regional variations emerge. Asian countries often display high PM2.5 concentrations
+                    across a wide range of GDP levels, reflecting the environmental costs of rapid industrialization. In
+                    contrast, Oceania consistently exhibits the lowest levels of PM2.5 pollution, despite spanning a
+                    wide range of GDP per capita. This observation suggests that factors beyond economic development,
+                    such as geographic isolation, lower industrialization levels, or strong environmental policies, may
+                    contribute to maintaining clean air in this region.</p>
+                <p>Furthermore, North American countries generally demonstrate lower PM2.5 levels compared to Europe,
+                    even among countries with similar GDP per capita levels. This trend could be attributed to
+                    differences in industrial practices, energy sources, urbanization patterns, or the implementation of
+                    air quality regulations. For example, North America's reliance on natural gas and renewable energy,
+                    compared to Europe’s historically high use of coal in certain regions, may partly explain this
+                    discrepancy.</p>
+                <p>The analysis of the relationship between economic development and air pollution reveals that higher
+                    GDP per capita does not inevitably lead to reduced PM2.5 concentrations. These findings underscore
+                    the importance of adopting region-specific strategies to mitigate air pollution, as economic growth
+                    alone is insufficient to ensure environmental sustainability.</p>
+                <p><a href="https://colab.research.google.com/drive/1Cuke3aF0gaXQjOLiQ0dTI3Cvp-x9o12f?usp=sharing"
+                        target="_blank">Python Notebook 10 (Cleaning PM2.5 data)</a></p>
+                <p><a href="https://colab.research.google.com/drive/1-srkKXknw9QwoHIwFYPJJA5KCGFd5H28?usp=sharing"
+                        target="_blank">Python Notebook 11 (Cleaning GDP data)</a></p>
+                <p><a href="https://colab.research.google.com/drive/1pf8RSq4cKTY-q2wS-tNFVafZOY8ADz5s?usp=sharing"
+                        target="_blank">Python Notebook 12 (Cleaning Population data)</a></p>
+                <p><a href="https://colab.research.google.com/drive/1rL3u6DsY3rm5ihZYcfoMVihpqjlGlPBl?usp=sharing"
+                        target="_blank">Python Notebook 13 (Merging data)</a></p>
+            </div>
+
+            <div class="chart-container">
+                <h2>Assessing Policy Effectiveness: A Differences-in-Differences Analysis of PM2.5 Levels in Beijing and
+                    Shanghai</h2>
+                <figure id="project-charts-chart6"></figure>
+
+                <p>This Differences-in-Differences (DiD) chart analyzes the impact of policy changes on PM2.5 air
+                    pollution levels in Beijing (treatment group) and Shanghai (control group).</p>
+                <p>The Differences-in-Differences (DiD) analysis demonstrates the substantial impact of <a href="https://aqli.epic.uchicago.edu/policy-impacts/china-national-air-quality-action-plan-2014/" target="_blank">Beijing's
+                    2013-2017 Clean Air Action Plan</a>, a landmark policy initiative aimed at mitigating severe air
+                    pollution. The DiD estimate of -32.057 µg/m³ captures the causal effect of this policy, showcasing
+                    its significant contribution to improving air quality beyond what could be explained by broader
+                    trends, as seen in Shanghai (the control group).</p>
+                <p>Ultimately, the DiD analysis not only quantifies the success of Beijing’s policy but also serves as a
+                    guiding framework for assessing the efficacy of environmental interventions in other regions. It
+                    highlights the transformative potential of strategic, data-driven policymaking in addressing complex
+                    challenges like urban air pollution.</p>
+                <p><a href="https://colab.research.google.com/drive/1ZlTCaJeGUmXbWeuwivsWjZG3C6nEAkKP?usp=sharing"
+                        target="_blank">Python Notebook 14 (Cleaning DiD dataset)</a></p>
+            </div>
+
+            <div class=" chart-container">
+                <h2>Using Machine Learning to Explore Life Expectancy Predictions
+                </h2>
+                <figure id="project-charts-chart7"></figure>
+
+                <p>I leveraged machine learning to predict life expectancy under varying environmental and socioeconomic
+                    conditions. Starting with a cleaned dataset containing GDP per capita, PM2.5 levels, <a
+                        href="https://ourworldindata.org/grapher/co-emissions-per-capita?time=2017" target="_blank">CO2
+                        emissions</a>, <a href="https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS"
+                        target="_blank">healthcare spending</a>, <a
+                        href="https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS" target="_blank">urbanization
+                        rates</a>, and <a
+                        href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years)"
+                        target="_blank">life expectancy</a>, I trained a Random Forest Regressor on 80% of the data and
+                    validated it on the remaining 20%. The model achieved strong performance metrics, with a Mean
+                    Squared Error (MSE) of 3.22 and an R² score of 0.95.</p>
+                <p>Next, I conducted a sensitivity analysis by simulating reductions in PM2.5 levels (0%, 10%, 20%, 30%,
+                    50%, and 70%) and predicting how life expectancy could change across global regions. I visualized
+                    the results using Vega-Lite to create an interactive dark-mode chart, enhanced with tooltips for
+                    better interpretability.</p>
+                <p>The analysis revealed that PM2.5 reductions had a modest but regionally varied impact on life
+                    expectancy. While regions such as Africa showed consistent improvements with decreasing PM2.5
+                    levels, other regions like Europe and North America exhibited smaller changes, suggesting that air
+                    quality improvements alone might not significantly influence life expectancy in these areas. The
+                    results highlighted the interplay between multiple factors, including healthcare spending and
+                    economic development, in shaping life expectancy outcomes.</p>
+                <p>However, this analysis has several limitations. The dataset spans only 2008–2015, which restricts the
+                    temporal scope and may not capture recent trends or interventions. Missing data for some countries
+                    and regions could introduce bias, underrepresenting key areas. Additionally, the Random Forest
+                    model, while robust, is not inherently interpretable, making causal inferences challenging.
+                    Correlations between features, such as urbanization rates and healthcare expenditure, may also
+                    confound the results. These factors suggest the findings should be viewed as exploratory rather than
+                    definitive.</p>
+                <p><a href="https://colab.research.google.com/drive/1-A1MVZCN_v1o0KK9g9_n9YdXrnJZnIo2?usp=sharing"
+                        target="_blank">Python Notebook 15 (Cleaning Life Expectancy Data)</a></p>
+                <p><a href="https://colab.research.google.com/drive/1yWnTZ0x_OSs1Ww_UGF5I7gAnqFvOkFdV?usp=sharing"
+                        target="_blank">Python Notebook 16 (Cleaning Health Expenditure Data)</a></p>
+                <p><a href="https://colab.research.google.com/drive/1t6xMYz0KxGDOe_o0zgTYANz3X53vxEV2?usp=sharing"
+                        target="_blank">Python Notebook 17 (Cleaning Urbanisation Rate Data)</a></p>
+                <p><a href="https://colab.research.google.com/drive/1pa7kL01TcrTxIJaCAXVzkv-fr0rjqAef?usp=sharing"
+                        target="_blank">Python Notebook 18 (Cleaning CO2 Emissions Data)</a></p>
+                <p><a href="https://colab.research.google.com/drive/1ZJU3F2t4hdxYmhFcEXebSzHy97ipIY7Y?usp=sharing"
+                        target="_blank">Python Notebook 19 (Merging to get our Machine Learning dataset)</a></p>
+                <p><a href="https://colab.research.google.com/drive/1qXw-l87dbCGfsLD1sZ_z9dIPCBWVVXOn#scrollTo=5A3toqnFDscv"
+                        target="_blank">Python Notebook 20 (Machine Learning Analysis)</a></p>
+            </div>
+
+            <div class="chart-container">
+                <h2>Conclusion</h2>
+                <p>This journey into the hidden impacts of air pollution has been both revealing and thought-provoking.
+                    Through data, machine learning, and visualization, I uncovered how PM2.5 levels quietly chip away at
+                    life expectancy, particularly in regions already grappling with socio-economic challenges. While
+                    cleaner air consistently improves health outcomes in some areas, the story is far from
+                    simple—economic growth, healthcare spending, and urbanization all intertwine in ways that defy easy
+                    answers.
+                </p>
+                <p>What stood out the most is the stark contrast between regions. Rapidly industrializing areas like
+                    South Asia face the steepest climb, while others, like Oceania, showcase how geography and strong
+                    policies can shield populations from the worst effects of pollution. It’s a sobering reminder that
+                    improving air quality isn’t just a technical challenge but a deeply human one, shaped by the choices
+                    we make as societies.
+                </p>
+                <p>
+                    This work has its limits. The dataset spans a narrow timeframe, and the models, while insightful,
+                    only scratch the surface of this complex issue. Still, the results highlight the undeniable value of
+                    clean air and the urgent need for region-specific strategies. Air pollution isn’t just an
+                    environmental issue—it’s a public health and equity crisis.
+                </p>
+                <p>In the end, this project is a call to action: to use data and science not just to understand the
+                    world but to drive meaningful change in it. The tools are here; it’s up to us to use them wisely.
+                </p>
+            </div>
     </main>
- 
+
     <script>
 
         let figure_1_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/project_chart2.json"
 
         vegaEmbed('#project-charts-chart1', figure_1_spec)
 
-        let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/ukMacro/fiscal_psnb_bn_dark.json"
+        let figure_2_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/project_chart3.json"
 
-        vegaEmbed('#hosting-charts-chart2', figure_2_spec)
+        vegaEmbed('#project-charts-chart2', figure_2_spec)
+
+        let figure_3_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/project_chart4.json"
+
+        vegaEmbed('#project-charts-chart3', figure_3_spec)
+
+        let figure_4_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/project_chart5.json"
+
+        vegaEmbed('#project-charts-chart4', figure_4_spec)
+
+        let figure_5_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/project_chart6.json"
+
+        vegaEmbed('#project-charts-chart5', figure_5_spec)
+
+        let figure_6_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/project_chart7.json"
+
+        vegaEmbed('#project-charts-chart6', figure_6_spec)
+
+        let figure_7_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/project_chart8.json"
+
+        vegaEmbed('#project-charts-chart7', figure_7_spec)
     </script>
 
 </body>
+
 </html>
