@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/chicken_prices_by_region.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "transform": [
+        {
+            "calculate": "datum.max_price - datum.min_price",
+            "as": "price_range"
+        }
+    ],
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "region_s",
+            "type": "nominal",
+            "title": null,
+            "sort": "-y"
+        },
+        "y": {
+            "field": "min_price",
+            "type": "quantitative",
+            "title": "Price (GBP)",
+            "stack": "zero"
+        },
+        "y2": {
+            "field": "max_price"
+        },
+        "color": {
+            "field": "region_s",
+            "type": "nominal",
+            "legend": null
+        },
+        "tooltip": [
+            {
+                "field": "region_s",
+                "type": "nominal",
+                "title": "Region"
+            },
+            {
+                "field": "min_price",
+                "type": "quantitative",
+                "title": "Min Price",
+                "format": ".2f"
+            },
+            {
+                "field": "max_price",
+                "type": "quantitative",
+                "title": "Max Price",
+                "format": ".2f"
+            },
+            {
+                "field": "price_range",
+                "type": "quantitative",
+                "title": "Price Range",
+                "format": ".2f"
+            }
+        ]
+    },
+    "title": "Chicken Price Range (Min to Max) by Region"
+}

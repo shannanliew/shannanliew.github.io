@@ -1,0 +1,51 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/chicken_prices_by_region.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "avg_price",
+            "type": "quantitative",
+            "title": "Average Price (GBP)"
+        },
+        "y": {
+            "field": "region_s",
+            "type": "nominal",
+            "sort": "-x",
+            "title": null
+        },
+        "color": {
+            "field": "avg_price",
+            "type": "quantitative",
+            "title": "Average Price (GBP)",
+            "scale": {
+                "scheme": "redyellowgreen",
+                "reverse": true
+            }
+        },
+        "tooltip": [
+            {
+                "field": "region_s",
+                "type": "nominal",
+                "title": "Region"
+            },
+            {
+                "field": "avg_price",
+                "type": "quantitative",
+                "title": "Avg Price (GBP)",
+                "format": ".2f"
+            },
+            {
+                "field": "observations",
+                "type": "quantitative",
+                "title": "Observations"
+            }
+        ]
+    },
+    "title": "Average Chicken Prices by Region"
+}
