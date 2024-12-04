@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shan Nan's Data Science Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <header>
+        <div class="site-title">
+            <h2>Shan Nan's Data Science Portfolio</h2>
+        </div>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">
+                        <span class="hamburger-icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </span>
+                        Menu
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="index.html">Portfolio</a>
+                        <a href="project.html">Project</a>
+                        <a href="https://github.com/shannanliew" target="_blank">My Github</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-tasks-content">
+            <h1>Advanced Analytics</h1>
+            <p>In this coding challenge, we are going to produce 2 visualisations that have interactive elements.</p>
+
+            <div class="chart-container">
+                <h3>Line Chart With Concatenated Interactive Scatter Plot</h3>
+                <p>This line chart shows the trends of air pollution levels in their respective cities, and the scatter plot (when clicked) allows to isolate the cities.
+                </p>
+                <figure id="interactive-visualisations-chart1"></figure>
+            </div>
+
+            <div class="chart-container">
+                <h3>Area Chart With Interactive Slider</h3>
+                <p>This area chart can be interacted with my adjusting the slider by start year and end year to zoom in/out during analysis.
+                </p>
+                <figure id="interactive-visualisations-chart2"></figure>
+            </div>
+        </section>
+    </main>
+
+    <script>
+
+        let figure_1_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/project_chart2.json"
+
+        vegaEmbed('#interactive-visualisations-chart1', figure_1_spec)
+
+        let figure_2_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/project/project_chart3.json"
+
+        vegaEmbed('#interactive-visualisations-chart2', figure_2_spec)
+    </script>
+
+</body>
+</html>
