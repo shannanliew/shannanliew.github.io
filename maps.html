@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shan Nan's Data Science Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <header>
+        <div class="site-title">
+            <h2>Shan Nan's Data Science Portfolio</h2>
+        </div>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">
+                        <span class="hamburger-icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </span>
+                        Menu
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="index.html">Portfolio</a>
+                        <a href="project.html">Project</a>
+                        <a href="https://github.com/shannanliew" target="_blank">My Github</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-tasks-content">
+            <h1>Maps. Base maps and choropleths</h1>
+            <p>The choropleth map of the Human Development Index shows that the most developed regions of Indonesia include Jakarta, Yogaykarta and Kalimantan Timur.</p>
+
+            <div class="chart-container">
+                <h3>Map of Indonesia, Separated by Regions</h3>
+                <br></br>
+                <figure id="maps-chart1"></figure>
+            </div>
+
+            <div class="chart-container">
+                <h3>Human Development Index (HDI) of Each Region</h3>
+                <br></br>
+                <figure id="maps-chart2"></figure>
+            </div>
+        </section>
+    </main>
+
+    <script>
+
+        let figure_1_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/wk7_chart1.json"
+
+        vegaEmbed('#maps-chart1', figure_1_spec)
+
+        let figure_2_spec = "https://raw.githubusercontent.com/shannanliew/shannanliew.github.io/refs/heads/main/wk7_chart2.json"
+
+        vegaEmbed('#maps-chart2', figure_2_spec)
+    </script>
+
+</body>
+</html>
+
