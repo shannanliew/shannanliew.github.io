@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Policy stringency and economic outcomes (2020–2022)</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header>
+    <div class="site-title">
+      <h2>Shan Nan's Data Science Portfolio</h2>
+    </div>
+
+    <nav>
+      <ul>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">
+            <span class="hamburger-icon">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </span>
+            Menu
+          </a>
+          <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="project.html">Project</a>
+            <a href="covid-policy-stringency.html">COVID policy project</a>
+            <a href="https://github.com/shannanliew" target="_blank" rel="noopener">My Github</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="portfolio-tasks-content">
+    <div class="aims-container">
+      <h2>Policy stringency and economic outcomes (2020–2022)</h2>
+
+      <div class="aim-section">
+        <h3>What this is</h3>
+        <ul>
+          <li>Reproducible Python pipeline building a country–year panel (2020–2022).</li>
+          <li>Descriptive associations (not causal effects).</li>
+          <li>Headline outcome: unemployment. Supporting outcome: GDP growth.</li>
+        </ul>
+      </div>
+
+      <div class="aim-section">
+        <h3>Data</h3>
+        <ul>
+          <li>OWID COVID compact (daily): stringency index, cases/deaths per million, vaccination coverage.</li>
+          <li>World Bank WDI (annual): GDP growth and unemployment.</li>
+          <li>WDI codes: NY.GDP.MKTP.KD.ZG (GDP growth), SL.UEM.TOTL.ZS (unemployment).</li>
+        </ul>
+      </div>
+
+      <div class="aim-section">
+        <h3>Methods</h3>
+        <ul>
+          <li>Pooled OLS with year fixed effects.</li>
+          <li>Country fixed effects with standard errors clustered by country.</li>
+          <li>Robustness: drop 2020 and re-estimate FE + clustered models (2021–2022 only).</li>
+        </ul>
+      </div>
+
+      <div class="aim-section">
+        <h3>Links</h3>
+        <ul>
+          <li>
+            Code + outputs:
+            <a href="https://github.com/shannanliew/policy-stringency-econ-outcomes" target="_blank" rel="noopener">
+              policy-stringency-econ-outcomes (GitHub)
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- NEW: Results snapshot with numbers -->
+    <div class="aims-container">
+      <h2>Results snapshot (brief)</h2>
+      <ul>
+        <li>
+          <b>Unemployment (country fixed effects, SE clustered by country):</b>
+          a 10-point higher annual stringency index is associated with about <b>+0.15 percentage points</b>
+          higher unemployment (p = 0.006; N = 506).
+        </li>
+        <li>
+          <b>Robustness (drop 2020):</b>
+          the association remains positive (~+0.11 pp per 10 points) but is less precise in 2021–2022 only
+          (p = 0.107; N = 337).
+        </li>
+        <li>
+          <b>GDP growth (supporting):</b>
+          the negative association in 2020–2022 is not robust when excluding 2020 (relationship concentrated
+          in the initial shock year).
+        </li>
+      </ul>
+    </div>
+
+    <div class="chart-container">
+      <h2>Unemployment vs stringency (pooled trend)</h2>
+      <figure>
+        <img
+          src="https://raw.githubusercontent.com/shannanliew/policy-stringency-econ-outcomes/20a9f242dad011438bb92e821c47327444f4c36e/assets/img/scatter_stringency_unemployment_pooled_trend.png"
+          alt="Unemployment vs stringency (pooled trend)"
+          style="width:100%; height:auto;"
+        />
+      </figure>
+      <p>
+        Scatter by year with a pooled trend line. This is descriptive and should not be interpreted causally.
+      </p>
+    </div>
+
+    <div class="chart-container">
+      <h2>GDP growth vs stringency (pooled trend)</h2>
+      <figure>
+        <img
+          src="https://raw.githubusercontent.com/shannanliew/policy-stringency-econ-outcomes/20a9f242dad011438bb92e821c47327444f4c36e/assets/img/scatter_stringency_gdp_growth_pooled_trend.png"
+          alt="GDP growth vs stringency (pooled trend)"
+          style="width:100%; height:auto;"
+        />
+      </figure>
+      <p>
+        GDP results are more sensitive to the sample window: the relationship weakens strongly when excluding 2020.
+      </p>
+    </div>
+
+    <div class="aims-container">
+      <h2>Notes / limitations</h2>
+      <ul>
+        <li>Associations only: policy stringency responds to pandemic conditions and other country-specific factors.</li>
+        <li>Annual averaging can dilute timing effects (short intense restrictions vs long mild restrictions).</li>
+        <li>Cross-country data quality/reporting differences may affect comparability.</li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
